@@ -59,8 +59,8 @@
     document.getElementById('title').innerText = contestantName;
     document.getElementById('meta').innerText = '';
 
-    // Attempt to load JSON data from project root
-    const jsonPath = '/contestant_data.json';
+    // Attempt to load JSON data from parent directory
+    const jsonPath = '../contestant_data.json';
 
     function showMessage(msg){ const el=document.getElementById('msg'); el.style.display='block'; el.innerText=msg; }
 
