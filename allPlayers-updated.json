@@ -1,0 +1,2695 @@
+[
+  {
+    "name": "Rashid Khan",
+    "role": "Bowler (C)",
+    "country": "Afghanistan",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹14.0",
+    "analysis": "MVP. Home conditions.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Rahmanullah Gurbaz",
+    "role": "WK",
+    "country": "Afghanistan",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹6.0",
+    "analysis": "Fire and ice. Opener.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ibrahim Zadran",
+    "role": "Batter",
+    "country": "Afghanistan",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹4.5",
+    "analysis": "Anchor. Technically solid.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Azmatullah Omarzai",
+    "role": "All-rounder",
+    "country": "Afghanistan",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.5",
+    "analysis": "Gem. Swings it, hits it.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mohammad Nabi",
+    "role": "All-rounder",
+    "country": "Afghanistan",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Experienced. Safe.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Fazalhaq Farooqi",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.5",
+    "analysis": "Lethal in powerplay.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Naveen-ul-Haq",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "Slower ball master.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mujeeb Ur Rahman",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹3.0",
+    "analysis": "Mystery, but volatile.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Noor Ahmad",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹5.5",
+    "analysis": "Left-arm wrist spin is gold.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Gulbadin Naib",
+    "role": "All-rounder",
+    "country": "Afghanistan",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Power hitter. Vibes.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sediqullah Atal",
+    "role": "Batter",
+    "country": "Afghanistan",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shahidullah Kamal",
+    "role": "All-rounder",
+    "country": "Afghanistan",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Squad player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Darwish Rasooli",
+    "role": "Batter",
+    "country": "Afghanistan",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "No impact.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mohammad Ishaq",
+    "role": "WK",
+    "country": "Afghanistan",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Keeper only.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Abdullah Ahmadzai",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Standard seamer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mitchell Marsh",
+    "role": "All-rounder (C)",
+    "country": "Australia",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹5.0",
+    "analysis": "Beast bat. If he doesn't bowl, he's expensive.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Pat Cummins",
+    "role": "Bowler",
+    "country": "Australia",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹9.5",
+    "analysis": "Smartest captain. Cutters work beautifully on slow decks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Travis Head",
+    "role": "Batter",
+    "country": "Australia",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹13.5",
+    "analysis": "Attacks in Powerplay before ball grips. Takes pitch out of equation.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Glenn Maxwell",
+    "role": "All-rounder",
+    "country": "Australia",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹8.0",
+    "analysis": "The Big Show. Off-spin is a weapon here. Match winner.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Adam Zampa",
+    "role": "Bowler",
+    "country": "Australia",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹9.0",
+    "analysis": "Conquered India in IPL. Skiddy leggie who traps LBW.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Josh Hazlewood",
+    "role": "Bowler",
+    "country": "Australia",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.5",
+    "analysis": "Pitch it on a coin. Boring, consistent, effective.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nathan Ellis",
+    "role": "Bowler",
+    "country": "Australia",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.0",
+    "analysis": "Skiddy, great back-of-hand slower ball. Ideal for Asia.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Josh Inglis",
+    "role": "WK",
+    "country": "Australia",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹5.0",
+    "analysis": "Sweeps and reverse sweeps well. Smart buy.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Marcus Stoinis",
+    "role": "All-rounder",
+    "country": "Australia",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹6.5",
+    "analysis": "The Hulk. Hits spin big, bowls heavy balls that stick.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tim David",
+    "role": "Batter",
+    "country": "Australia",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹5.5",
+    "analysis": "Pure power. Good for flat decks, risky on turners.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Cameron Green",
+    "role": "All-rounder",
+    "country": "Australia",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹5.0",
+    "analysis": "Tall, hits hard. Injury prone.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Xavier Bartlett",
+    "role": "Bowler",
+    "country": "Australia",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Swing bowler. Good budget option.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Cooper Connolly",
+    "role": "All-rounder",
+    "country": "Australia",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Young talent. Left-arm spin is useful.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Matthew Kuhnemann",
+    "role": "Bowler",
+    "country": "Australia",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Left-arm spin. Good backup.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Matthew Short",
+    "role": "All-rounder",
+    "country": "Australia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹2.0",
+    "analysis": "BBL superstar, hasn't cracked international code.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Litton Das",
+    "role": "WK (C)",
+    "country": "Bangladesh",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹2.5",
+    "analysis": "Classy, but throws it away.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tanzid Hasan",
+    "role": "Batter",
+    "country": "Bangladesh",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Attacks but lacks temperament.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tawhid Hridoy",
+    "role": "Batter",
+    "country": "Bangladesh",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.5",
+    "analysis": "Best young bat. Rotates strike well.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Taskin Ahmed",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "Heart and pace. Best BD pacer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mustafizur Rahman",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.5",
+    "analysis": "\"The Fizz\". King of slow pitches."
+  },
+  {
+    "name": "Shoriful Islam",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.5",
+    "analysis": "Aggressive left-armer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Rishad Hossain",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.0",
+    "analysis": "Tall leg-spinner. Wicket-taker.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nasum Ahmed",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.0",
+    "analysis": "Dart master. Tight but low wickets.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mahedi Hasan",
+    "role": "All-rounder",
+    "country": "Bangladesh",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Utility. Average at both.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tanzim Sakib",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Aggressive. Prone to leaking runs.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Parvez Hossain Emon",
+    "role": "Batter",
+    "country": "Bangladesh",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Inconsistent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Saif Hassan",
+    "role": "All-rounder",
+    "country": "Bangladesh",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Failed at this level.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shamim Hossain",
+    "role": "Batter",
+    "country": "Bangladesh",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Struggles to finish.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nurul Hasan",
+    "role": "WK",
+    "country": "Bangladesh",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Batting barely serviceable.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shaif Uddin",
+    "role": "All-rounder",
+    "country": "Bangladesh",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Pace dropped.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dilpreet Bajwa",
+    "role": "Batter (C)",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Hard hitter, inconsistent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nicholas Kirton",
+    "role": "Batter",
+    "country": "Canada",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Lefty class. Value.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Saad Bin Zafar",
+    "role": "All-rounder",
+    "country": "Canada",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Economical spin.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Kaleem Sana",
+    "role": "Bowler",
+    "country": "Canada",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Decent left arm.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Harsh Thaker",
+    "role": "All-rounder",
+    "country": "Canada",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Steady.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shreyas Movva",
+    "role": "WK",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Average.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Navneet Dhaliwal",
+    "role": "Batter",
+    "country": "Canada",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹0.5",
+    "analysis": "Opener. Bench.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ravinderpal Singh",
+    "role": "Batter",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Hitter only.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dilon Heyliger",
+    "role": "Bowler",
+    "country": "Canada",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Medium pace hitter.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ajayveer Hundal",
+    "role": "Batter",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ansh Patel",
+    "role": "Bowler",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jaskarandeep Buttar",
+    "role": "Bowler",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Kanwarpal Tathgur",
+    "role": "Batter",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shivam Sharma",
+    "role": "Bowler",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Yuvraj Samra",
+    "role": "Batter",
+    "country": "Canada",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Harry Brook",
+    "role": "Batter (C)",
+    "country": "England",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹6.5",
+    "analysis": "Modern genius. Shots all around. Pillar.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jos Buttler",
+    "role": "WK",
+    "country": "England",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹12.5",
+    "analysis": "IPL legend. Knows these pitches well.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Phil Salt",
+    "role": "WK",
+    "country": "England",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹8.5",
+    "analysis": "Brutal. Wins it in 6 overs if flat.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jofra Archer",
+    "role": "Bowler",
+    "country": "England",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹7.0",
+    "analysis": "Elite skill, fragile body. High risk.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Adil Rashid",
+    "role": "Bowler",
+    "country": "England",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.5",
+    "analysis": "Slower through air. England's biggest weapon here.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sam Curran",
+    "role": "All-rounder",
+    "country": "England",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.0",
+    "analysis": "Uses cutters well. Good for sticky wickets.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Liam Dawson",
+    "role": "All-rounder",
+    "country": "England",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Highly skilled spinner. Restricts runs well.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Will Jacks",
+    "role": "All-rounder",
+    "country": "England",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹5.5",
+    "analysis": "Explosive bat, handy off-spin.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ben Duckett",
+    "role": "Batter",
+    "country": "England",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.5",
+    "analysis": "Sweeps everything. Good vs spin.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Rehan Ahmed",
+    "role": "Bowler",
+    "country": "England",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Young leggie. Good option for turning tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tom Banton",
+    "role": "WK",
+    "country": "England",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Sweeps/Reverse sweeps. Inconsistent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jacob Bethell",
+    "role": "All-rounder",
+    "country": "England",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Dynamic talent. Spin bowling all-rounder.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jamie Overton",
+    "role": "All-rounder",
+    "country": "England",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Hits massive sixes. Impact player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Josh Tongue",
+    "role": "Bowler",
+    "country": "England",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Red-ball specialist.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Luke Wood",
+    "role": "Bowler",
+    "country": "England",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Left-arm angle. Decent backup.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Suryakumar Yadav",
+    "role": "Batter (C)",
+    "country": "India",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹15.0",
+    "analysis": "The best player of spin in the world. Sweeps, scoops, destroys. Mandatory.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Abhishek Sharma",
+    "role": "All-rounder",
+    "country": "India",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹6.5",
+    "analysis": "Explosive spin-hitter. His left-arm spin is a massive bonus in Asia.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tilak Varma",
+    "role": "Batter",
+    "country": "India",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹5.5",
+    "analysis": "Technically gifted. Plays spin late. Perfect anchor for turning tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sanju Samson",
+    "role": "WK",
+    "country": "India",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹4.5",
+    "analysis": "When he clicks, he is effortless. Good against spin, but inconsistent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shivam Dube",
+    "role": "All-rounder",
+    "country": "India",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.0",
+    "analysis": "The \"Spin Destroyer\". Stand and deliver. A tactical nuke in middle overs."
+  },
+  {
+    "name": "Ishan Kishan",
+    "role": "WK",
+    "country": "India",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹3.5",
+    "analysis": "Likes the ball coming on. Might struggle on slow turners, but explosive.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Hardik Pandya",
+    "role": "All-rounder",
+    "country": "India",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹12.5",
+    "analysis": "Seam bowling all-rounder who balances the side. Clutch player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Arshdeep Singh",
+    "role": "Bowler",
+    "country": "India",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.5",
+    "analysis": "Left-arm angle + death over yorkers. Very effective on slow wickets.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "role": "Bowler",
+    "country": "India",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹17.0",
+    "analysis": "The Cheat Code. Cutters, yorkers, bouncers—he has it all.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Harshit Rana",
+    "role": "Bowler",
+    "country": "India",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Aggressive pacer. Good slower balls. One for the future.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Varun Chakaravarthy",
+    "role": "Bowler",
+    "country": "India",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.5",
+    "analysis": "Mystery spin is gold in Asia. If it grips, he is unplayable.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Kuldeep Yadav",
+    "role": "Bowler",
+    "country": "India",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹9.5",
+    "analysis": "Wrist spin is king here. Guaranteed wicket-taker in middle overs.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Axar Patel",
+    "role": "All-rounder",
+    "country": "India",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹8.5",
+    "analysis": "Accurate finger spin. Impossible to hit on turners. Bats well too.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Washington Sundar",
+    "role": "All-rounder",
+    "country": "India",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.0",
+    "analysis": "Powerplay specialist. Uses his height well. High value budget pick.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Rinku Singh",
+    "role": "Batter",
+    "country": "India",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹6.5",
+    "analysis": "Learned his trade on slow KKR pitches. The ultimate finisher.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Paul Stirling",
+    "role": "Batter (C)",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Huge experience. Hits spin hard. Fitness issue.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mark Adair",
+    "role": "Bowler",
+    "country": "Ireland",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Wicket-taker. Can use the long handle.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ross Adair",
+    "role": "Batter",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Aggressive opener. Risky.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Curtis Campher",
+    "role": "All-rounder",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Fighter. Can contribute with bat and ball.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Gareth Delany",
+    "role": "All-rounder",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Leg spin. Good fielder.",
+    "basePrice": "2"
+  },
+  {
+    "name": "George Dockrell",
+    "role": "All-rounder",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Spinner turned finisher. Knows how to scrap.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Josh Little",
+    "role": "Bowler",
+    "country": "Ireland",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "IPL experience. Hits the deck hard.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Barry McCarthy",
+    "role": "Bowler",
+    "country": "Ireland",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.0",
+    "analysis": "Fodder for big hitters.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Harry Tector",
+    "role": "Batter",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Technically sound against spin. Good anchor.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Lorcan Tucker",
+    "role": "WK",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Loves sweep/scoop. Busy player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Craig Young",
+    "role": "Bowler",
+    "country": "Ireland",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "One dimensional.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ben White",
+    "role": "Bowler",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Leggie. Useful in Asia.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Matthew Humphreys",
+    "role": "Bowler",
+    "country": "Ireland",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹0.5",
+    "analysis": "Left-arm spin. Project player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tim Tector",
+    "role": "Batter",
+    "country": "Ireland",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Young.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ben Calitz",
+    "role": "Batter",
+    "country": "Ireland",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Young.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Wayne Madsen",
+    "role": "Batter",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Too old for T20.",
+    "basePrice": "2"
+  },
+  {
+    "name": "JJ Smuts",
+    "role": "All-rounder",
+    "country": "Italy",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Solid domestic player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Thomas Draca",
+    "role": "Bowler",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Grant Stewart",
+    "role": "All-rounder",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "County only.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Harry Manenti",
+    "role": "All-rounder",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Utility only.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Benjamin Manenti",
+    "role": "All-rounder",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Marcus Campopiano",
+    "role": "Batter",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Club level stats.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Gian Piero Meade",
+    "role": "All-rounder",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Squad filler.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Zain Ali",
+    "role": "Batter",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Inexperienced.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ali Hasan",
+    "role": "Bowler",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Not threatening.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Crishan Jorge",
+    "role": "Batter",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Anthony Mosca",
+    "role": "Batter",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Not auction ready.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Justin Mosca",
+    "role": "Batter",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Syed Naqvi",
+    "role": "Batter",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jaspreet Singh",
+    "role": "Bowler",
+    "country": "Italy",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Average.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Gerhard Erasmus",
+    "role": "All-rounder (C)",
+    "country": "Namibia",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Spins the ball, anchors the chase. Namibia's best player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Zane Green",
+    "role": "WK",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Strike rate is too low for this level.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Bernard Scholtz",
+    "role": "Bowler",
+    "country": "Namibia",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.0",
+    "analysis": "Left-arm orthodox. Very stingy on turning tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ruben Trumpelmann",
+    "role": "Bowler",
+    "country": "Namibia",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Left-arm swing is valuable everywhere. Wicket-taker.",
+    "basePrice": "2"
+  },
+  {
+    "name": "JJ Smit",
+    "role": "All-rounder",
+    "country": "Namibia",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Hard hitter. If he bowls, his value goes up.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jan Frylinck",
+    "role": "All-rounder",
+    "country": "Namibia",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Clever slower balls. Good for slow pitches.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Louren Steenkamp",
+    "role": "Batter",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Not up to international standard yet.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Malan Kruger",
+    "role": "Batter",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Domestic batter. Struggles vs high pace.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nicol Loftie-Eaton",
+    "role": "All-rounder",
+    "country": "Namibia",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Hit that record ton. Inconsistent, but has X-factor.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jack Brassell",
+    "role": "Bowler",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Too young.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ben Shikongo",
+    "role": "Bowler",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Backup pacer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "JC Balt",
+    "role": "Batter",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dylan Leicher",
+    "role": "All-rounder",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "WP Myburgh",
+    "role": "Batter",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Squad player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Max Heingo",
+    "role": "Bowler",
+    "country": "Namibia",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Backup.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Rohit Paudel",
+    "role": "Batter (C)",
+    "country": "Nepal",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Solid captain. Anchors well.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sandeep Lamichhane",
+    "role": "Bowler",
+    "country": "Nepal",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹1.5",
+    "analysis": "Proven wicket-taker.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dipendra Singh Airee",
+    "role": "All-rounder",
+    "country": "Nepal",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "\"Tiger\"! Spins and hits."
+  },
+  {
+    "name": "Kushal Bhurtel",
+    "role": "Batter",
+    "country": "Nepal",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Aggressive. Hit or miss.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Aasif Sheikh",
+    "role": "WK",
+    "country": "Nepal",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Steady anchor.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sompal Kami",
+    "role": "Bowler",
+    "country": "Nepal",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.0",
+    "analysis": "Veteran. Backup only.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Karan KC",
+    "role": "Bowler",
+    "country": "Nepal",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.0",
+    "analysis": "Expensive.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Gulshan Jha",
+    "role": "All-rounder",
+    "country": "Nepal",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹0.5",
+    "analysis": "Young talent. Hitter.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Lalit Rajbanshi",
+    "role": "Bowler",
+    "country": "Nepal",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Accurate spinner. Good on turners.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sundeep Jora",
+    "role": "Batter",
+    "country": "Nepal",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Inconsistent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Aarif Sheikh",
+    "role": "Batter",
+    "country": "Nepal",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Slow.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Basir Ahamad",
+    "role": "All-rounder",
+    "country": "Nepal",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nandan Yadav",
+    "role": "Bowler",
+    "country": "Nepal",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sher Malla",
+    "role": "Bowler",
+    "country": "Nepal",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Lokesh Bam",
+    "role": "Batter",
+    "country": "Nepal",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "No technique.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Scott Edwards",
+    "role": "WK (C)",
+    "country": "Netherlands",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.5",
+    "analysis": "Captain who sweeps everything. Very effective method on slow tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Colin Ackermann",
+    "role": "All-rounder",
+    "country": "Netherlands",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Solid pro. Bowls useful off-spin. Stabilizes the middle order.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Noah Croes",
+    "role": "WK",
+    "country": "Netherlands",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Just a backup keeper. Not enough impact for a fantasy squad.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Bas de Leede",
+    "role": "All-rounder",
+    "country": "Netherlands",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "Reverses the ball (heavy pace) and bats Top 4. Excellent value.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Aryan Dutt",
+    "role": "Bowler",
+    "country": "Netherlands",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.0",
+    "analysis": "Tall off-spinner who bowls in powerplay. Very annoying for batters.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Fred Klaassen",
+    "role": "Bowler",
+    "country": "Netherlands",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.0",
+    "analysis": "Decent left-arm pacer, but lacks the X-factor for these conditions.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Kyle Klein",
+    "role": "Bowler",
+    "country": "Netherlands",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Too young, too raw. Needs development.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Michael Levitt",
+    "role": "Batter",
+    "country": "Netherlands",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Clean hitter. Good wildcard option if you need an opener.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Zach Lion-Cachet",
+    "role": "Batter",
+    "country": "Netherlands",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Developmental player. Skip.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Max O'Dowd",
+    "role": "Batter",
+    "country": "Netherlands",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Anchor. A bit slow for modern T20, but won't collapse.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Logan van Beek",
+    "role": "All-rounder",
+    "country": "Netherlands",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "High energy. Effective death bowler and hitter.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Timm van der Gugten",
+    "role": "Bowler",
+    "country": "Netherlands",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Pace dropped. Better options available.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Roelof van der Merwe",
+    "role": "All-rounder",
+    "country": "Netherlands",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "The Bulldog! Experience on turning tracks is huge.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Paul van Meekeren",
+    "role": "Bowler",
+    "country": "Netherlands",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.0",
+    "analysis": "Skiddy but erratic.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Saqib Zulfiqar",
+    "role": "All-rounder",
+    "country": "Netherlands",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹0.5",
+    "analysis": "Leg-spinner. Might get a game on a dustbowl.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mitchell Santner",
+    "role": "All-rounder (C)",
+    "country": "New Zealand",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.5",
+    "analysis": "Most economical bowler on turners.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Finn Allen",
+    "role": "Batter",
+    "country": "New Zealand",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹4.5",
+    "analysis": "Hit or miss.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Devon Conway",
+    "role": "WK",
+    "country": "New Zealand",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.5",
+    "analysis": "Masters spin. Reliable.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Rachin Ravindra",
+    "role": "All-rounder",
+    "country": "New Zealand",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹8.0",
+    "analysis": "Plays spin beautifully. Useful bowling.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Daryl Mitchell",
+    "role": "All-rounder",
+    "country": "New Zealand",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹6.5",
+    "analysis": "Uses feet well. Clutch.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Glenn Phillips",
+    "role": "All-rounder",
+    "country": "New Zealand",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹5.5",
+    "analysis": "Utility man. Bowls off-spin.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Lockie Ferguson",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹4.5",
+    "analysis": "Pace vs Injury risk.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Matt Henry",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹5.5",
+    "analysis": "Brilliant new ball bowler.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ish Sodhi",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.5",
+    "analysis": "Tall leggie. Wicket taker.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Michael Bracewell",
+    "role": "All-rounder",
+    "country": "New Zealand",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "\"The Beast\". Hits clean."
+  },
+  {
+    "name": "Mark Chapman",
+    "role": "Batter",
+    "country": "New Zealand",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Plays spin well.",
+    "basePrice": "2"
+  },
+  {
+    "name": "James Neesham",
+    "role": "All-rounder",
+    "country": "New Zealand",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.5",
+    "analysis": "Freelancer. Dangerous.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Adam Milne",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.5",
+    "analysis": "Injury prone.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tim Seifert",
+    "role": "WK",
+    "country": "New Zealand",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Good against spin.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jacob Duffy",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Squad filler.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jatinder Singh",
+    "role": "Batter (C)",
+    "country": "Oman",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹0.5",
+    "analysis": "Iconic, but slow.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Vinayak Shukla",
+    "role": "WK",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mohammad Nadeem",
+    "role": "All-rounder",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Steady but lacks X-factor.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shakeel Ahmad",
+    "role": "Bowler",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Slow left-arm orthodox.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Hammad Mirza",
+    "role": "Batter",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Not enough impact.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Wasim Ali",
+    "role": "All-rounder",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Squad player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Karan Sonavale",
+    "role": "Batter",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Not good enough.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shah Faisal",
+    "role": "Bowler",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Average pace.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nadeem Khan",
+    "role": "Batter",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "No power.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sufyan Mehmood",
+    "role": "Bowler",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Average seamer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jay Odedra",
+    "role": "Bowler",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Part-timer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shafiq Jan",
+    "role": "Bowler",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Not ready.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ashish Odedara",
+    "role": "Batter",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Inexperienced.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jiten Ramanandi",
+    "role": "All-rounder",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Bits and pieces.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Hasnain Ali Shah",
+    "role": "Bowler",
+    "country": "Oman",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Standard pacer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Babar Azam",
+    "role": "Batter (C)",
+    "country": "Pakistan",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.0",
+    "analysis": "King of stability. On tough, slow pitches, you need his class.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Mohammad Rizwan",
+    "role": "WK",
+    "country": "Pakistan",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.5",
+    "analysis": "Sweeps beautifully. Loves low bounce. Guaranteed fantasy points.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shaheen Afridi",
+    "role": "Bowler",
+    "country": "Pakistan",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹10.5",
+    "analysis": "New ball swing is his weapon. Early wickets break the game.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Naseem Shah",
+    "role": "Bowler",
+    "country": "Pakistan",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹8.0",
+    "analysis": "Reverse swing specialist! Deadly at the death in these conditions.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Haris Rauf",
+    "role": "Bowler",
+    "country": "Pakistan",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹4.5",
+    "analysis": "Pace is high, but can travel on flat decks. Needs to use cutters.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shadab Khan",
+    "role": "All-rounder",
+    "country": "Pakistan",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Form is poor, but he is a leggie who bats. Worth a punt at low price.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Fakhar Zaman",
+    "role": "Batter",
+    "country": "Pakistan",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹4.5",
+    "analysis": "Spin hitter. If he survives the first 10 balls, he wins the match.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Saim Ayub",
+    "role": "Batter",
+    "country": "Pakistan",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Stylish, gives a few overs of spin. Needs to convert starts.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Usman Khan",
+    "role": "Batter",
+    "country": "Pakistan",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Knows UAE conditions well. Aggressive intent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Imad Wasim",
+    "role": "All-rounder",
+    "country": "Pakistan",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.0",
+    "analysis": "New ball darts. Impossible to get away on turning tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Abrar Ahmed",
+    "role": "Bowler",
+    "country": "Pakistan",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.0",
+    "analysis": "Mystery spinner. Very valuable asset in the subcontinent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Abbas Afridi",
+    "role": "Bowler",
+    "country": "Pakistan",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Good variations and back-of-the-hand slower balls.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Azam Khan",
+    "role": "WK",
+    "country": "Pakistan",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Spin basher. Keep him away from high pace and he might work.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Iftikhar Ahmed",
+    "role": "All-rounder",
+    "country": "Pakistan",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "\"Chacha\" bowls handy off-spin. Good for matchups against lefties."
+  },
+  {
+    "name": "Mohammad Amir",
+    "role": "Bowler",
+    "country": "Pakistan",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.0",
+    "analysis": "Vintage skills. His cutters are elite on slow decks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Aiden Markram",
+    "role": "Batter (C)",
+    "country": "South Africa",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹6.5",
+    "analysis": "Classy bat, useful spin. Safe.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Quinton de Kock",
+    "role": "WK",
+    "country": "South Africa",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.5",
+    "analysis": "Loves Asia. Explosive starts.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Kagiso Rabada",
+    "role": "Bowler",
+    "country": "South Africa",
+    "rating": "⭐ Match Winner",
+    "priceTarget": "₹8.5",
+    "analysis": "Pace, bounce, wickets. Leader.",
+    "basePrice": "2"
+  },
+  {
+    "name": "David Miller",
+    "role": "Batter",
+    "country": "South Africa",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹5.5",
+    "analysis": "\"Killer Miller\". Finishes games."
+  },
+  {
+    "name": "Heinrich Klaasen",
+    "role": "WK",
+    "country": "South Africa",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹13.5",
+    "analysis": "Murders spin bowling. Mandatory.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Marco Jansen",
+    "role": "All-rounder",
+    "country": "South Africa",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹9.5",
+    "analysis": "Height gives bounce on dead tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Anrich Nortje",
+    "role": "Bowler",
+    "country": "South Africa",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹4.5",
+    "analysis": "Fast but rusty.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Keshav Maharaj",
+    "role": "Bowler",
+    "country": "South Africa",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "Strangles batters in powerplay.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dewald Brevis",
+    "role": "Batter",
+    "country": "South Africa",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹2.5",
+    "analysis": "\"Baby AB\". Huge talent."
+  },
+  {
+    "name": "Kwena Maphaka",
+    "role": "Bowler",
+    "country": "South Africa",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.0",
+    "analysis": "Young lefty. X-factor.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tony de Zorzi",
+    "role": "Batter",
+    "country": "South Africa",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "ODI player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Donovan Ferreira",
+    "role": "All-rounder",
+    "country": "South Africa",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Spin + Power. Value.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Lungi Ngidi",
+    "role": "Bowler",
+    "country": "South Africa",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Good cutters. Expensive.",
+    "basePrice": "2"
+  },
+  {
+    "name": "George Linde",
+    "role": "All-rounder",
+    "country": "South Africa",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.5",
+    "analysis": "Unspectacular.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Corbin Bosch",
+    "role": "All-rounder",
+    "country": "South Africa",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Fringe player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dasun Shanaka",
+    "role": "All-rounder (C)",
+    "country": "Sri Lanka",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Captaincy experience. Slower balls useful. Poor form.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Pathum Nissanka",
+    "role": "Batter",
+    "country": "Sri Lanka",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹4.5",
+    "analysis": "Silent warrior. Scores runs while others collapse.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Kusal Mendis",
+    "role": "WK",
+    "country": "Sri Lanka",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹3.5",
+    "analysis": "Very good on his day, but prone to rash shots.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Charith Asalanka",
+    "role": "Batter",
+    "country": "Sri Lanka",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹3.0",
+    "analysis": "Solid middle order. Plays spin well.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Wanindu Hasaranga",
+    "role": "All-rounder",
+    "country": "Sri Lanka",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹10.5",
+    "analysis": "4 overs of gold in Asia. Pinch hitter. Unplayable.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Maheesh Theekshana",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹6.5",
+    "analysis": "Mystery spin in Powerplay. Nightmare to face.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Matheesha Pathirana",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹7.5",
+    "analysis": "Baby Malinga. Slingy action hard to pick under lights.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dunith Wellalage",
+    "role": "All-rounder",
+    "country": "Sri Lanka",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Young left-arm spin. Batting needs power.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nuwan Thushara",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "Malinga 2.0. Deadly on low-bounce pitches.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Kusal Perera",
+    "role": "WK",
+    "country": "Sri Lanka",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹2.5",
+    "analysis": "Explosive lefty. Great against spin, injury prone.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dhananjaya de Silva",
+    "role": "All-rounder",
+    "country": "Sri Lanka",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹1.0",
+    "analysis": "Test player trying to play T20. Too slow.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Kamindu Mendis",
+    "role": "All-rounder",
+    "country": "Sri Lanka",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "Ambidextrous spin! Made for these conditions.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Janith Liyanage",
+    "role": "All-rounder",
+    "country": "Sri Lanka",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Not enough T20 pedigree.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Milan Rathnayake",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw pace, no control.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Niroshan Dickwella",
+    "role": "WK",
+    "country": "Sri Lanka",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Plays one scoop shot and gets out.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Muhammad Waseem",
+    "role": "Batter (C)",
+    "country": "UAE",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Best Associate batter?",
+    "basePrice": "2"
+  },
+  {
+    "name": "Vriitya Aravind",
+    "role": "WK",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Technical anchor.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Basil Hameed",
+    "role": "All-rounder",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Off spin. Solid.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Asif Khan",
+    "role": "Batter",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Power hitter.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Alishan Sharafu",
+    "role": "Batter",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Young talent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Aayan Afzal Khan",
+    "role": "All-rounder",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Smart young spinner.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Junaid Siddique",
+    "role": "Bowler",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Aggressive pacer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Zahoor Khan",
+    "role": "Bowler",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Slower balls.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ali Naseer",
+    "role": "All-rounder",
+    "country": "UAE",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Potential.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Karthik Meiyappan",
+    "role": "Bowler",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Leggie. Hat trick.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Rohan Mustafa",
+    "role": "All-rounder",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Veteran off-spin.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Aryan Lakra",
+    "role": "All-rounder",
+    "country": "UAE",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sanchit Sharma",
+    "role": "Bowler",
+    "country": "UAE",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Average.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Akash Tahir",
+    "role": "Bowler",
+    "country": "UAE",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Muhammad Jawadullah",
+    "role": "Bowler",
+    "country": "UAE",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Lefty pacer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Monank Patel",
+    "role": "WK (C)",
+    "country": "USA",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Solid anchor. Plays spin decently. Safe pair of hands.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Aaron Jones",
+    "role": "Batter",
+    "country": "USA",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Power hitter. Can change a game in 3 overs.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Saurabh Netravalkar",
+    "role": "Bowler",
+    "country": "USA",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.5",
+    "analysis": "The Oracle! Knows Indian conditions (ex-Mumbai). Smart swing.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Andries Gous",
+    "role": "WK",
+    "country": "USA",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.0",
+    "analysis": "Classy batter. Plays spin well. High value.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Harmeet Singh",
+    "role": "All-rounder",
+    "country": "USA",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Left-arm spin + slogs. Knows Indian domestic cricket well.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shayan Jahangir",
+    "role": "Batter",
+    "country": "USA",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Gets stuck at the crease too often.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Milind Kumar",
+    "role": "All-rounder",
+    "country": "USA",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Ranji veteran. Knows these conditions perfectly.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nosthush Kenjige",
+    "role": "Bowler",
+    "country": "USA",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.0",
+    "analysis": "Left-arm spin. Very effective on turning tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ali Khan",
+    "role": "Bowler",
+    "country": "USA",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Yorker specialist. Needs to be accurate on slow pitches.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Jasdeep Singh",
+    "role": "Bowler",
+    "country": "USA",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Honest trier, but lacks quality.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Smit Patel",
+    "role": "WK",
+    "country": "USA",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Not playing enough high-level cricket.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Abhishek Paradkar",
+    "role": "Bowler",
+    "country": "USA",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Young seamer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Yasir Mohammad",
+    "role": "Bowler",
+    "country": "USA",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Squad player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Juanoy Drysdale",
+    "role": "Bowler",
+    "country": "USA",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw pace.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Utkarsh Srivastava",
+    "role": "All-rounder",
+    "country": "USA",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Developmental.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Rovman Powell",
+    "role": "Batter (C)",
+    "country": "West Indies",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹4.5",
+    "analysis": "Calm captain. Hits monster sixes.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Nicholas Pooran",
+    "role": "WK",
+    "country": "West Indies",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹11.5",
+    "analysis": "Destroys leg-spinners. Pure match winner.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Andre Russell",
+    "role": "All-rounder",
+    "country": "West Indies",
+    "rating": "🚀 Kamaal, Lajawaab",
+    "priceTarget": "₹10.5",
+    "analysis": "Brute force works even on slow pitches.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Alzarri Joseph",
+    "role": "Bowler",
+    "country": "West Indies",
+    "rating": "⭐ Super Se Upar",
+    "priceTarget": "₹5.5",
+    "analysis": "Fast and angry. Hits the deck.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Akeal Hosein",
+    "role": "Bowler",
+    "country": "West Indies",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹5.0",
+    "analysis": "Powerplay spin specialist. Disciplined.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shai Hope",
+    "role": "WK",
+    "country": "West Indies",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹2.0",
+    "analysis": "Classy but slow. Situational anchor.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Brandon King",
+    "role": "Batter",
+    "country": "West Indies",
+    "rating": "🛡️ Solid",
+    "priceTarget": "₹4.5",
+    "analysis": "Elegant opener. Sets the platform.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sherfane Rutherford",
+    "role": "Batter",
+    "country": "West Indies",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "Played a lot in Asia/PSL. Finishes well.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Gudakesh Motie",
+    "role": "Bowler",
+    "country": "West Indies",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹3.5",
+    "analysis": "Left-arm spin is gold here.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Johnson Charles",
+    "role": "WK",
+    "country": "West Indies",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.5",
+    "analysis": "Hits hard. Good on flat tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Romario Shepherd",
+    "role": "All-rounder",
+    "country": "West Indies",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹3.5",
+    "analysis": "Big hitter. Bowling expensive in Asia.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Roston Chase",
+    "role": "All-rounder",
+    "country": "West Indies",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.5",
+    "analysis": "\"Glue\". Bowls handy off-spin.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shimron Hetmyer",
+    "role": "Batter",
+    "country": "West Indies",
+    "rating": "🎲 Risk hai toh ishq hai",
+    "priceTarget": "₹3.0",
+    "analysis": "Great player of spin, but fitness issues.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Obed McCoy",
+    "role": "Bowler",
+    "country": "West Indies",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Slower ball specialist. Good for Asia.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Shamar Joseph",
+    "role": "Bowler",
+    "country": "West Indies",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Raw pace. High energy.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Sikandar Raza",
+    "role": "All-rounder (C)",
+    "country": "Zimbabwe",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹4.5",
+    "analysis": "Subcontinent specialist at heart. Mystery spin + power.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Blessing Muzarabani",
+    "role": "Bowler",
+    "country": "Zimbabwe",
+    "rating": "💎 Chhota Packet",
+    "priceTarget": "₹2.5",
+    "analysis": "Hard to score off. Excellent budget pacer.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Richard Ngarava",
+    "role": "Bowler",
+    "country": "Zimbabwe",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹2.0",
+    "analysis": "Tall lefty. Gets bounce even on dead tracks.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Brian Bennett",
+    "role": "Batter",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Developing talent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Ryan Burl",
+    "role": "All-rounder",
+    "country": "Zimbabwe",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.5",
+    "analysis": "Leg spin + big hitting. Inconsistent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Clive Madande",
+    "role": "WK",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Decent finisher, struggles vs high pace.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tinotenda Maposa",
+    "role": "Bowler",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tadiwanashe Marumani",
+    "role": "Batter",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Inconsistent.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Wellington Masakadza",
+    "role": "Bowler",
+    "country": "Zimbabwe",
+    "rating": "🧩 Jugaad / Wildcard",
+    "priceTarget": "₹1.0",
+    "analysis": "Defensive spinner.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tony Munyonga",
+    "role": "All-rounder",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Fringe player.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Dion Myers",
+    "role": "Batter",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Too slow.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Graeme Cremer",
+    "role": "Bowler",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.0",
+    "analysis": "Retired.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Bradley Evans",
+    "role": "All-rounder",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.5",
+    "analysis": "Bits and pieces.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Tashinga Musekiwa",
+    "role": "All-rounder",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.2",
+    "analysis": "Raw.",
+    "basePrice": "2"
+  },
+  {
+    "name": "Brendan Taylor",
+    "role": "WK",
+    "country": "Zimbabwe",
+    "rating": "❌ Na Baba Na",
+    "priceTarget": "₹0.0",
+    "analysis": "Retired.",
+    "basePrice": "2"
+  }
+]
