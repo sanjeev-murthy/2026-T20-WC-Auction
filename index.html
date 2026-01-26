@@ -278,6 +278,12 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
 </head>
 <body>
 
+<!-- Video Background (Hidden Initially) -->
+<video id="bgVideo" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; object-fit: cover; display: none;" autoplay muted playsinline loop>
+    <source src="YTDown.com_YouTube_Jay-Shah-viral-meme-template-the-village_Media_R5mXGMQKEMU_001_720p.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 <header>
     <h1>T20 WC 2026 Auction Dashboard</h1>
 </header>
@@ -1383,12 +1389,40 @@ function resetFilters() {
     applyFilters();
 }
 
-// Close dropdowns when clicking outside
+// Initialize click counter and video visibility flag
+let clickCount = 0;
+let videoPlaying = false;
+
+// Single click handler for both dropdowns and video background
 document.addEventListener('click', function(event) {
+    // Close dropdowns when clicking outside filter containers
     if (!event.target.closest('.filter-container') && !event.target.closest('.filter-button')) {
         closeDropdowns();
     }
+    
+    clickCount++;
+    
+    // Show video on 10th click
+    if (clickCount === 10) {
+        const bgVideo = document.getElementById('bgVideo');
+        if (bgVideo) {
+            bgVideo.style.display = 'block';
+            bgVideo.play();
+            videoPlaying = true;
+        }
+    }
+    
+    // Hide video on 11th click
+    if (clickCount === 11) {
+        const bgVideo = document.getElementById('bgVideo');
+        if (bgVideo) {
+            bgVideo.style.display = 'none';
+            bgVideo.pause();
+            videoPlaying = false;
+        }
+    }
 });
+
 </script>
 
 </body>
