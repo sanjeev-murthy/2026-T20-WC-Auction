@@ -911,7 +911,7 @@
   {
     "name": "Matthew Humphreys",
     "country": "Ireland",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹1.0",
     "analysis": "Young left-arm spinner; a project player who could be handy on turners.",
@@ -920,7 +920,7 @@
   {
     "name": "Paul Stirling",
     "country": "Ireland",
-    "role": "Batter (C)",
+    "role": "All-rounder (C)",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹3.0",
     "analysis": "\"Stirlo\" is an Irish giant! Hits spin hard, but age and fitness are catching up.",
@@ -1118,7 +1118,7 @@
   {
     "name": "JC Balt",
     "country": "Namibia",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Very new to the scene; hasn't shown enough at this level to justify a bid.",
@@ -1154,7 +1154,7 @@
   {
     "name": "Louren Steenkamp",
     "country": "Namibia",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "A domestic performer who hasn't quite made the step up to dominate international attacks.",
@@ -1181,7 +1181,7 @@
   {
     "name": "Nicol Loftie-Eaton",
     "country": "Namibia",
-    "role": "All-rounder",
+    "role": "WK",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹1.5",
     "analysis": "Holds the fastest T20I century record! Inconsistent, but has huge X-factor potential.",
@@ -1199,7 +1199,7 @@
   {
     "name": "WP Myburgh",
     "country": "Namibia",
-    "role": "Batter",
+    "role": "Bowler",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "A squad player for Namibia, unlikely to break into a fantasy 15-man squad.",
@@ -1397,7 +1397,7 @@
   {
     "name": "Logan van Beek",
     "country": "Netherlands",
-    "role": "All-rounder",
+    "role": "Bowler",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹3.0",
     "analysis": "Super Over hero! He brings incredible energy, wickets at the death, and handy runs.",
@@ -1415,7 +1415,7 @@
   {
     "name": "Michael Levitt",
     "country": "Netherlands",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹1.5",
     "analysis": "Showed clean hitting ability, a decent wildcard punt if you need an aggressive opener cheap.",
@@ -1442,7 +1442,7 @@
   {
     "name": "Roelof van der Merwe",
     "country": "Netherlands",
-    "role": "All-rounder",
+    "role": "Bowler",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹1.5",
     "analysis": "The Bulldog! He has more passion than skill at this age, but fights hard on turning tracks.",
@@ -1469,7 +1469,7 @@
   {
     "name": "Timm van der Gugten",
     "country": "Netherlands",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹1.0",
     "analysis": "Experienced campaigner, but his pace has dropped significantly; batter fodder on good tracks.",
@@ -1631,7 +1631,7 @@
   {
     "name": "Hammad Mirza",
     "country": "Oman",
-    "role": "Batter",
+    "role": "WK",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Not enough impact to warrant a slot in your team.",
@@ -1640,7 +1640,7 @@
   {
     "name": "Hasnain Ali Shah",
     "country": "Oman",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Standard medium pacer; no variety.",
@@ -1658,7 +1658,7 @@
   {
     "name": "Jay Odedra",
     "country": "Oman",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Part-timer quality; avoid.",
@@ -1676,7 +1676,7 @@
   {
     "name": "Karan Sonavale",
     "country": "Oman",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Not good enough for this auction.",
@@ -1694,7 +1694,7 @@
   {
     "name": "Nadeem Khan",
     "country": "Oman",
-    "role": "Batter",
+    "role": "Bowler",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Doesn't have the power game for modern T20s.",
@@ -1703,7 +1703,7 @@
   {
     "name": "Shafiq Jan",
     "country": "Oman",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Not ready for this level.",
@@ -2594,7 +2594,7 @@
   {
     "name": "Brian Bennett",
     "country": "Zimbabwe",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "A promising youngster, but lacks the experience to handle big match pressure yet.",
@@ -2657,7 +2657,7 @@
   {
     "name": "Tadiwanashe Marumani",
     "country": "Zimbabwe",
-    "role": "Batter",
+    "role": "WK",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Has talent but hasn't converted it into runs; too risky for a main squad.",
@@ -2666,7 +2666,7 @@
   {
     "name": "Tashinga Musekiwa",
     "country": "Zimbabwe",
-    "role": "All-rounder",
+    "role": "Batter",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "A finisher who can bowl, but unproven at the top level.",
@@ -2675,7 +2675,7 @@
   {
     "name": "Tinotenda Maposa",
     "country": "Zimbabwe",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "A young seamer who needs more time in the domestic circuit; skip.",
