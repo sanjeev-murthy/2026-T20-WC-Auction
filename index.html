@@ -849,7 +849,7 @@ async function loadAndRenderSquads() {
         const response = await fetch('players_data_central.json');
         const players = await response.json();
         
-        // Group players by squad (GROUP A, B, C)
+        // Group players by squad (GROUP A, B, C, D)
         const squadGroups = {};
         players.forEach(player => {
             if (!squadGroups[player.squad]) {
@@ -865,7 +865,7 @@ async function loadAndRenderSquads() {
         container.innerHTML = '';
         
         // Define group order
-        const groupOrder = ['GROUP A', 'GROUP B', 'GROUP C'];
+        const groupOrder = ['GROUP A', 'GROUP B', 'GROUP C', 'GROUP D'];
         
         groupOrder.forEach(groupName => {
             if (!squadGroups[groupName]) return;
