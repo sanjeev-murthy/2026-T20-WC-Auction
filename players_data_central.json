@@ -110,7 +110,7 @@
   {
     "name": "Rashid Khan",
     "country": "Afghanistan",
-    "role": "Bowler (C)",
+    "role": "All-rounder (C)",
     "rating": "🚀 Kamaal, Lajawaab",
     "priceTarget": "₹18.0",
     "analysis": "MVP of T20; bats, fields, best spinner on planet. Home conditions.",
@@ -407,7 +407,7 @@
   {
     "name": "Ajayveer Hundal",
     "country": "Canada",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Not auction ready.",
@@ -416,7 +416,7 @@
   {
     "name": "Ansh Patel",
     "country": "Canada",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Young spinner, too raw.",
@@ -434,7 +434,7 @@
   {
     "name": "Dilpreet Bajwa",
     "country": "Canada",
-    "role": "Batter (C)",
+    "role": "All-rounder (C)",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Hard-hitter, but inconsistent; pool is too deep.",
@@ -479,7 +479,7 @@
   {
     "name": "Navneet Dhaliwal",
     "country": "Canada",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹1.0",
     "analysis": "Good opener for Canada; bench option.",
@@ -488,7 +488,7 @@
   {
     "name": "Nicholas Kirton",
     "country": "Canada",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹2.0",
     "analysis": "Lefty with class; impressive in World Cup. Worth a punt.",
@@ -1485,13 +1485,13 @@
     "espncricinfo": "https://www.espncricinfo.com/cricketers/zach-lion-cachet-1274487"
   },
   {
-    "name": "Adam Milne",
+    "name": "Kyle Jamieson",
     "country": "New Zealand",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹1.0",
     "analysis": "Fast but very injury-prone; risky backup pacer.",
-    "espncricinfo": "https://www.espncricinfo.com/cricketers/adam-milne-450860"
+    "espncricinfo": "https://www.espncricinfo.com/cricketers/kyle-jamieson-625960"
   },
   {
     "name": "Daryl Mitchell",
