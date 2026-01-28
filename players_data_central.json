@@ -641,7 +641,7 @@
   {
     "name": "Rehan Ahmed",
     "country": "England",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹3.0",
     "analysis": "Young leggie with swagger; a good option for turning tracks.",
@@ -965,7 +965,7 @@
   {
     "name": "Benjamin Manenti",
     "country": "Italy",
-    "role": "All-rounder",
+    "role": "Bowler",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Sibling of Harry; doesn't offer enough with bat or ball.",
@@ -974,7 +974,7 @@
   {
     "name": "Crishan Jorge",
     "country": "Italy",
-    "role": "Batter",
+    "role": "Bowler",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Needs more seasoning.",
@@ -983,7 +983,7 @@
   {
     "name": "Gian Piero Meade",
     "country": "Italy",
-    "role": "All-rounder",
+    "role": "WK",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Just a squad filler; pass.",
@@ -992,7 +992,7 @@
   {
     "name": "Grant Stewart",
     "country": "Italy",
-    "role": "All-rounder",
+    "role": "Bowler",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "County pro (Kent); decent hitter, but not an international star.",
@@ -1019,7 +1019,7 @@
   {
     "name": "Jaspreet Singh",
     "country": "Italy",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Average medium pacer.",
@@ -1037,7 +1037,7 @@
   {
     "name": "Marcus Campopiano",
     "country": "Italy",
-    "role": "Batter",
+    "role": "WK",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Club level stats don't translate to this level.",
@@ -1046,7 +1046,7 @@
   {
     "name": "Syed Naqvi",
     "country": "Italy",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Pass; too raw.",
@@ -1073,7 +1073,7 @@
   {
     "name": "Zain Ali",
     "country": "Italy",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Too inexperienced for this stage.",
@@ -1217,7 +1217,7 @@
   {
     "name": "Aarif Sheikh",
     "country": "Nepal",
-    "role": "Batter",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Stabilizer, not a match winner.",
@@ -1235,7 +1235,7 @@
   {
     "name": "Basir Ahamad",
     "country": "Nepal",
-    "role": "All-rounder",
+    "role": "Bowler",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Jack of all trades, master of none.",
@@ -1253,7 +1253,7 @@
   {
     "name": "Gulshan Jha",
     "country": "Nepal",
-    "role": "All-rounder",
+    "role": "Bowler",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹1.0",
     "analysis": "Very young talent; high potential as a hitter, but raw.",
@@ -1262,7 +1262,7 @@
   {
     "name": "Karan KC",
     "country": "Nepal",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹1.0",
     "analysis": "Known for lusty blows and wickets, but can be expensive.",
@@ -1289,7 +1289,7 @@
   {
     "name": "Lokesh Bam",
     "country": "Nepal",
-    "role": "Batter",
+    "role": "WK",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Hitter but no technique.",
@@ -1298,7 +1298,7 @@
   {
     "name": "Nandan Yadav",
     "country": "Nepal",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹0.5",
     "analysis": "Doesn't have the pace.",
@@ -1307,7 +1307,7 @@
   {
     "name": "Rohit Paudel",
     "country": "Nepal",
-    "role": "Batter (C)",
+    "role": "All-rounder (C)",
     "rating": "🧩 Jugaad / Wildcard",
     "priceTarget": "₹2.0",
     "analysis": "Young captain of Nepal; solid technique and anchors well, but struggles to accelerate.",
@@ -1334,7 +1334,7 @@
   {
     "name": "Sompal Kami",
     "country": "Nepal",
-    "role": "Bowler",
+    "role": "All-rounder",
     "rating": "❌ Na Baba Na",
     "priceTarget": "₹1.0",
     "analysis": "Veteran all-rounder for Nepal; backup option at best.",
