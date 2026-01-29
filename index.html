@@ -360,6 +360,15 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
                 </button>
                 <div id="suggestionFilter" class="filter-dropdown"></div>
             </div>
+
+            <div class="filter-container">
+                <button class="filter-button" onclick="toggleDropdown('lotFilter')">
+                    <span>🎩 <span id="lotLabel">Select Lot</span></span>
+                    <span style="font-size: 0.8rem;">▼</span>
+                </button>
+                <div id="lotFilter" class="filter-dropdown"></div>
+            </div>
+
             
             <input type="text" id="nameFilter" placeholder="🔍 Search by name..." onkeyup="applyFilters()" style="padding: 10px 12px; border-radius: 6px; border: 2px solid var(--border); background: rgba(255,255,255,0.05); color: var(--text-main); font-size: 0.9rem; flex: 1; min-width: 150px; transition: all 0.3s;">
             <button onclick="resetFilters()" style="padding: 10px 18px; border-radius: 6px; border: none; background: linear-gradient(135deg, var(--accent), rgba(251,191,36,0.8)); color: #000; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; box-shadow: 0 4px 12px rgba(251,191,36,0.3);">Reset</button>
@@ -664,6 +673,8 @@ function initializeFilters() {
     const roles = [...new Set(allPlayers.map(p => normalizeRole(p.role)))].sort();
     const countries = [...new Set(allPlayers.map(p => p.country))].sort();
     const ratings = [...new Set(allPlayers.map(p => p.rating).filter(r => r))].sort();
+    const lots = [...new Set(allPlayers.map(p => p.lot).filter(r => r))].sort();
+
     
     // Populate role dropdown
     const roleFilter = document.getElementById('roleFilter');
@@ -701,6 +712,19 @@ function initializeFilters() {
         `;
         ratingFilter.appendChild(option);
     });
+
+    // Populate lot dropdown
+    const lotFilter = document.getElementById('lotFilter');
+    lots.forEach(lot => {
+        const option = document.createElement('div');
+        option.className = 'filter-option';
+        const displayLot = lot.substring(0, 50) + (lot.length > 50 ? '...' : '');
+        option.innerHTML = `
+            <input type="checkbox" id="lot_${lots.indexOf(lot)}" value="${lot}" onchange="applyFilters();updateLabel('lot')">
+            <label for="lot_${lots.indexOf(lot)}">${displayLot}</label>
+        `;
+        lotFilter.appendChild(option);
+    });
 }
 
 function updateLabel(filterType) {
@@ -713,6 +737,9 @@ function updateLabel(filterType) {
     } else if(filterType === 'rating') {
         const selected = document.querySelectorAll('#suggestionFilter input:checked').length;
         document.getElementById('suggestionLabel').textContent = selected > 0 ? `${selected} rating(s)` : 'Select Rating(s)';
+    } else if(filterType === 'lot') {
+        const selected = document.querySelectorAll('#lotFilter input:checked').length;
+        document.getElementById('lotLabel').textContent = selected > 0 ? `${selected} lot(s)` : 'Select Lot(s)';
     }
 }
 
@@ -780,6 +807,7 @@ function applyFilters() {
     const selectedRoles = Array.from(document.querySelectorAll('#roleFilter input:checked')).map(o => o.value);
     const selectedCountries = Array.from(document.querySelectorAll('#countryFilter input:checked')).map(o => o.value);
     const selectedRatings = Array.from(document.querySelectorAll('#suggestionFilter input:checked')).map(o => o.value);
+    const selectedLots = Array.from(document.querySelectorAll('#lotFilter input:checked')).map(o => o.value);
     const nameInput = document.getElementById('nameFilter').value.toLowerCase();
     
     const rows = document.querySelectorAll('#playerTableBody tr');
@@ -803,10 +831,12 @@ function resetFilters() {
     document.querySelectorAll('#roleFilter input:checked').forEach(cb => cb.checked = false);
     document.querySelectorAll('#countryFilter input:checked').forEach(cb => cb.checked = false);
     document.querySelectorAll('#suggestionFilter input:checked').forEach(cb => cb.checked = false);
+    document.querySelectorAll('#lotFilter input:checked').forEach(cb => cb.checked = false);
     document.getElementById('nameFilter').value = '';
     document.getElementById('roleLabel').textContent = 'Select Role(s)';
     document.getElementById('countryLabel').textContent = 'Select Country(ies)';
     document.getElementById('suggestionLabel').textContent = 'Select Rating(s)';
+    document.getElementById('lotLabel').textContent = 'Select Lot(s)';
     applyFilters();
 }
 
