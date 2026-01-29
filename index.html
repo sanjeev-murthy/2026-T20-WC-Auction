@@ -817,13 +817,15 @@ function applyFilters() {
         const role = normalizeRole(cells[1].textContent);
         const country = cells[2].textContent;
         const rating = cells[3].textContent.trim();
+        const lot = cells[6].textContent.trim();
         
         const matchesRole = selectedRoles.length === 0 || selectedRoles.includes(role);
         const matchesCountry = selectedCountries.length === 0 || selectedCountries.includes(country);
         const matchesRating = selectedRatings.length === 0 || selectedRatings.includes(rating);
         const matchesName = nameInput === '' || name.includes(nameInput);
+        const matchesLot = selectedLots.length === 0 || selectedLots.includes(lot);
         
-        row.style.display = (matchesRole && matchesCountry && matchesRating && matchesName) ? '' : 'none';
+        row.style.display = (matchesRole && matchesCountry && matchesRating && matchesName && matchesLot) ? '' : 'none';
     });
 }
 
