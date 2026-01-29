@@ -1,301 +1,240 @@
-Name,Role,Country,Suggestion (Buy/Not Worth It/Bits and Pieces),Price Target
-"Suryakumar Yadav","Batter (C)","India",,
-"Abhishek Sharma","All-rounder","India",,
-"Tilak Varma","Batter","India",,
-"Sanju Samson","WK","India",,
-"Shivam Dube","All-rounder","India",,
-"Ishan Kishan","WK","India",,
-"Hardik Pandya","All-rounder","India",,
-"Arshdeep Singh","Bowler","India",,
-"Jasprit Bumrah","Bowler","India",,
-"Harshit Rana","Bowler","India",,
-"Varun Chakaravarthy","Bowler","India",,
-"Kuldeep Yadav","Bowler","India",,
-"Axar Patel","All-rounder","India",,
-"Washington Sundar","All-rounder","India",,
-"Rinku Singh","Batter","India",,
-"Babar Azam","Batter (C)","Pakistan",,
-"Mohammad Rizwan","WK","Pakistan",,
-"Shaheen Afridi","Bowler","Pakistan",,
-"Naseem Shah","Bowler","Pakistan",,
-"Haris Rauf","Bowler","Pakistan",,
-"Shadab Khan","All-rounder","Pakistan",,
-"Fakhar Zaman","Batter","Pakistan",,
-"Saim Ayub","Batter","Pakistan",,
-"Usman Khan","Batter","Pakistan",,
-"Imad Wasim","All-rounder","Pakistan",,
-"Abrar Ahmed","Bowler","Pakistan",,
-"Abbas Afridi","Bowler","Pakistan",,
-"Azam Khan","WK","Pakistan",,
-"Iftikhar Ahmed","All-rounder","Pakistan",,
-"Mohammad Amir","Bowler","Pakistan",,
-"Scott Edwards","WK (C)","Netherlands",,
-"Colin Ackermann","All-rounder","Netherlands",,
-"Noah Croes","WK","Netherlands",,
-"Bas de Leede","All-rounder","Netherlands",,
-"Aryan Dutt","Bowler","Netherlands",,
-"Fred Klaassen","Bowler","Netherlands",,
-"Kyle Klein","Bowler","Netherlands",,
-"Michael Levitt","Batter","Netherlands",,
-"Zach Lion-Cachet","Batter","Netherlands",,
-"Max O'Dowd","Batter","Netherlands",,
-"Logan van Beek","All-rounder","Netherlands",,
-"Timm van der Gugten","Bowler","Netherlands",,
-"Roelof van der Merwe","All-rounder","Netherlands",,
-"Paul van Meekeren","Bowler","Netherlands",,
-"Saqib Zulfiqar","All-rounder","Netherlands",,
-"Gerhard Erasmus","All-rounder (C)","Namibia",,
-"Zane Green","WK","Namibia",,
-"Bernard Scholtz","Bowler","Namibia",,
-"Ruben Trumpelmann","Bowler","Namibia",,
-"JJ Smit","All-rounder","Namibia",,
-"Jan Frylinck","All-rounder","Namibia",,
-"Louren Steenkamp","Batter","Namibia",,
-"Malan Kruger","Batter","Namibia",,
-"Nicol Loftie-Eaton","All-rounder","Namibia",,
-"Jack Brassell","Bowler","Namibia",,
-"Ben Shikongo","Bowler","Namibia",,
-"JC Balt","Batter","Namibia",,
-"Dylan Leicher","All-rounder","Namibia",,
-"WP Myburgh","Batter","Namibia",,
-"Max Heingo","Bowler","Namibia",,
-"Monank Patel","WK (C)","USA",,
-"Aaron Jones","Batter","USA",,
-"Saurabh Netravalkar","Bowler","USA",,
-"Andries Gous","WK","USA",,
-"Harmeet Singh","All-rounder","USA",,
-"Shayan Jahangir","Batter","USA",,
-"Milind Kumar","All-rounder","USA",,
-"Nosthush Kenjige","Bowler","USA",,
-"Ali Khan","Bowler","USA",,
-"Jasdeep Singh","Bowler","USA",,
-"Smit Patel","WK","USA",,
-"Abhishek Paradkar","Bowler","USA",,
-"Yasir Mohammad","Bowler","USA",,
-"Juanoy Drysdale","Bowler","USA",,
-"Utkarsh Srivastava","All-rounder","USA",,
-"Mitchell Marsh","All-rounder (C)","Australia",,
-"Pat Cummins","Bowler","Australia",,
-"Travis Head","Batter","Australia",,
-"Glenn Maxwell","All-rounder","Australia",,
-"Adam Zampa","Bowler","Australia",,
-"Josh Hazlewood","Bowler","Australia",,
-"Nathan Ellis","Bowler","Australia",,
-"Josh Inglis","WK","Australia",,
-"Marcus Stoinis","All-rounder","Australia",,
-"Tim David","Batter","Australia",,
-"Cameron Green","All-rounder","Australia",,
-"Xavier Bartlett","Bowler","Australia",,
-"Cooper Connolly","All-rounder","Australia",,
-"Matthew Kuhnemann","Bowler","Australia",,
-"Matthew Short","All-rounder","Australia",,
-"Dasun Shanaka","All-rounder (C)","Sri Lanka",,
-"Pathum Nissanka","Batter","Sri Lanka",,
-"Kusal Mendis","WK","Sri Lanka",,
-"Charith Asalanka","Batter","Sri Lanka",,
-"Wanindu Hasaranga","All-rounder","Sri Lanka",,
-"Maheesh Theekshana","Bowler","Sri Lanka",,
-"Matheesha Pathirana","Bowler","Sri Lanka",,
-"Dunith Wellalage","All-rounder","Sri Lanka",,
-"Nuwan Thushara","Bowler","Sri Lanka",,
-"Kusal Perera","WK","Sri Lanka",,
-"Dhananjaya de Silva","All-rounder","Sri Lanka",,
-"Kamindu Mendis","All-rounder","Sri Lanka",,
-"Janith Liyanage","All-rounder","Sri Lanka",,
-"Milan Rathnayake","Bowler","Sri Lanka",,
-"Niroshan Dickwella","WK","Sri Lanka",,
-"Sikandar Raza","All-rounder (C)","Zimbabwe",,
-"Blessing Muzarabani","Bowler","Zimbabwe",,
-"Richard Ngarava","Bowler","Zimbabwe",,
-"Brian Bennett","Batter","Zimbabwe",,
-"Ryan Burl","All-rounder","Zimbabwe",,
-"Clive Madande","WK","Zimbabwe",,
-"Tinotenda Maposa","Bowler","Zimbabwe",,
-"Tadiwanashe Marumani","Batter","Zimbabwe",,
-"Wellington Masakadza","Bowler","Zimbabwe",,
-"Tony Munyonga","All-rounder","Zimbabwe",,
-"Dion Myers","Batter","Zimbabwe",,
-"Graeme Cremer","Bowler","Zimbabwe",,
-"Bradley Evans","All-rounder","Zimbabwe",,
-"Tashinga Musekiwa","All-rounder","Zimbabwe",,
-"Brendan Taylor","WK","Zimbabwe",,
-"Paul Stirling","Batter (C)","Ireland",,
-"Mark Adair","Bowler","Ireland",,
-"Ross Adair","Batter","Ireland",,
-"Curtis Campher","All-rounder","Ireland",,
-"Gareth Delany","All-rounder","Ireland",,
-"George Dockrell","All-rounder","Ireland",,
-"Josh Little","Bowler","Ireland",,
-"Barry McCarthy","Bowler","Ireland",,
-"Harry Tector","Batter","Ireland",,
-"Lorcan Tucker","WK","Ireland",,
-"Craig Young","Bowler","Ireland",,
-"Ben White","Bowler","Ireland",,
-"Matthew Humphreys","Bowler","Ireland",,
-"Tim Tector","Batter","Ireland",,
-"Ben Calitz","Batter","Ireland",,
-"Jatinder Singh","Batter (C)","Oman",,
-"Vinayak Shukla","WK","Oman",,
-"Mohammad Nadeem","All-rounder","Oman",,
-"Shakeel Ahmad","Bowler","Oman",,
-"Hammad Mirza","Batter","Oman",,
-"Wasim Ali","All-rounder","Oman",,
-"Karan Sonavale","Batter","Oman",,
-"Shah Faisal","Bowler","Oman",,
-"Nadeem Khan","Batter","Oman",,
-"Sufyan Mehmood","Bowler","Oman",,
-"Jay Odedra","Bowler","Oman",,
-"Shafiq Jan","Bowler","Oman",,
-"Ashish Odedara","Batter","Oman",,
-"Jiten Ramanandi","All-rounder","Oman",,
-"Hasnain Ali Shah","Bowler","Oman",,
-"Harry Brook","Batter (C)","England",,
-"Jos Buttler","WK","England",,
-"Phil Salt","WK","England",,
-"Jofra Archer","Bowler","England",,
-"Adil Rashid","Bowler","England",,
-"Sam Curran","All-rounder","England",,
-"Liam Dawson","All-rounder","England",,
-"Will Jacks","All-rounder","England",,
-"Ben Duckett","Batter","England",,
-"Rehan Ahmed","Bowler","England",,
-"Tom Banton","WK","England",,
-"Jacob Bethell","All-rounder","England",,
-"Jamie Overton","All-rounder","England",,
-"Josh Tongue","Bowler","England",,
-"Luke Wood","Bowler","England",,
-"Rovman Powell","Batter (C)","West Indies",,
-"Nicholas Pooran","WK","West Indies",,
-"Andre Russell","All-rounder","West Indies",,
-"Alzarri Joseph","Bowler","West Indies",,
-"Akeal Hosein","Bowler","West Indies",,
-"Shai Hope","WK","West Indies",,
-"Brandon King","Batter","West Indies",,
-"Sherfane Rutherford","Batter","West Indies",,
-"Gudakesh Motie","Bowler","West Indies",,
-"Johnson Charles","WK","West Indies",,
-"Romario Shepherd","All-rounder","West Indies",,
-"Roston Chase","All-rounder","West Indies",,
-"Shimron Hetmyer","Batter","West Indies",,
-"Obed McCoy","Bowler","West Indies",,
-"Shamar Joseph","Bowler","West Indies",,
-"Litton Das","WK (C)","Bangladesh",,
-"Tanzid Hasan","Batter","Bangladesh",,
-"Tawhid Hridoy","Batter","Bangladesh",,
-"Taskin Ahmed","Bowler","Bangladesh",,
-"Mustafizur Rahman","Bowler","Bangladesh",,
-"Shoriful Islam","Bowler","Bangladesh",,
-"Rishad Hossain","Bowler","Bangladesh",,
-"Nasum Ahmed","Bowler","Bangladesh",,
-"Mahedi Hasan","All-rounder","Bangladesh",,
-"Tanzim Sakib","Bowler","Bangladesh",,
-"Parvez Hossain Emon","Batter","Bangladesh",,
-"Saif Hassan","All-rounder","Bangladesh",,
-"Shamim Hossain","Batter","Bangladesh",,
-"Nurul Hasan","WK","Bangladesh",,
-"Shaif Uddin","All-rounder","Bangladesh",,
-"Wayne Madsen","Batter (C)","Italy",,
-"JJ Smuts","All-rounder","Italy",,
-"Thomas Draca","Bowler","Italy",,
-"Grant Stewart","All-rounder","Italy",,
-"Harry Manenti","All-rounder","Italy",,
-"Benjamin Manenti","All-rounder","Italy",,
-"Marcus Campopiano","Batter","Italy",,
-"Gian Piero Meade","All-rounder","Italy",,
-"Zain Ali","Batter","Italy",,
-"Ali Hasan","Bowler","Italy",,
-"Crishan Jorge","Batter","Italy",,
-"Anthony Mosca","Batter","Italy",,
-"Justin Mosca","Batter","Italy",,
-"Syed Naqvi","Batter","Italy",,
-"Jaspreet Singh","Bowler","Italy",,
-"Rohit Paudel","Batter (C)","Nepal",,
-"Sandeep Lamichhane","Bowler","Nepal",,
-"Dipendra Singh Airee","All-rounder","Nepal",,
-"Kushal Bhurtel","Batter","Nepal",,
-"Aasif Sheikh","WK","Nepal",,
-"Sompal Kami","Bowler","Nepal",,
-"Karan KC","Bowler","Nepal",,
-"Gulshan Jha","All-rounder","Nepal",,
-"Lalit Rajbanshi","Bowler","Nepal",,
-"Sundeep Jora","Batter","Nepal",,
-"Aarif Sheikh","Batter","Nepal",,
-"Basir Ahamad","All-rounder","Nepal",,
-"Nandan Yadav","Bowler","Nepal",,
-"Sher Malla","Bowler","Nepal",,
-"Lokesh Bam","Batter","Nepal",,
-"Aiden Markram","Batter (C)","South Africa",,
-"Quinton de Kock","WK","South Africa",,
-"Kagiso Rabada","Bowler","South Africa",,
-"David Miller","Batter","South Africa",,
-"Heinrich Klaasen","WK","South Africa",,
-"Marco Jansen","All-rounder","South Africa",,
-"Anrich Nortje","Bowler","South Africa",,
-"Keshav Maharaj","Bowler","South Africa",,
-"Dewald Brevis","Batter","South Africa",,
-"Kwena Maphaka","Bowler","South Africa",,
-"Tony de Zorzi","Batter","South Africa",,
-"Donovan Ferreira","All-rounder","South Africa",,
-"Lungi Ngidi","Bowler","South Africa",,
-"George Linde","All-rounder","South Africa",,
-"Corbin Bosch","All-rounder","South Africa",,
-"Mitchell Santner","All-rounder (C)","New Zealand",,
-"Finn Allen","Batter","New Zealand",,
-"Devon Conway","WK","New Zealand",,
-"Rachin Ravindra","All-rounder","New Zealand",,
-"Daryl Mitchell","All-rounder","New Zealand",,
-"Glenn Phillips","All-rounder","New Zealand",,
-"Lockie Ferguson","Bowler","New Zealand",,
-"Matt Henry","Bowler","New Zealand",,
-"Ish Sodhi","Bowler","New Zealand",,
-"Michael Bracewell","All-rounder","New Zealand",,
-"Mark Chapman","Batter","New Zealand",,
-"James Neesham","All-rounder","New Zealand",,
-"Adam Milne","Bowler","New Zealand",,
-"Tim Seifert","WK","New Zealand",,
-"Jacob Duffy","Bowler","New Zealand",,
-"Rashid Khan","Bowler (C)","Afghanistan",,
-"Rahmanullah Gurbaz","WK","Afghanistan",,
-"Ibrahim Zadran","Batter","Afghanistan",,
-"Azmatullah Omarzai","All-rounder","Afghanistan",,
-"Mohammad Nabi","All-rounder","Afghanistan",,
-"Fazalhaq Farooqi","Bowler","Afghanistan",,
-"Naveen-ul-Haq","Bowler","Afghanistan",,
-"Mujeeb Ur Rahman","Bowler","Afghanistan",,
-"Noor Ahmad","Bowler","Afghanistan",,
-"Gulbadin Naib","All-rounder","Afghanistan",,
-"Sediqullah Atal","Batter","Afghanistan",,
-"Shahidullah Kamal","All-rounder","Afghanistan",,
-"Darwish Rasooli","Batter","Afghanistan",,
-"Mohammad Ishaq","WK","Afghanistan",,
-"Abdullah Ahmadzai","Bowler","Afghanistan",,
-"Dilpreet Bajwa","Batter (C)","Canada",,
-"Nicholas Kirton","Batter","Canada",,
-"Saad Bin Zafar","All-rounder","Canada",,
-"Kaleem Sana","Bowler","Canada",,
-"Harsh Thaker","All-rounder","Canada",,
-"Shreyas Movva","WK","Canada",,
-"Navneet Dhaliwal","Batter","Canada",,
-"Ravinderpal Singh","Batter","Canada",,
-"Dilon Heyliger","Bowler","Canada",,
-"Ajayveer Hundal","Batter","Canada",,
-"Ansh Patel","Bowler","Canada",,
-"Jaskarandeep Buttar","Bowler","Canada",,
-"Kanwarpal Tathgur","Batter","Canada",,
-"Shivam Sharma","Bowler","Canada",,
-"Yuvraj Samra","Batter","Canada",,
-"Muhammad Waseem","Batter (C)","UAE",,
-"Vriitya Aravind","WK","UAE",,
-"Basil Hameed","All-rounder","UAE",,
-"Asif Khan","Batter","UAE",,
-"Alishan Sharafu","Batter","UAE",,
-"Aayan Afzal Khan","All-rounder","UAE",,
-"Junaid Siddique","Bowler","UAE",,
-"Zahoor Khan","Bowler","UAE",,
-"Ali Naseer","All-rounder","UAE",,
-"Karthik Meiyappan","Bowler","UAE",,
-"Rohan Mustafa","All-rounder","UAE",,
-"Aryan Lakra","All-rounder","UAE",,
-"Sanchit Sharma","Bowler","UAE",,
-"Akash Tahir","Bowler","UAE",,
-"Muhammad Jawadullah","Bowler","UAE",,
+PLAYER	ROLE 	Country	Lot	Price Range	Rating	Price Target	Aakash's Expert Analysis																	
+Suryakumar Yadav 	Batsman 	India	1	2	💰 TIJORI TOD	$22.00 	He doesn't look at fielders, he looks for empty seats in the stands! If SKY is playing, the bowler is praying.																	
+Abhishek Sharma	All-rounder	India	1	2	🎲 RISK HAI TOH ISHQ HAI	$4.50 	Explosive talent! He hits the ball hard, but sometimes forgets there are 20 overs, not just 2. A firecracker that can burst anywhere.																	
+Tilak Varma 	Batsman 	India	1	2	🛡️ BHAROSEMAND	$9.00 	A touch of class in a chaotic format. He plays spin so late he can read the manufacturer's label on the ball. Perfect anchor.																	
+ Sanju Samson 	Wicket Keeper	India	1	2	🎲 RISK HAI TOH ISHQ HAI	$4.00 	Poetry in motion when he hits, a tragedy when he misses. He will win you one game single-handedly and break your heart in the next three.																	
+Shivam Dube	All-rounder	India	1	2	🦊 CHHUPA RUSTAM	$7.00 	The "Spin Destroyer"! Footwork? Who needs footwork when you have muscle? He stands tall and deposits spinners into the parking lot.																	
+Ishan Kishan	Wicket Keeper	India	1	2	🎲 RISK HAI TOH ISHQ HAI	$3.50 	Pocket Dynamo! He loves the ball coming onto the bat, but if the pitch is slow, he gets stuck like a car in traffic.																	
+Hardik Pandya 	All-rounder	India	1	2	💰 TIJORI TOD	$19.00 	Kung Fu Pandya! He walks with swagger and finishes with power. In the subcontinent, a seam-bowling all-rounder who hits spin is rarer than a unicorn.																	
+Arshdeep Singh 	Bowler	India	1	2	🛡️ BHAROSEMAND	$11.50 	The "Paaji" of death overs! He swings the new ball like a banana and lands yorkers on a coin. Stress-free buy.																	
+Jasprit Bumrah 	Bowler	India	1	2	💰 TIJORI TOD	$24.00 	The Cheat Code. Even his "bad balls" take wickets. Buying him is like buying an insurance policy for your bowling attack—guaranteed returns!																	
+Harshit Rana 	Bowler	India	1	2	🎲 RISK HAI TOH ISHQ HAI	$2.50 	Aggressive and in-your-face! He has the skills and the "flying kiss" send-off, but needs to make sure he doesn't leak runs in his anger.																	
+Varun Chakravarthy	Bowler	India	1	2	🦊 CHHUPA RUSTAM	$7.50 	The Architect! His mystery is back, and on slow tracks, he is unplayable. If the pitch offers grip, he will run through the lineup like a hot knife through butter.																	
+Kuldeep Yadav 	Bowler	India	1	2	🛡️ BHAROSEMAND	$14.50 	The Magician! When the ball turns, batters dance to his tunes. He doesn't just take wickets; he embarrasses the opposition.																	
+Axar Patel 	All-rounder	India	1	2	🛡️ BHAROSEMAND	$13.00 	"Bapu" is the ultimate 3D player—economical bowling, clutch batting, and rocket arm. He quietly wins you matches while others make the noise.																	
+Washington Sundar	All-rounder	India	1	2	🦊 CHHUPA RUSTAM	$5.50 	Tall, lanky, and stingy! He bowls in the powerplay like a miser refusing to lend money. Very high value on turning tracks.																	
+Rinku Singh	Batsman 	India	1	2	🛡️ BHAROSEMAND	$10.50 	Lord Rinku! The man has ice water in his veins. If you need 20 runs in the last over, he is the only guy who won't even blink.																	
+Gerhard Erasmus 	All-rounder	Namibia	1	0.5	🦊 CHHUPA RUSTAM	$4.00 	The Backbone! He bats, he bowls spin, he captains, and he fields with passion. If Namibia has a hope, it starts and ends with him. A must-have budget all-rounder.																	
+Zane Green 	Wicket Keeper	Namibia	1	0.5	⛔ REHNE DO	$0.50 	A safe pair of hands behind the stumps, but with the bat, he is often stuck in first gear. In T20s, you need a Ferrari, not a tractor.																	
+Bernard Scholtz 	Bowler	Namibia	1	0.5	🦊 CHHUPA RUSTAM	$2.50 	The Professor of Discipline! He bowls left-arm spin and barely gives an inch. On turning tracks, he is a nightmare for batters trying to slog.																	
+Ruben Trumpelmann 	Bowler	Namibia	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$3.00 	The lefty who swings it! If there is moisture in the air or pitch, he becomes Mitchell Starc for the first 2 overs. A brilliant new-ball gamble.																	
+JJ Smit 	All-rounder	Namibia	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$2.00 	A hard-hitting finisher! Injuries have reduced his bowling, but if he connects with the bat, the ball stays hit. High impact, but fitness is a worry.																	
+Jan Frylinck 	All-rounder	Namibia	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$2.00 	The Fox! He doesn't have pace, but he has 50 variations of slower balls. On a slow, gripping wicket, he is very difficult to get away.																	
+Louren Steenkamp 	All-rounder	Namibia	1	0.5	⛔ REHNE DO	$0.50 	A domestic stalwart, but the jump to international quality is too high. He might struggle against express pace.																	
+Malan Kruger 	Batsman	Namibia	1	0.5	⛔ REHNE DO	$0.50 	Solid technique, but "solid" doesn't win fantasy leagues. He lacks the explosive power game needed for this format.																	
+Nicole Loftie-Eaton	Wicket Keeper	Namibia	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$1.50 	The X-Factor! He holds the record for the fastest T20I century (33 balls!). He is inconsistent, but if he clicks, you win the league.																	
+Jack Brassell	Bowler	Namibia	1	0.5	⛔ REHNE DO	$0.50 	A young kid learning his trade. He has potential for the future, but throwing him into a mega auction now is too early.																	
+Ben Shikongo 	Bowler	Namibia	1	0.5	⛔ REHNE DO	$0.50 	A backup seamer who runs in hard, but lacks the weapons to trouble top-tier international batters.																	
+JC Balt 	All-rounder	Namibia	1	0.5	⛔ REHNE DO	$0.50 	Very new to the scene. We haven't seen enough "dhamaka" to justify a bid. Pass.																	
+Dylan Leicher 	All-rounder	Namibia	1	0.5	⛔ REHNE DO	$0.50 	A developmental all-rounder. Keep an eye on him for the 2028 World Cup, but for now, save your virtual cash.																	
+WP Myburgh 	Bowler	Namibia	1	0.5	⛔ REHNE DO	$0.50 	Likely a squad player who carries the drinks. You need points on the board, not hydration.																	
+Max Heingo 	Bowler	Namibia	1	0.5	⛔ REHNE DO	$0.50 	Another backup option. Unless you are building a Namibia-only XI for a challenge, look elsewhere.																	
+Scott Edwards 	Wicket Keeper	Netherlands	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$3.00 	Captain Courageous! He doesn't have a power game, but he sweeps everything—pace, spin, even the dust off the pitch. Good for stability, bad for strike rate.																	
+Colin Ackermann	All-rounder	Netherlands	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$2.00 	A solid county professional. He gives you stability with the bat and bowls handy off-spin, but he won't set the stadium on fire. A safe "Dal Chawal" pick.																	
+Noah Croes 	Wicket Keeper	Netherlands	1	0.5	⛔ REHNE DO	$0.50 	A young backup keeper. Unless your main keeper is injury-prone and you have $0.5 left, look elsewhere.																	
+Bas de Leede 	All-rounder	Netherlands	1	0.5	🦊 CHHUPA RUSTAM	$6.00 	The One-Man Army! He bowls heavy pace at the death and bats in the top 4. Buying him is like buying two players for the price of one. Massive value!																	
+Aryan Dutt 	Bowler	Netherlands	1	0.5	🦊 CHHUPA RUSTAM	$4.00 	A tall off-spinner who dares to bowl in the powerplay. He doesn't turn it much, but his height and accuracy annoy batters into making mistakes.																	
+Fred Klaassen	Bowler	Netherlands	1	0.5	⛔ REHNE DO	$1.00 	A decent left-arm pacer, but he lacks the X-factor to trouble top-tier international batters on flat tracks.																	
+Kyle Klein 	Bowler	Netherlands	1	0.5	⛔ REHNE DO	$0.50 	Very young and raw. He is a project for the future, not a weapon for your high-stakes auction war today.																	
+Michael Levitt 	All-rounder	Netherlands	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$1.50 	A clean hitter of the cricket ball! He can surprise you with a quickfire 30 at the top, but he is still unproven against high-quality spin.																	
+Zach Lion-Cachet 	Batsman 	Netherlands	1	0.5	⛔ REHNE DO	$0.50 	A developmental player. Save your virtual money for someone who is guaranteed to make the starting XI.																	
+Max O'Dowd	Batsman 	Netherlands	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$1.50 	The Anchor. He will stay at the crease, but sometimes he stays too long without scoring fast enough. Good for collapse prevention only.																	
+Logan van Beek 	Bowler	Netherlands	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$3.00 	The Super Over Hero! He brings incredible energy and can hit big sixes, but his bowling can be expensive if he misses his yorker.																	
+Timm van der Gugten 	All-rounder	Netherlands	1	0.5	⛔ REHNE DO	$1.00 	An experienced campaigner, but his pace has dropped significantly. On a good batting track, he might become "run-machine" for the opposition.																	
+Roelof van der Merwe 	Bowler	Netherlands	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$1.50 	The Bulldog! He has more passion than skill at this age, but he fights for every inch on turning tracks. A good vibe player.																	
+Paul van Meekeren	Bowler	Netherlands	1	0.5	⛔ REHNE DO	$1.00 	Fast and skiddy, but can be very erratic. He bowls one unplayable delivery followed by two wide balls. Frustrating to own.																	
+Saqib Zulfiqar	All-rounder	Netherlands	1	0.5	⛔ REHNE DO	$0.50 	A bits-and-pieces leg-spinner who doesn't offer enough impact with bat or ball to warrant a precious overseas slot.																	
+Sikandar Raza 	All-rounder	Zimbabwe																						
+Brian Bennett	All-rounder	Zimbabwe																						
+Ryan Burl 	All-rounder	Zimbabwe																						
+Graeme Cremer 	Bowler	Zimbabwe																						
+Bradley Evans 	All-rounder	Zimbabwe																						
+Clive Madande 	Wicket Keeper	Zimbabwe																						
+Tinotenda Maposa 	All-rounder	Zimbabwe																						
+Tadiwanashe Maruwani 	Wicket Keeper	Zimbabwe																						
+Wellington Masakadza	Bowler	Zimbabwe																						
+Tony Munyonga	All-rounder	Zimbabwe																						
+Tashinga Musekiwa 	Batsman 	Zimbabwe																						
+Blessing Muzarabani	Bowler	Zimbabwe																						
+Dion Myers 	Batsman 	Zimbabwe																						
+Richard Ngarava	Bowler	Zimbabwe																						
+Brendan Taylor 	Wicket Keeper	Zimbabwe																						
+Paul Stirling 	All-rounder	Ireland	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$3.50 	"Stirlo" is a legend! Hits the ball harder than anyone, but fitness and age are catching up. Still a threat in the powerplay.																	
+Mark Adair 	Bowler	Ireland	1	0.5	🦊 CHHUPA RUSTAM	$4.50 	A genuine wicket-taker! He swings the new ball and whacks sixes at No. 8. A very valuable utility player.																	
+Ross Adair 	Batsman 	Ireland	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$2.00 	Paul's brother. Aggressive opener who goes "Bang-Bang" or back to the pavilion. A gamble for the brave.																	
+Ben Calitz 	Batsman 	Ireland	1	0.5	⛔ REHNE DO	$0.50 	Not a known commodity in top-tier international T20s yet. Better to skip.																	
+Curtis Campher 	All-rounder	Ireland	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$3.00 	The fighter! He took 4 wickets in 4 balls once. Scrappy with the bat and ball, always involved in the game.																	
+Gareth Delany 	All-rounder	Ireland	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$2.00 	Leg-spin all-rounder. Good fielder, hits long balls, but his bowling consistency is a bit of a lottery.																	
+George Dockrell 	All-rounder	Ireland	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$2.00 	Reinvented from spinner to finisher. Smart cricketer, but lacks the raw power of elite finishers.																	
+Matthew Humphreys 	All-rounder	Ireland	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$1.00 	Young left-arm spinner. A project player who could be handy on turners, but inexperienced.																	
+Josh Little 	Bowler	Ireland	1	0.5	🛡️ BHAROSEMAND	$6.00 	IPL quality! Left-arm pace, hits the deck hard. He is Ireland's only true "Premium" T20 asset.																	
+Barry McCarthy 	Bowler	Ireland	1	0.5	⛔ REHNE DO	$1.00 	Famous for that boundary save, but his bowling can be fodder for big hitters on small grounds.																	
+Harry Tector 	Batsman 	Ireland	1	0.5	🛡️ BHAROSEMAND	$4.00 	Pure Class. He plays spin beautifully and anchors the innings. A touch of elegance in a power-hitting world.																	
+Tim Tector 	Batsman 	Ireland	1	0.5	⛔ REHNE DO	$0.50 	Harry's younger brother. Still developing and not ready for the big stage yet.																	
+Lorcan Tucker 	Wicket Keeper	Ireland	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$3.50 	Very busy player! Loves the scoop and reverse sweep. Keeps the scoreboard moving and annoys the bowlers.																	
+Ben White 	Bowler	Ireland	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$1.50 	A leg-spinner useful in Asia, but often bowls too short. If he finds his length, he takes wickets.																	
+Craig Young 	Bowler	Ireland	1	0.5	⛔ REHNE DO	$1.00 	A hit-the-deck bowler who gets bounce, but lacks variations. Good depth player, but not a starter.																	
+Jatinder Singh 	Batsman 	Oman 																						
+Vinayak Shukla 	Wicket Keeper	Oman 																						
+Mohammad Nadeem 	All-rounder	Oman 																						
+Shakeel Ahmad 	Bowler	Oman 																						
+Hammad Mirza 	Wicket Keeper	Oman 																						
+Wasim Ali 	All-rounder	Oman 																						
+Karan Sonavale 	All-rounder	Oman 																						
+Shah Faisal 	Bowler	Oman 																						
+Nadeem Khan 	Bowler	Oman 																						
+Sufyan Mehmood 	Bowler	Oman 																						
+Jay Odedra 	All-rounder	Oman 																						
+Shafiq Jan 	All-rounder	Oman 																						
+Ashish Odedara 	Batsman 	Oman 																						
+Jiten Ramanandi 	All-rounder	Oman 																						
+Hasnain Ali Shah 	All-rounder	Oman 																						
+Harry Brook	Batsman	England																						
+ Rehan Ahmed	All-rounder	England																						
+ Jofra Archer	Bowler	England																						
+ Tom Banton	Wicket Keeper	England																						
+ Jacob Bethell	All-rounder	England																						
+ Jos Buttler	Wicket Keeper	England																						
+ Sam Curran	All-rounder	England																						
+ Liam Dawson	All-rounder	England																						
+ Ben Duckett	Batsman	England																						
+ Will Jacks	All-rounder	England																						
+ Jamie Overton	All-rounder	England																						
+ Adil Rashid	Bowler	England																						
+ Phil Salt	Wicket Keeper	England																						
+ Josh Tongue	Bowler	England																						
+ Luke Wood	Bowler	England																						
+Shai Hope	Wicket Keeper	West Indies 	1	0.5	⛔ REHNE DO	$1.50 	Classy as a Rolls Royce, but sometimes you need a Ferrari in T20s. He plays beautiful drives, but "beauty" doesn't always equal "strike rate". Good anchor, but might slow you down.																	
+ Shimron Hetmyer	Batsman	West Indies 	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$5.00 	Hetty is pure dynamite! He hits spin into the orbit and celebrates with swag. But his fitness and form can fluctuate like the Sensex. High risk, massive reward.																	
+ Johnson Charles	Wicket Keeper	West Indies 	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$4.00 	Stand and Deliver! He doesn't move his feet, he just uses brute force. If it's in his arc, it's out of the park. If it swings, he’s in trouble.																	
+ Roston Chase	All-rounder	West Indies 	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$4.50 	The "Fevicol" of the team. When the top order collapses (which happens often!), he sticks around. Plus, his off-spin is gold on turning tracks. Very smart utility pick.																	
+ Matthew Forde	Bowler	West Indies 	1	0.5	🦊 CHHUPA RUSTAM	$3.50 	A young gun with serious talent! He swings the new ball and can whack long sixes down the order. An underrated all-round package who flies under the radar.																	
+ Jason Holder	All-rounder	West Indies 	1	0.5	🛡️ BHAROSEMAND	$9.00 	The Gentle Giant! Experienced, gets extra bounce because he's 9 feet tall, and hits long balls. A safe, reliable buy who gives you balance.																	
+ Akeal Hosein	Bowler	West Indies 	1	0.5	🛡️ BHAROSEMAND	$8.50 	The Sniper! He attacks the stumps in the powerplay with his arm-ball. Very disciplined, very economical. In subcontinent conditions, he is a must-have.																	
+ Shamar Joseph	Bowler	West Indies 	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$3.00 	The Hero of Gabba! He has pace, passion, and a broken toe story. Raw energy is high, but T20 experience is low. A wildcard entry!																	
+ Brandon King	Batsman	West Indies 	1	0.5	🛡️ BHAROSEMAND	$7.50 	Elegance personified. He sets the platform nicely. On a flat deck, he looks like a million dollars. Solid, reliable opener who doesn't throw his wicket away easily.																	
+ Gudakesh Motie	All-rounder	West Indies 	1	0.5	🦊 CHHUPA RUSTAM	$6.00 	Chhupa Rustam Alert! This guy is a wicket-taking machine in the middle overs. Left-arm spin that turns and grips. Batters often underestimate him and pay the price!																	
+ Rovman Powell	Batsman	West Indies 	1	0.5	🛡️ BHAROSEMAND	$8.00 	Captain Power! He hits sixes that threaten the satellites. Spin or pace, it doesn't matter. A genuine match-winner who leads from the front.																	
+ Sherfane Rutherford	All-rounder	West Indies 	1	0.5	🦊 CHHUPA RUSTAM	$5.50 	The Finisher! He has been in lethal form in leagues around the world. He waits for the death overs and then unleashes chaos. Great value buy.																	
+ Quentin Sampson	All-rounder	West Indies 	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$2.00 	A mystery card! A hard-hitting all-rounder from Guyana who can surprise everyone. If you want a cheap "punt" that might turn into a jackpot, he's your man.																	
+ Jayden Seales	Bowler	West Indies 	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$3.00 	Young, fast, and skiddy. He is a serious talent in Test cricket, but still learning the dark arts of T20 death bowling. Buy for potential!																	
+ Romario Shepherd	All-rounder	West Indies 	1	0.5	🎲 RISK HAI TOH ISHQ HAI	$5.00 	The "Shepherd" who guides the ball to the boundary! Massive hitter at No. 7 or 8. His bowling can be expensive, but he picks up wickets with his variations.																	
+Wayne Madsen	Batsman	Italy																						
+ Marcus Campopiano	Wicket Keeper	Italy																						
+ Gian Piero Meade	Wicket Keeper	Italy																						
+ Zain Ali	All-rounder	Italy																						
+ Ali Hasan	Bowler	Italy																						
+ Crishan Jorge	Bowler	Italy																						
+ Harry Manenti	All-rounder	Italy																						
+ Anthony Mosca	Batsman	Italy																						
+ Justin Mosca	Batsman	Italy																						
+ Syed Naqvi	All-rounder	Italy																						
+ Benjamin Manenti	Bowler	Italy																						
+ Jaspreet Singh	All-rounder	Italy																						
+ JJ Smuts	All-rounder	Italy																						
+ Grant Stewart	Bowler	Italy																						
+ Thomas Draca	Bowler	Italy																						
+Rohit Paudel	All-rounder	Nepal																						
+ Dipendra Singh Airee	All-rounder	Nepal																						
+ Sandeep Lamichhane	Bowler	Nepal																						
+ Kushal Bhurtel	Batsman	Nepal																						
+ Aasif Sheikh	Wicket Keeper	Nepal																						
+ Sundeep Jora	Batsman	Nepal																						
+ Aarif Sheikh	All-rounder	Nepal																						
+ Basir Ahamad	Bowler	Nepal																						
+ Sompal Kami	All-rounder	Nepal																						
+ Karan KC	All-rounder	Nepal																						
+ Nandan Yadav	All-rounder	Nepal																						
+ Gulshan Jha	Bowler	Nepal																						
+ Lalit Rajbanshi	Bowler	Nepal																						
+ Sher Malla	Bowler	Nepal																						
+ Lokesh Bam	Wicket Keeper	Nepal																						
+Richie Berrington 	All-rounder	Scotland																						
+ Tom Bruce	All-rounder	Scotland																						
+ Matthew Cross	Wicket Keeper	Scotland																						
+ Bradley Currie	Bowler	Scotland																						
+ Oliver Davidson	Bowler	Scotland																						
+ Chris Greaves	Bowler	Scotland																						
+ Zainullah Ihsan	Bowler	Scotland																						
+ Michael Jones	Batsman	Scotland																						
+ Michael Leask	All-rounder	Scotland																						
+ Finlay McCreath	All-rounder	Scotland																						
+ Brandon McMullen	All-rounder	Scotland																						
+ George Munsey	Batsman	Scotland																						
+ Safyaan Sharif	Bowler	Scotland																						
+ Mark Watt	Bowler	Scotland																						
+ Bradley Wheal	Bowler	Scotland																						
+Aiden Markram	Batsman	South Africa	1	2	🛡️ BHAROSEMAND	$9.00 	Captain Cool! Classy batter who can anchor the ship and bowl handy off-spin. He is like Daal-Chawal—always a good choice.																	
+ Corbin Bosch	All-rounder	South Africa	1	2	⛔ REHNE DO	$0.50 	A bits-and-pieces player who hasn't shown enough spark for the big stage yet. Keep scrolling.																	
+ Dewald Brevis	Batsman	South Africa	1	2	🎲 RISK HAI TOH ISHQ HAI	$3.00 	"Baby AB"! He plays shots that defy physics, but sometimes forgets to play the ones that defy getting out. Huge potential, huge risk.																	
+ Quinton de Kock	Wicket Keeper	South Africa	1	2	🛡️ BHAROSEMAND	$11.50 	When QDK is in the mood, bowlers look for hiding spots. He loves Asian conditions and guarantees explosive starts.																	
+ Marco Jansen	All-rounder	South Africa	1	2	🛡️ BHAROSEMAND	$13.50 	The skyscraper! He gets bounce where there is none and hits sixes effortlessly. A complete T20 package you must have.																	
+ George Linde	All-rounder	South Africa	1	2	⛔ REHNE DO	$1.00 	A decent left-arm spinner, but in a pool full of superstars, he is just "okay." You want "wow," not "okay."																	
+ Keshav Maharaj	Bowler	South Africa	1	2	🦊 CHHUPA RUSTAM	$5.50 	The silent assassin. He bowls in the powerplay, dries up runs, and frustrates batters into mistakes. Very smart buy.																	
+ Kwena Maphaka	Bowler	South Africa	1	2	🦊 CHHUPA RUSTAM	$3.00 	The 17-year-old speedster! Fast, furious, and fearless. He is the X-factor rookie who could surprise everyone.																	
+ David Miller	Batsman	South Africa	1	2	🛡️ BHAROSEMAND	$8.00 	"Killer Miller"! If it's in the arc, it's out of the park. Experienced finisher who knows how to win tight games.																	
+ Lungi Ngidi	Bowler	South Africa	1	2	🎲 RISK HAI TOH ISHQ HAI	$2.50 	He has good slower ones, but on a bad day, he leaks runs like a broken tap. Middle-overs gamble.																	
+ Anrich Nortje	Bowler	South Africa	1	2	🎲 RISK HAI TOH ISHQ HAI	$5.00 	Raw Speed! He bowls rockets, but sometimes rockets travel to the boundary very fast. Coming back from injuries, so handle with care.																	
+ Kagiso Rabada	Bowler	South Africa	1	2	🛡️ BHAROSEMAND	$12.50 	Rabada ka Wada! Pace, precision, and passion. He is the leader of the pack and a guaranteed wicket-taker.																	
+ Ryan Rickelton	Wicket Keeper	South Africa	1	2	🦊 CHHUPA RUSTAM	$4.00 	Have you seen his form in SA20? He is hitting everything! A brilliant budget option if you miss out on QDK.																	
+ Jason Smith	Batsman	South Africa	1	2	⛔ REHNE DO	$0.50 	A fringe player. Unless you are his cousin, there is no strategic reason to bid for him here.																	
+ Tristan Stubbs	Wicket Keeper	South Africa	1	2	🦊 CHHUPA RUSTAM	$6.50 	The young finisher! He hits long balls and keeps wickets. A rare commodity who is rapidly becoming a superstar. Buy him before he becomes unaffordable.																	
+Mitchell Santner	All-rounder	New Zealand	1	2	🦊 CHHUPA RUSTAM	$6.50 	The Glasses-wearing Genius! He varies his pace so well that batters fall asleep and get out. Extremely economical.																	
+ Finn Allen	Batsman	New Zealand	1	2	🎲 RISK HAI TOH ISHQ HAI	$5.50 	He hits the ball to the moon or returns to the pavilion in the first over. Frustrating, but if he clicks, you win in the powerplay.																	
+ Michael Bracewell	All-rounder	New Zealand	1	2	🦊 CHHUPA RUSTAM	$5.00 	"The Beast"! He bowls tight off-spin and murders the ball in the death overs. Highly underrated asset.																	
+ Mark Chapman	Batsman	New Zealand	1	2	🎲 RISK HAI TOH ISHQ HAI	$2.50 	A solid middle-order player who plays spin nicely. Flies under the radar, but gets the job done quietly.																	
+ Devon Conway	Wicket Keeper	New Zealand	1	2	🛡️ BHAROSEMAND	$11.50 	Mr. Consistent. He sweeps, he cuts, he anchors. The perfect bankable batter for subcontinent pitches.																	
+ Jacob Duffy	Bowler	New Zealand	1	2	⛔ REHNE DO	$0.50 	A domestic giant in NZ, but hasn't translated that to international dominance. Bench warmer.																	
+ Lockie Ferguson	Bowler	New Zealand	1	2	🎲 RISK HAI TOH ISHQ HAI	$5.50 	Express pace! He is a Ferrari engine in a fragile body. If he plays, he takes wickets; if he doesn't, he takes up a slot.																	
+ Matt Henry	Bowler	New Zealand	1	2	🛡️ BHAROSEMAND	$8.50 	A new-ball wizard. If there is a hint of movement, he will find the edge. Reliable wicket-taker upfront.																	
+ Kyle Jamieson	Bowler	New Zealand	1	2	⛔ REHNE DO	$1.50 	Too tall for his own good? Struggles with injuries and his length can be easy pickings on slow, low tracks.																	
+ Daryl Mitchell	All-rounder	New Zealand	1	2	🛡️ BHAROSEMAND	$9.50 	The Crisis Man. When the team is in trouble, he stands tall. Hits spin down the ground with immense power.																	
+ James Neesham	All-rounder	New Zealand	1	2	🎲 RISK HAI TOH ISHQ HAI	$3.00 	The freelancer! He can win you a match with a 15-ball cameo, but consistency is his biggest enemy.																	
+ Glenn Phillips	All-rounder	New Zealand	1	2	🛡️ BHAROSEMAND	$7.50 	A live wire! He keeps, bowls spin, fields like a leopard, and bats like a beast. The ultimate utility player.																	
+ Rachin Ravindra	All-rounder	New Zealand	1	2	🛡️ BHAROSEMAND	$12.00 	The Golden Boy! He plays spin beautifully (it's in the name!). A top-order batter who gives you 4 overs. Gold.																	
+ Tim Seifert	Wicket Keeper	New Zealand	1	2	🎲 RISK HAI TOH ISHQ HAI	$2.50 	Cheeky shots galore! He loves the scoop and reverse sweep. Good backup keeper option against spin.																	
+ Ish Sodhi	Bowler	New Zealand	1	2	🎲 RISK HAI TOH ISHQ HAI	$3.50 	Tall leggie who gets bounce. He can be expensive, but he always buys a wicket or two.																	
+Rashid Khan	All-rounder	Afghanistan	1	1	💰 TIJORI TOD	$19.00 	The MVP of the Universe. He doesn't just take wickets; he psychologically damages the opposition. Bat, bowl, field—he does it all.																	
+ Noor Ahmad	Bowler	Afghanistan	1	1	🛡️ BHAROSEMAND	$8.50 	The Sorcerer's Apprentice! Left-arm wrist spin is rarer than a diamond. Batters have no clue which way it's going.																	
+ Abdullah Ahmadzai	Bowler	Afghanistan	1	1	⛔ REHNE DO	$0.50 	A standard seamer. In a team full of mystery spinners, he is just filling the numbers.																	
+ Sediqullah Atal	Batsman	Afghanistan	1	1	⛔ REHNE DO	$0.50 	Young talent, but too raw for this level of competition. Let him cook in domestic cricket first.																	
+ Fazalhaq Farooqi	Bowler	Afghanistan	1	1	🦊 CHHUPA RUSTAM	$6.50 	The Powerplay Destroyer! He swings it back into the right-handers and often kills the contest in the first 6 overs.																	
+ Rahmanullah Gurbaz	Wicket Keeper	Afghanistan	1	1	🛡️ BHAROSEMAND	$9.00 	Fire and Ice (mostly fire). He attacks from ball one. A dangerous opener who can take the game away in minutes.																	
+ Naveen Ul Haq	Bowler	Afghanistan	1	1	🦊 CHHUPA RUSTAM	$5.50 	The Master of Slower Balls. He has so many variations that even the batter gets confused. Clutch death bowler.																	
+ Mohammad Ishaq	Wicket Keeper	Afghanistan	1	1	⛔ REHNE DO	$0.50 	A backup keeper without the batting credentials to demand a spot. Pass.																	
+ Shahidullah Kamal	All-rounder	Afghanistan	1	1	⛔ REHNE DO	$0.50 	A squad player. Doesn't have the impact to be in your fantasy XI.																	
+ Mohammad Nabi	All-rounder	Afghanistan	1	1	🎲 RISK HAI TOH ISHQ HAI	$3.00 	The President! Vast experience, safe hands, and cool head. But age is catching up, and the strike rate is dipping.																	
+ Gulbadin Naib	All-rounder	Afghanistan	1	1	🎲 RISK HAI TOH ISHQ HAI	$2.50 	The Muscle Man! He flexes his biceps and hits big shots. A "vibes" based player who can be a match-winner on his day.																	
+ Azmatullah Omarzai	All-rounder	Afghanistan	1	1	🦊 CHHUPA RUSTAM	$6.50 	A Gem! He swings the new ball and hits it miles with the bat. A proper, high-quality all-rounder who balances the side.																	
+ Mujeeb Ur Rahman	Bowler	Afghanistan	1	1	🎲 RISK HAI TOH ISHQ HAI	$4.00 	The Mystery is there, but so are the fitness issues. If he plays, he is dangerous. If he is injured, he is expensive bench strength.																	
+ Darwish Rasooli	Batsman	Afghanistan	1	1	⛔ REHNE DO	$0.50 	Hasn't shown enough impact at the international level yet. Skip.																	
+ Ibrahim Zadran	Batsman	Afghanistan	1	1	🛡️ BHAROSEMAND	$6.50 	The Anchor. Technically solid as a rock. He holds one end up while the others go "Bang Bang."																	
+Dilpreet Bajwa (c)	All-rounder	Canada																						
+ Ajayveer Hundal	All-rounder	Canada																						
+ Ansh Patel	All-rounder	Canada																						
+ Dilon Heyliger	Bowler	Canada																						
+ Harsh Thaker	All-rounder	Canada																						
+ Jaskarandeep Buttar	Bowler	Canada																						
+ Kaleem Sana	Bowler	Canada																						
+ Kanwarpal Tathgur	Batsman	Canada																						
+ Navneet Dhaliwal	All-rounder	Canada																						
+ Nicholas Kirton	All-rounder	Canada																						
+ Ravinderpal Singh	Batsman	Canada																						
+ Saad Bin Zafar	All-rounder	Canada																						
+ Shivam Sharma	Bowler	Canada																						
+ Shreyas Movva	Wicket Keeper	Canada																						
+ Yuvraj Samra	Batsman	Canada																						
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
