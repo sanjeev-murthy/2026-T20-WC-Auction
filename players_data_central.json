@@ -3278,7 +3278,7 @@
   {
     "name": "Quentin Sampson",
     "country": "West Indies",
-    "squad": "GROUP A",
+    "squad": "GROUP C",
     "role": "All-rounder",
     "rating": "🎲 RISK HAI TOH ISHQ HAI",
     "priceTarget": "2.0",
@@ -3286,12 +3286,12 @@
     "espncricinfo": "https://www.espncricinfo.com/",
     "basePrice": "1.00",
     "lot": "Lot 1",
-    "flagCode": ""
+    "flagCode": "bb"
   },
   {
     "name": "Jayden Seales",
     "country": "West Indies",
-    "squad": "GROUP A",
+    "squad": "GROUP C",
     "role": "Bowler",
     "rating": "🎲 RISK HAI TOH ISHQ HAI",
     "priceTarget": "3.0",
@@ -3299,7 +3299,7 @@
     "espncricinfo": "https://www.espncricinfo.com/",
     "basePrice": "1.00",
     "lot": "Lot 1",
-    "flagCode": ""
+    "flagCode": "bb"
   },
   {
     "name": "Romario Shepherd",
@@ -3473,7 +3473,7 @@
   {
     "name": "Ryan Rickelton",
     "country": "South Africa",
-    "squad": "GROUP A",
+    "squad": "GROUP D",
     "role": "Wicket Keeper",
     "rating": "🦊 CHHUPA RUSTAM",
     "priceTarget": "4.0",
@@ -3481,12 +3481,12 @@
     "espncricinfo": "https://www.espncricinfo.com/",
     "basePrice": "1.00",
     "lot": "Lot 1",
-    "flagCode": ""
+    "flagCode": "za"
   },
   {
     "name": "Jason Smith",
     "country": "South Africa",
-    "squad": "GROUP A",
+    "squad": "GROUP D",
     "role": "Batsman",
     "rating": "⛔ REHNE DO",
     "priceTarget": "0.5",
@@ -3494,12 +3494,12 @@
     "espncricinfo": "https://www.espncricinfo.com/",
     "basePrice": "0.50",
     "lot": "Lot 1",
-    "flagCode": ""
+    "flagCode": "za"
   },
   {
     "name": "Tristan Stubbs",
     "country": "South Africa",
-    "squad": "GROUP A",
+    "squad": "GROUP D",
     "role": "Wicket Keeper",
     "rating": "🦊 CHHUPA RUSTAM",
     "priceTarget": "6.5",
@@ -3507,7 +3507,7 @@
     "espncricinfo": "https://www.espncricinfo.com/",
     "basePrice": "1.00",
     "lot": "Lot 1",
-    "flagCode": ""
+    "flagCode": "za"
   },
   {
     "name": "Rashid Khan",
@@ -3590,7 +3590,7 @@
   {
     "name": "Naveen Ul Haq",
     "country": "Afghanistan",
-    "squad": "GROUP A",
+    "squad": "GROUP D",
     "role": "Bowler",
     "rating": "🦊 CHHUPA RUSTAM",
     "priceTarget": "5.5",
@@ -3598,7 +3598,7 @@
     "espncricinfo": "https://www.espncricinfo.com/",
     "basePrice": "1.00",
     "lot": "Lot 1",
-    "flagCode": ""
+    "flagCode": "af"
   },
   {
     "name": "Mohammad Ishaq",
