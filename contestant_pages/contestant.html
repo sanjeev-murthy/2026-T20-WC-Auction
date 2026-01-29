@@ -106,19 +106,14 @@
         else counts.Batsman++;
       });
 
-      // Assuming each contestant may buy up to 10 of each role
-      const maxPerRole = 10;
-      const left = {
-        Batsman: Math.max(0, maxPerRole - counts.Batsman),
-        Bowler: Math.max(0, maxPerRole - counts.Bowler),
-        AR: Math.max(0, maxPerRole - counts.AR),
-        WK: Math.max(0, maxPerRole - counts.WK)
-      };
+      // Max 25 players total per squad
+      const maxPlayers = 25;
+      const playersLeft = Math.max(0, maxPlayers - squad.length);
 
-      document.getElementById('countsChip').innerText = `Left - Batsman: ${left.Batsman}, Bowler: ${left.Bowler}, AR: ${left.AR}, WK: ${left.WK}`;
+      document.getElementById('countsChip').innerText = `Players left: ${playersLeft}`;
       document.getElementById('pointsChip').innerText = `Total points: ${totalPoints.toFixed(1)}`;
-      const purseLeft = Math.max(0, 200 - totalPrice);
-      document.getElementById('purseChip').innerText = `Purse left (from 200): ${purseLeft.toFixed(1)}`;
+      const purseLeft = Math.max(0, 100 - totalPrice);
+      document.getElementById('purseChip').innerText = `Purse left (from 100): ${purseLeft.toFixed(1)}`;
 
       document.getElementById('tableWrap').style.display = '';
       document.getElementById('meta').innerText = `${squad.length} players loaded`;

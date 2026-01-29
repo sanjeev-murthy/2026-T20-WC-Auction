@@ -1,746 +1,605 @@
 {
-  "Anand": {
-    "squad": [
-      {
-        "name": "K Williamson",
-        "role": "Batsman",
-        "points": 21.0,
-        "price": 15.2
-      },
-      {
-        "name": "D Conway",
-        "role": "WK",
-        "points": -1.0,
-        "price": 15.5
-      },
-      {
-        "name": "M Jansen",
-        "role": "AR",
-        "points": 50.0,
-        "price": 9.0
-      },
-      {
-        "name": "S Johnson",
-        "role": "Bowler",
-        "points": 5.0,
-        "price": 8.5
-      },
-      {
-        "name": "I Zadran",
-        "role": "Batsman",
-        "points": 9.0,
-        "price": 5.0
-      },
-      {
-        "name": "H shahidi",
-        "role": "Bowler",
-        "points": 0,
-        "price": 8.5
-      },
-      {
-        "name": "N Ahmad",
-        "role": "Bowler",
-        "points": 26.0,
-        "price": 7.0
-      },
-      {
-        "name": "N Kharote",
-        "role": "AR",
-        "points": 0,
-        "price": 1.6
-      },
-      {
-        "name": "N Zadran",
-        "role": "Bowler",
-        "points": 0,
-        "price": 1.5
-      },
-      {
-        "name": "F Ahmad",
-        "role": "Bowler",
-        "points": 0,
-        "price": 1.0
-      },
-      {
-        "name": "T Sangha",
-        "role": "Bowler",
-        "points": 0,
-        "price": 1.5
-      },
-      {
-        "name": "Tanzid Hasan",
-        "role": "Batsman",
-        "points": 53.0,
-        "price": 4.5
-      },
-      {
-        "name": "T Ahmed",
-        "role": "Bowler",
-        "points": 43.0,
-        "price": 6.5
-      },
-      {
-        "name": "D Miller",
-        "role": "Batsman",
-        "points": 6.0,
-        "price": 10.5
-      },
-      {
-        "name": "G Atkinson",
-        "role": "Bowler",
-        "points": 0,
-        "price": 1.5
-      }
-    ]
-  },
-  "Balajee": {
-    "squad": [
-      {
-        "name": "V Kohli",
-        "role": "Batsman",
-        "points": 29.0,
-        "price": 11.1
-      },
-      {
-        "name": "J Inglis",
-        "role": "WK",
-        "points": 271.0,
-        "price": 5.0
-      },
-      {
-        "name": "R Jadeja",
-        "role": "AR",
-        "points": 15.0,
-        "price": 15.5
-      },
-      {
-        "name": "M Henry",
-        "role": "Bowler",
-        "points": 100.0,
-        "price": 10.0
-      },
-      {
-        "name": "R Sharma",
-        "role": "Batsman",
-        "points": 75.0,
-        "price": 16.5
-      },
-      {
-        "name": "M Bracewell",
-        "role": "AR",
-        "points": 75.0,
-        "price": 8.5
-      },
-      {
-        "name": "N Smith",
-        "role": "AR",
-        "points": 25.0,
-        "price": 2.5
-      },
-      {
-        "name": "W Sundar",
-        "role": "AR",
-        "points": 0,
-        "price": 3.0
-      },
-      {
-        "name": "N Ellis",
-        "role": "Bowler",
-        "points": 30.0,
-        "price": 4.0
-      },
-      {
-        "name": "Lockie Ferguson",
-        "role": "Bowler",
-        "points": 0,
-        "price": 1.0
-      },
-      {
-        "name": "N Hossain",
-        "role": "AR",
-        "points": 0,
-        "price": 2.0
-      },
-      {
-        "name": "M Short",
-        "role": "Batsman",
-        "points": 116.0,
-        "price": 6.0
-      },
-      {
-        "name": "J F McGurk",
-        "role": "Batsman",
-        "points": 0,
-        "price": 5.0
-      }
-    ]
-  },
-  "Devesh": {
-    "squad": [
-      {
-        "name": "T Bavuma",
-        "role": "Batsman",
-        "points": 98.0,
-        "price": 7.0
-      },
-      {
-        "name": "H Klaasen",
-        "role": "WK",
-        "points": 0,
-        "price": 13.5
-      },
-      {
-        "name": "A Patel",
-        "role": "AR",
-        "points": 95.0,
-        "price": 21.0
-      },
-      {
-        "name": "A Ahmad",
-        "role": "Bowler",
-        "points": 40.0,
-        "price": 1.0
-      },
-      {
-        "name": "J Buttler",
-        "role": "WK",
-        "points": 70.0,
-        "price": 13.0
-      },
-      {
-        "name": "L ngidi",
-        "role": "Bowler",
-        "points": 65.0,
-        "price": 8.0
-      },
-      {
-        "name": "S Shakeel",
-        "role": "AR",
-        "points": -14.0,
-        "price": 5.0
-      },
-      {
-        "name": "R Shah",
-        "role": "AR",
-        "points": 163.0,
-        "price": 4.5
-      },
-      {
-        "name": "Tanzim Hasan",
-        "role": "Batsman",
-        "points": -5.0,
-        "price": 4.5
-      },
-      {
-        "name": "S Sarkar",
-        "role": "AR",
-        "points": 0,
-        "price": 8.0
-      },
-      {
-        "name": "W Young",
-        "role": "Batsman",
-        "points": 186.0,
-        "price": 5.0
-      },
-      {
-        "name": "Akif Javed",
-        "role": "Bowler",
-        "points": 0,
-        "price": 1.5
-      },
-      {
-        "name": "I Alikhil",
-        "role": "WK",
-        "points": 0,
-        "price": 2.3
-      }
-    ]
-  },
   "Gogu": {
     "squad": [
       {
-        "name": "S Iyer",
-        "role": "Batsman",
-        "points": 19.0,
-        "price": 17.5
-      },
-      {
-        "name": "M Rahim",
-        "role": "WK",
-        "points": -10.0,
-        "price": 0
-      },
-      {
-        "name": "G Maxwell",
+        "name": "George Linde",
+        "country": "South Africa",
         "role": "AR",
-        "points": 120.0,
+        "points": "0",
+        "price": 6
+      },
+      {
+        "name": "Shahidullah Kamal",
+        "country": "Afghanistan",
+        "role": "AR",
+        "points": "0",
+        "price": 1
+      },
+      {
+        "name": "Washington Sundar",
+        "country": "India",
+        "role": "AR",
+        "points": "0",
+        "price": 4.5
+      },
+      {
+        "name": "Paul van Meekeren",
+        "country": "Netherlands",
+        "role": "Bowler",
+        "points": "0",
+        "price": 2.5
+      },
+      {
+        "name": "Tilak Varma",
+        "country": "India",
+        "role": "Batsman",
+        "points": "0",
+        "price": 16
+      },
+      {
+        "name": "David Miller",
+        "country": "South Africa",
+        "role": "Batsman",
+        "points": "0",
+        "price": 6
+      },
+      {
+        "name": "Shimron Hetmyer",
+        "country": "West Indies",
+        "role": "Batsman",
+        "points": "0",
         "price": 12.5
       },
       {
-        "name": "N Shah",
+        "name": "Varun Chakravarthy",
+        "country": "India",
         "role": "Bowler",
-        "points": 73.0,
-        "price": 9.5
+        "points": "0",
+        "price": 21
       },
       {
-        "name": "R Ravindra",
-        "role": "AR",
-        "points": 0,
-        "price": 2.0
-      },
-      {
-        "name": "Fakhar Zaman",
+        "name": "Rinku Singh",
+        "country": "India",
         "role": "Batsman",
-        "points": 27.0,
-        "price": 11.5
-      },
-      {
-        "name": "Mahmudullah",
-        "role": "AR",
-        "points": 0,
-        "price": 6.0
-      },
-      {
-        "name": "G Naib",
-        "role": "AR",
-        "points": 7.0,
-        "price": 6.5
-      },
-      {
-        "name": "A Zampa",
-        "role": "Bowler",
-        "points": 65.0,
-        "price": 11.0
-      },
-      {
-        "name": "M Wood",
-        "role": "Bowler",
-        "points": 30.0,
-        "price": 3.5
-      },
-      {
-        "name": "M hasnain",
-        "role": "Bowler",
-        "points": 0,
-        "price": 2.5
-      },
-      {
-        "name": "R Pant",
-        "role": "WK",
-        "points": 0,
-        "price": 2.0
-      },
-      {
-        "name": "J Smith",
-        "role": "AR",
-        "points": 21.0,
-        "price": 2.5
-      },
-      {
-        "name": "U Khan",
-        "role": "WK",
-        "points": 0,
-        "price": 1.5
+        "points": "0",
+        "price": 6
       }
     ]
   },
-  "Maddy": {
+  "Anand": {
     "squad": [
       {
-        "name": "B Duckett",
-        "role": "Batsman",
-        "points": 284.0,
-        "price": 6.5
-      },
-      {
-        "name": "KL Rahul",
-        "role": "WK",
-        "points": 73.0,
-        "price": 11.5
-      },
-      {
-        "name": "G Phillips",
-        "role": "AR",
-        "points": 162.0,
-        "price": 15.5
-      },
-      {
-        "name": "K Maharaj",
+        "name": "Ben White",
+        "country": "Ireland",
         "role": "Bowler",
-        "points": 50.0,
-        "price": 9.5
-      },
-      {
-        "name": "A Salman",
-        "role": "Batsman",
-        "points": 109.0,
-        "price": 0
-      },
-      {
-        "name": "N Ahmed",
-        "role": "AR",
-        "points": 0,
+        "points": "0",
         "price": 1.5
       },
       {
-        "name": "J Overton",
-        "role": "AR",
-        "points": 0,
-        "price": 6.0
-      },
-      {
-        "name": "V Chakravarthy",
-        "role": "Bowler",
-        "points": 0,
-        "price": 6.0
-      },
-      {
-        "name": "H Rana",
-        "role": "Bowler",
-        "points": 105.0,
-        "price": 1.0
-      },
-      {
-        "name": "S Mahmood",
-        "role": "Bowler",
-        "points": 0,
-        "price": 2.0
-      },
-      {
-        "name": "M Rahman",
-        "role": "Bowler",
-        "points": 30.0,
-        "price": 4.5
-      },
-      {
-        "name": "T Hridoy",
+        "name": "Suryakumar Yadav",
+        "country": "India",
         "role": "Batsman",
-        "points": 152.0,
-        "price": 2.5
+        "points": "0",
+        "price": 19.5
       },
       {
-        "name": "M Rizwan",
-        "role": "Batsman",
-        "points": 13.0,
-        "price": 0
-      },
-      {
-        "name": "T Stubbs",
-        "role": "WK",
-        "points": 0,
-        "price": 6.0
-      }
-    ]
-  },
-  "Murthy": {
-    "squad": [
-      {
-        "name": "S Gill",
-        "role": "Batsman",
-        "points": 204.0,
-        "price": 15.2
-      },
-      {
-        "name": "A Carey",
-        "role": "WK",
-        "points": 155.0,
-        "price": 8.5
-      },
-      {
-        "name": "D Mitchell",
+        "name": "Jason Holder",
+        "country": "West Indies",
         "role": "AR",
-        "points": 0,
-        "price": 10.5
-      },
-      {
-        "name": "W O Rourke",
-        "role": "Bowler",
-        "points": 100.0,
-        "price": 7.0
-      },
-      {
-        "name": "M Hasan",
-        "role": "Batsman",
-        "points": 27.0,
-        "price": 4.5
-      },
-      {
-        "name": "R Khan",
-        "role": "AR",
-        "points": 39.0,
-        "price": 9.5
-      },
-      {
-        "name": "A Rashid",
-        "role": "Bowler",
-        "points": 51.0,
-        "price": 13.5
-      },
-      {
-        "name": "S Afridi",
-        "role": "Bowler",
-        "points": 34.0,
-        "price": 8.5
-      },
-      {
-        "name": "T Shamsi",
-        "role": "Bowler",
-        "points": 0,
-        "price": 5.0
-      },
-      {
-        "name": "F Farooqi",
-        "role": "Bowler",
-        "points": 30.0,
-        "price": 6.5
-      },
-      {
-        "name": "J Root",
-        "role": "Batsman",
-        "points": 91.0,
-        "price": 14.5
-      },
-      {
-        "name": "T de Zorzi",
-        "role": "Batsman",
-        "points": 15.0,
-        "price": 3.0
-      },
-      {
-        "name": "S Atal",
-        "role": "Batsman",
-        "points": 15.0,
-        "price": 0
-      },
-      {
-        "name": "F Ashraf",
-        "role": "AR",
-        "points": 10.0,
-        "price": 1.0
-      }
-    ]
-  },
-  "Shenoy": {
-    "squad": [
-      {
-        "name": "T Head",
-        "role": "Batsman",
-        "points": 8.0,
-        "price": 7.1
-      },
-      {
-        "name": "R Gurbaz",
-        "role": "WK",
-        "points": 22.0,
-        "price": 0
-      },
-      {
-        "name": "L Livingstone",
-        "role": "AR",
-        "points": 49.0,
-        "price": 6.5
-      },
-      {
-        "name": "M Shami",
-        "role": "Bowler",
-        "points": 185.0,
-        "price": 9.0
-      },
-      {
-        "name": "A Markram",
-        "role": "Batsman",
-        "points": 129.0,
-        "price": 9.5
-      },
-      {
-        "name": "R v d Dussen",
-        "role": "Batsman",
-        "points": 108.0,
-        "price": 4.0
-      },
-      {
-        "name": "T tahir",
-        "role": "Batsman",
-        "points": 1.0,
-        "price": 3.5
-      },
-      {
-        "name": "M Labuschagne",
-        "role": "Batsman",
-        "points": 152.0,
-        "price": 3.5
-      },
-      {
-        "name": "P Hossain",
-        "role": "AR",
-        "points": 0,
-        "price": 2.0
-      },
-      {
-        "name": "J Ali",
-        "role": "Batsman",
-        "points": 81.0,
-        "price": 0
-      },
-      {
-        "name": "T Banton",
-        "role": "WK",
-        "points": 0,
-        "price": 2.0
-      },
-      {
-        "name": "M Nabi",
-        "role": "AR",
-        "points": 58.0,
-        "price": 7.0
-      },
-      {
-        "name": "M Chapman",
-        "role": "AR",
-        "points": 0,
-        "price": 1.0
-      },
-      {
-        "name": "W Mulder",
-        "role": "AR",
-        "points": 94.0,
-        "price": 1.0
-      },
-      {
-        "name": "A Hardie",
-        "role": "AR",
-        "points": 0,
-        "price": 3.4
-      },
-      {
-        "name": "A Omarzai",
-        "role": "AR",
-        "points": 49.0,
-        "price": 6.5
-      },
-      {
-        "name": "K Shah",
-        "role": "AR",
-        "points": 154.0,
-        "price": 3.0
-      },
-      {
-        "name": "B Carse",
-        "role": "AR",
-        "points": 23.0,
-        "price": 1.5
-      },
-      {
-        "name": "S Abbott",
-        "role": "AR",
-        "points": 0,
-        "price": 5.0
-      },
-      {
-        "name": "K Ghulam",
-        "role": "AR",
-        "points": 0,
-        "price": 1.0
-      },
-      {
-        "name": "C Bosch",
-        "role": "AR",
-        "points": 0,
-        "price": 1.0
-      },
-      {
-        "name": "R Hossain",
-        "role": "AR",
-        "points": 130.0,
-        "price": 2.0
-      },
-      {
-        "name": "J Archer",
-        "role": "Bowler",
-        "points": 110.0,
-        "price": 5.5
-      }
-    ]
-  },
-  "Tarang": {
-    "squad": [
-      {
-        "name": "S Smith",
-        "role": "Batsman",
-        "points": 7.0,
-        "price": 10.5
-      },
-      {
-        "name": "T Latham",
-        "role": "WK",
-        "points": 258.0,
-        "price": 5.5
-      },
-      {
-        "name": "H Pandya",
-        "role": "AR",
-        "points": 20.0,
-        "price": 13.0
-      },
-      {
-        "name": "K Yadav",
-        "role": "Bowler",
-        "points": 15.0,
+        "points": "0",
         "price": 7.5
       },
       {
-        "name": "R Rickelton",
-        "role": "WK",
-        "points": 227.0,
-        "price": 14.0
-      },
-      {
-        "name": "P salt",
-        "role": "WK",
-        "points": 17.0,
-        "price": 15.0
-      },
-      {
-        "name": "M Santner",
-        "role": "AR",
-        "points": 95.0,
-        "price": 12.5
-      },
-      {
-        "name": "J Duffy",
+        "name": "Barry McCarthy",
+        "country": "Ireland",
         "role": "Bowler",
-        "points": 0,
-        "price": 7.0
+        "points": "0",
+        "price": 1.5
       },
       {
-        "name": "H Brook",
+        "name": "Nicole Loftie-Eaton",
+        "country": "Namibia",
+        "role": "WK",
+        "points": "0",
+        "price": 1
+      },
+      {
+        "name": "Sediqullah Atal",
+        "country": "Afghanistan",
         "role": "Batsman",
-        "points": 3.0,
-        "price": 11.0
-      },
-      {
-        "name": "B Dwarshuis",
-        "role": "Bowler",
-        "points": 95.0,
-        "price": 3.0
+        "points": "0",
+        "price": 6.5
       }
     ]
   },
   "Ankit": {
     "squad": [
       {
-        "name": "B Azam",
-        "role": "Batsman",
-        "points": 91.0,
-        "price": 0
+        "name": "Glenn Phillips",
+        "country": "New Zealand",
+        "role": "AR",
+        "points": "0",
+        "price": 23
       },
       {
-        "name": "H Rauf",
+        "name": "Timm van der Gugten",
+        "country": "Netherlands",
+        "role": "AR",
+        "points": "0",
+        "price": 0.8
+      },
+      {
+        "name": "Marco Jansen",
+        "country": "South Africa",
+        "role": "AR",
+        "points": "0",
+        "price": 25
+      },
+      {
+        "name": "Azmatullah Omarzai",
+        "country": "Afghanistan",
+        "role": "AR",
+        "points": "0",
+        "price": 16
+      },
+      {
+        "name": "Jasprit Bumrah",
+        "country": "India",
         "role": "Bowler",
-        "points": 99.0,
-        "price": 0
+        "points": "0",
+        "price": 30
+      },
+      {
+        "name": "WP Myburgh",
+        "country": "Namibia",
+        "role": "Bowler",
+        "points": "0",
+        "price": 0.5
+      },
+      {
+        "name": "Ben Shikongo",
+        "country": "Namibia",
+        "role": "Bowler",
+        "points": "0",
+        "price": 0.5
+      },
+      {
+        "name": "Quentin Sampson",
+        "country": "West Indies",
+        "role": "AR",
+        "points": "0",
+        "price": 1
+      },
+      {
+        "name": "Malan Kruger",
+        "country": "Namibia",
+        "role": "Batsman",
+        "points": "0",
+        "price": 0.5
       }
     ]
+  },
+  "Herit": {
+    "squad": [
+      {
+        "name": "Sherfane Rutherford",
+        "country": "West Indies",
+        "role": "AR",
+        "points": "0",
+        "price": 12.5
+      },
+      {
+        "name": "Mohammad Nabi",
+        "country": "Afghanistan",
+        "role": "AR",
+        "points": "0",
+        "price": 7.5
+      },
+      {
+        "name": "Keshav Maharaj",
+        "country": "South Africa",
+        "role": "Bowler",
+        "points": "0",
+        "price": 12.5
+      },
+      {
+        "name": "Dewald Brevis",
+        "country": "South Africa",
+        "role": "Batsman",
+        "points": "0",
+        "price": 17
+      },
+      {
+        "name": "Kuldeep Yadav",
+        "country": "India",
+        "role": "Bowler",
+        "points": "0",
+        "price": 15.5
+      },
+      {
+        "name": "Zane Green",
+        "country": "Namibia",
+        "role": "WK",
+        "points": "0",
+        "price": 1
+      }
+    ]
+  },
+  "Jagga": {
+    "squad": [
+      {
+        "name": "James Neesham",
+        "country": "New Zealand",
+        "role": "AR",
+        "points": "0",
+        "price": 8
+      },
+      {
+        "name": "Lungi Ngidi",
+        "country": "South Africa",
+        "role": "Bowler",
+        "points": "0",
+        "price": 7.5
+      },
+      {
+        "name": "Mark Chapman",
+        "country": "New Zealand",
+        "role": "Batsman",
+        "points": "0",
+        "price": 7.5
+      },
+      {
+        "name": "Kyle Jamieson",
+        "country": "New Zealand",
+        "role": "Bowler",
+        "points": "0",
+        "price": 4.5
+      },
+      {
+        "name": "Harshit Rana",
+        "country": "India",
+        "role": "Bowler",
+        "points": "0",
+        "price": 16.5
+      }
+    ]
+  },
+  "Maddy": {
+    "squad": [
+      {
+        "name": "Josh Little",
+        "country": "Ireland",
+        "role": "Bowler",
+        "points": "0",
+        "price": 6
+      }
+    ]
+  },
+  "Soham": {
+    "squad": []
+  },
+  "Varad": {
+    "squad": []
+  },
+  "Vinit": {
+    "squad": [
+      {
+        "name": "Gareth Delany",
+        "country": "Ireland",
+        "role": "AR",
+        "points": "0",
+        "price": 3
+      },
+      {
+        "name": "Curtis Campher",
+        "country": "Ireland",
+        "role": "AR",
+        "points": "0",
+        "price": 3.5
+      },
+      {
+        "name": "Rahmanullah Gurbaz",
+        "country": "Afghanistan",
+        "role": "WK",
+        "points": "0",
+        "price": 12
+      },
+      {
+        "name": "Jan Frylinck",
+        "country": "Namibia",
+        "role": "AR",
+        "points": "0",
+        "price": 4
+      },
+      {
+        "name": "Scott Edwards",
+        "country": "Netherlands",
+        "role": "WK",
+        "points": "0",
+        "price": 4.5
+      },
+      {
+        "name": "Shai Hope",
+        "country": "West Indies",
+        "role": "WK",
+        "points": "0",
+        "price": 10.5
+      }
+    ]
+  },
+  "Devesh": {
+    "squad": [
+      {
+        "name": "Jack Brassell",
+        "country": "Namibia",
+        "role": "Bowler",
+        "points": "0",
+        "price": 0.6
+      },
+      {
+        "name": "Ibrahim Zadran",
+        "country": "Afghanistan",
+        "role": "Batsman",
+        "points": "0",
+        "price": 10.5
+      },
+      {
+        "name": "Darwish Rasooli",
+        "country": "Afghanistan",
+        "role": "Batsman",
+        "points": "0",
+        "price": 5.5
+      },
+      {
+        "name": "Paul Stirling",
+        "country": "Ireland",
+        "role": "AR",
+        "points": "0",
+        "price": 9
+      },
+      {
+        "name": "Akeal Hosein",
+        "country": "West Indies",
+        "role": "Bowler",
+        "points": "0",
+        "price": 8
+      },
+      {
+        "name": "Harry Tector",
+        "country": "Ireland",
+        "role": "Batsman",
+        "points": "0",
+        "price": 5.5
+      },
+      {
+        "name": "Jason Smith",
+        "country": "South Africa",
+        "role": "Batsman",
+        "points": "0",
+        "price": 2
+      }
+    ]
+  },
+  "Murthy": {
+    "squad": [
+      {
+        "name": "Aryan Dutt",
+        "country": "Netherlands",
+        "role": "Bowler",
+        "points": "0",
+        "price": 3
+      },
+      {
+        "name": "Bernard Scholtz",
+        "country": "Namibia",
+        "role": "Bowler",
+        "points": "0",
+        "price": 3.5
+      },
+      {
+        "name": "Quinton de Kock",
+        "country": "South Africa",
+        "role": "WK",
+        "points": "0",
+        "price": 19
+      },
+      {
+        "name": "Johnson Charles",
+        "country": "West Indies",
+        "role": "WK",
+        "points": "0",
+        "price": 10
+      },
+      {
+        "name": "Fazalhaq Farooqi",
+        "country": "Afghanistan",
+        "role": "Bowler",
+        "points": "0",
+        "price": 4
+      },
+      {
+        "name": "Hardik Pandya",
+        "country": "India",
+        "role": "AR",
+        "points": "0",
+        "price": 26
+      }
+    ]
+  },
+  "Pranav": {
+    "squad": []
+  },
+  "Shenoy": {
+    "squad": [
+      {
+        "name": "Roston Chase",
+        "country": "West Indies",
+        "role": "AR",
+        "points": "0",
+        "price": 11
+      },
+      {
+        "name": "Jayden Seales",
+        "country": "West Indies",
+        "role": "Bowler",
+        "points": "0",
+        "price": 4
+      },
+      {
+        "name": "Roelof van der Merwe",
+        "country": "Netherlands",
+        "role": "Bowler",
+        "points": "0",
+        "price": 3
+      },
+      {
+        "name": "Max O'Dowd",
+        "country": "Netherlands",
+        "role": "Batsman",
+        "points": "0",
+        "price": 2.5
+      },
+      {
+        "name": "JJ Smit",
+        "country": "Namibia",
+        "role": "AR",
+        "points": "0",
+        "price": 2
+      },
+      {
+        "name": "Gerhard Erasmus",
+        "country": "Namibia",
+        "role": "AR",
+        "points": "0",
+        "price": 5
+      },
+      {
+        "name": "Matthew Forde",
+        "country": "West Indies",
+        "role": "Bowler",
+        "points": "0",
+        "price": 5
+      },
+      {
+        "name": "Fred Klaassen",
+        "country": "Netherlands",
+        "role": "Bowler",
+        "points": "0",
+        "price": 0.9
+      }
+    ]
+  },
+  "Tarang": {
+    "squad": [
+      {
+        "name": "Corbin Bosch",
+        "country": "South Africa",
+        "role": "AR",
+        "points": "0",
+        "price": 8
+      },
+      {
+        "name": "Craig Young",
+        "country": "Ireland",
+        "role": "Bowler",
+        "points": "0",
+        "price": 1
+      },
+      {
+        "name": "Lockie Ferguson",
+        "country": "New Zealand",
+        "role": "Bowler",
+        "points": "0",
+        "price": 2
+      },
+      {
+        "name": "Kagiso Rabada",
+        "country": "South Africa",
+        "role": "Bowler",
+        "points": "0",
+        "price": 17
+      },
+      {
+        "name": "Shivam Dube",
+        "country": "India",
+        "role": "AR",
+        "points": "0",
+        "price": 15
+      },
+      {
+        "name": "Finn Allen",
+        "country": "New Zealand",
+        "role": "Batsman",
+        "points": "0",
+        "price": 7
+      }
+    ]
+  },
+  "Venkat": {
+    "squad": [
+      {
+        "name": "Tim Tector",
+        "country": "Ireland",
+        "role": "Batsman",
+        "points": "0",
+        "price": 1
+      },
+      {
+        "name": "Colin Ackermann",
+        "country": "Netherlands",
+        "role": "AR",
+        "points": "0",
+        "price": 3.5
+      },
+      {
+        "name": "Noor Ahmad",
+        "country": "Afghanistan",
+        "role": "Bowler",
+        "points": "0",
+        "price": 7
+      },
+      {
+        "name": "Anrich Nortje",
+        "country": "South Africa",
+        "role": "Bowler",
+        "points": "0",
+        "price": 5
+      },
+      {
+        "name": "Ish Sodhi",
+        "country": "New Zealand",
+        "role": "Bowler",
+        "points": "0",
+        "price": 9
+      },
+      {
+        "name": "Brandon King",
+        "country": "West Indies",
+        "role": "Batsman",
+        "points": "0",
+        "price": 10.5
+      }
+    ]
+  },
+  "Balajee": {
+    "squad": [
+      {
+        "name": "Noah Croes",
+        "country": "Netherlands",
+        "role": "WK",
+        "points": "0",
+        "price": 0.5
+      },
+      {
+        "name": "Lorcan Tucker",
+        "country": "Ireland",
+        "role": "WK",
+        "points": "0",
+        "price": 2.5
+      }
+    ]
+  },
+  "Vaibhav": {
+    "squad": []
   }
 }
