@@ -520,10 +520,27 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
         <button class="back-btn" onclick="showPage('home')">Dashboard</button>
     </div>
 
-    <div id="points" class="page">
-        <button class="back-btn" onclick="showPage('home')">Dashboard</button>
-        <h2>Points System</h2>
-        <p style="color: var(--text-muted); line-height: 1.6;">Content coming soon...</p>
+<div id="points" class="page">
+    <button class="back-btn" onclick="showPage('home')">Dashboard</button>
+    <h2>Automated Points Processor</h2>
+    
+    <div style="background: rgba(255,255,255,0.05); padding: 25px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 30px;">
+        <h3 style="margin-top:0; color: var(--accent);">1. Paste Raw Scorecard</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">
+            Format: <code>Player Name | Runs | SR | Wickets | Catches | Economy</code> (One per line)
+        </p>
+        <textarea id="rawScorecard" placeholder="Example: Ishan Kishan 53 265 0 2 0.0" 
+            style="width: 100%; height: 180px; background: #0f172a; color: #f8fafc; border: 1px solid var(--border); border-radius: 8px; padding: 12px; font-family: 'Courier New', monospace; font-size: 0.9rem; resize: vertical;"></textarea>
+        
+        <button onclick="processMatchPoints()" 
+            style="margin-top: 15px; padding: 12px 24px; background: var(--success); border: none; color: white; border-radius: 6px; cursor: pointer; font-weight: 700; transition: transform 0.1s;"
+            onmousedown="this.style.transform='scale(0.98)'" onmouseup="this.style.transform='scale(1)'">
+            🚀 Calculate & Update Standings
+        </button>
+    </div>
+
+    <div id="pointResults">
+        </div>
     </div>
 
     <div id="table" class="page">
@@ -563,6 +580,93 @@ fetch('players_data_central.json')
         console.error('❌ Error loading player data:', error);
         allPlayers = [];
     });
+
+// Rules-based Point Engine
+function calculateLogic(stats) {
+    let p = 0;
+    const runs = parseInt(stats.runs) || 0;
+    const sr = parseFloat(stats.sr) || 0;
+    const wickets = parseInt(stats.wickets) || 0;
+    const catches = parseInt(stats.catches) || 0;
+    const econ = parseFloat(stats.econ) || 0;
+    const bowled = stats.isBowler;
+
+    // Batting Rules
+    p += runs; // 1 point per run
+    if (runs > 30 && runs < 50) p += 4; // Bonus 30-50
+    if (runs >= 50) p += 8; // Bonus 50+
+    
+    if (runs > 0) { // Strike Rate Rules
+        if (sr > 130) p += 6;
+        else p -= 6;
+    }
+
+    // Bowling & Fielding Rules
+    p += (wickets * 25);
+    p += (catches * 8);
+
+    // Economy Rules (Only if they bowled)
+    if (bowled) {
+        if (econ < 10) p += 4;
+        if (econ > 12) p -= 4;
+    }
+
+    return p;
+}
+
+async function processMatchPoints() {
+    const rawData = document.getElementById('rawScorecard').value;
+    const lines = rawData.trim().split('\n');
+    let results = [];
+    
+    // Fetch latest contestant data if not already global
+    const response = await fetch('contestant_data.json');
+    let contestants = await response.json();
+
+    lines.forEach(line => {
+        const parts = line.trim().split(/\s+/);
+        if (parts.length >= 5) {
+            // Parser handles names with multiple words (e.g. "Suryakumar Yadav")
+            const econ = parts.pop();
+            const catches = parts.pop();
+            const wickets = parts.pop();
+            const sr = parts.pop();
+            const runs = parts.pop();
+            const name = parts.join(" ");
+
+            const stats = { name, runs, sr, wickets, catches, econ, isBowler: parseFloat(econ) > 0 || wickets > 0 };
+            const earned = calculateLogic(stats);
+
+            // Update the contestant JSON in memory
+            Object.keys(contestants).forEach(owner => {
+                contestants[owner].squad.forEach(player => {
+                    if (player.name.toLowerCase() === name.toLowerCase()) {
+                        player.points = (parseInt(player.points) || 0) + earned;
+                    }
+                });
+            });
+
+            results.push({ ...stats, earned });
+        }
+    });
+
+    renderPointResults(results);
+}
+
+function renderPointResults(results) {
+    let html = `<h3>Match Summary</h3><div class="table-wrapper"><table>
+                <thead><tr><th>Player</th><th>Runs</th><th>Wkts</th><th>Econ</th><th>Points Earned</th></tr></thead><tbody>`;
+    
+    results.forEach(r => {
+        html += `<tr>
+            <td>${r.name}</td><td>${r.runs}</td><td>${r.wickets}</td><td>${r.econ}</td>
+            <td style="color:var(--success); font-weight:700">+${r.earned}</td>
+        </tr>`;
+    });
+    
+    html += `</tbody></table></div><p style="margin-top:15px; color:var(--accent);">⭐ Standings have been updated for all contestants.</p>`;
+    document.getElementById('pointResults').innerHTML = html;
+}
 
 // OFFICIAL ICC T20 WORLD CUP 2026 SCHEDULE (Unchanged Data)
 const tournamentSchedule = [
