@@ -5,7 +5,7 @@
         "name": "George Linde",
         "country": "South Africa",
         "role": "AR",
-        "points": "0",
+        "points": "4",
         "price": 6
       },
       {
@@ -33,7 +33,7 @@
         "name": "Tilak Varma",
         "country": "India",
         "role": "Batsman",
-        "points": "0",
+        "points": "67",
         "price": 16
       },
       {
@@ -61,7 +61,7 @@
         "name": "Rinku Singh",
         "country": "India",
         "role": "Batsman",
-        "points": "0",
+        "points": "14",
         "price": 6
       }
     ]
@@ -79,7 +79,7 @@
         "name": "Suryakumar Yadav",
         "country": "India",
         "role": "Batsman",
-        "points": "0",
+        "points": "48",
         "price": 19.5
       },
       {
@@ -132,7 +132,7 @@
         "name": "Marco Jansen",
         "country": "South Africa",
         "role": "AR",
-        "points": "0",
+        "points": "78",
         "price": 25
       },
       {
@@ -259,7 +259,7 @@
         "name": "Harshit Rana",
         "country": "India",
         "role": "Bowler",
-        "points": "0",
+        "points": "-4",
         "price": 16.5
       }
     ]
@@ -375,7 +375,7 @@
         "name": "Jason Smith",
         "country": "South Africa",
         "role": "Batsman",
-        "points": "0",
+        "points": "49",
         "price": 2
       }
     ]
@@ -421,7 +421,7 @@
         "name": "Hardik Pandya",
         "country": "India",
         "role": "AR",
-        "points": "0",
+        "points": "40",
         "price": 26
       }
     ]
@@ -495,7 +495,7 @@
         "name": "Corbin Bosch",
         "country": "South Africa",
         "role": "AR",
-        "points": "0",
+        "points": "21",
         "price": 8
       },
       {
@@ -523,7 +523,7 @@
         "name": "Shivam Dube",
         "country": "India",
         "role": "AR",
-        "points": "0",
+        "points": "21",
         "price": 15
       },
       {
@@ -562,7 +562,7 @@
         "name": "Anrich Nortje",
         "country": "South Africa",
         "role": "Bowler",
-        "points": "0",
+        "points": "21",
         "price": 5
       },
       {

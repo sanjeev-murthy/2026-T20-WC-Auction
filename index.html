@@ -617,40 +617,50 @@ function calculateLogic(stats) {
 async function processMatchPoints() {
     const rawData = document.getElementById('rawScorecard').value;
     const lines = rawData.trim().split('\n');
-    let results = [];
     
-    // Fetch latest contestant data if not already global
+    // Fetch latest contestant data
     const response = await fetch('contestant_data.json');
     let contestants = await response.json();
 
     lines.forEach(line => {
-        const parts = line.trim().split(/\s+/);
-        if (parts.length >= 5) {
-            // Parser handles names with multiple words (e.g. "Suryakumar Yadav")
-            const econ = parts.pop();
-            const catches = parts.pop();
-            const wickets = parts.pop();
-            const sr = parts.pop();
-            const runs = parts.pop();
-            const name = parts.join(" ");
+        // Expected format: Name | Runs | SR | Wickets | Catches | Economy
+        const parts = line.split(/\s+/);
+        const name = parts[0] + (parts[1] && isNaN(parts[1]) ? " " + parts[1] : ""); // Handle names like 'Ben White'
+        
+        // Find player stats from the line (simplified parsing)
+        const stats = {
+            runs: parts[parts.length-5],
+            sr: parts[parts.length-4],
+            wickets: parts[parts.length-3],
+            catches: parts[parts.length-2],
+            econ: parts[parts.length-1],
+            isBowler: true // This logic should be refined based on your DB
+        };
 
-            const stats = { name, runs, sr, wickets, catches, econ, isBowler: parseFloat(econ) > 0 || wickets > 0 };
-            const earned = calculateLogic(stats);
+        const calculatedPoints = calculateLogic(stats);
 
-            // Update the contestant JSON in memory
-            Object.keys(contestants).forEach(owner => {
-                contestants[owner].squad.forEach(player => {
-                    if (player.name.toLowerCase() === name.toLowerCase()) {
-                        player.points = (parseInt(player.points) || 0) + earned;
-                    }
-                });
+        // Update the JSON object
+        for (let owner in contestants) {
+            contestants[owner].squad.forEach(player => {
+                if (player.name.toLowerCase() === name.toLowerCase()) {
+                    let currentPoints = parseFloat(player.points) || 0;
+                    player.points = (currentPoints + calculatedPoints).toString();
+                }
             });
-
-            results.push({ ...stats, earned });
         }
     });
 
-    renderPointResults(results);
+    console.log("Updated Contestant Data:", contestants);
+    alert("Points calculated and local data object updated!");
+    
+    // Optional: Trigger download of updated JSON to replace contestant_data.json
+    
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(contestants, null, 2));
+    const downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", "contestant_data.json");
+    downloadAnchorNode.click();
+    
 }
 
 function renderPointResults(results) {
