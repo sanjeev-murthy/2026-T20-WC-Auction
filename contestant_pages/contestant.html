@@ -4,20 +4,229 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contestant Squad</title>
-  <style>
-    body { font-family: Inter, Arial, sans-serif; background:#0f172a; color:#f8fafc; margin:24px; }
-    .card{background:#1e293b;border:1px solid #334155;padding:20px;border-radius:10px;max-width:980px;margin:0 auto}
-    .back-btn { display:inline-block; margin-bottom:16px; padding:8px 12px; background:#6366f1; color:white; border:none; border-radius:6px; cursor:pointer; text-decoration:none; font-size:0.9rem; }
-    .back-btn:hover { background:#4f46e5; }
-    h1{margin:0 0 12px 0}
-    table{width:100%;border-collapse:collapse;margin-top:12px}
-    th,td{padding:10px;border-bottom:1px solid #334155;text-align:left}
-    th{color:#94a3b8;text-transform:uppercase;font-size:0.75rem}
+<style>
+    body { 
+      font-family: Inter, Arial, sans-serif; 
+      background:#0f172a; 
+      color:#f8fafc; 
+      margin:0; 
+      padding:20px;
+      min-height: 100vh;
+    }
+    .card{
+      background:#1e293b;
+      border:1px solid #334155;
+      padding:24px;
+      border-radius:12px;
+      max-width:1400px;
+      margin:0 auto;
+      box-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    }
+    .back-btn { 
+      display:inline-block; 
+      margin-bottom:20px; 
+      padding:10px 16px; 
+      background:#6366f1; 
+      color:white; 
+      border:none; 
+      border-radius:8px; 
+      cursor:pointer; 
+      text-decoration:none; 
+      font-size:0.9rem;
+      transition: all 0.2s ease;
+    }
+    .back-btn:hover { 
+      background:#4f46e5; 
+      transform: translateY(-1px);
+    }
+    h1{
+      margin:0 0 20px 0;
+      font-size:1.8rem;
+      font-weight:700;
+      color:#f8fafc;
+    }
+    h2{
+      margin:0 0 16px 0;
+      font-size:1.2rem;
+      color:#f8fafc;
+      font-weight:600;
+      display: flex;
+      align-items: center;
+      gap:8px;
+    }
+    h3{
+      margin:16px 0 12px 0;
+      font-size:1rem;
+      color:#e2e8f0;
+      font-weight:500;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin:0;
+      background:rgba(15, 23, 42, 0.5);
+      border-radius:8px;
+      overflow: hidden;
+      table-layout: fixed;
+    }
+    .fixed-table {
+      width: 100%;
+    }
+    .fixed-table th:nth-child(1),
+    .fixed-table td:nth-child(1) {
+      width: 50%;
+      text-align: left;
+    }
+    .fixed-table th:nth-child(2),
+    .fixed-table td:nth-child(2) {
+      width: 25%;
+      text-align: right;
+    }
+    .fixed-table th:nth-child(3),
+    .fixed-table td:nth-child(3) {
+      width: 25%;
+      text-align: right;
+    }
+    .floating-table th:nth-child(1),
+    .floating-table td:nth-child(1) {
+      width: 35%;
+      text-align: left;
+    }
+    .floating-table th:nth-child(2),
+    .floating-table td:nth-child(2) {
+      width: 25%;
+      text-align: left;
+    }
+    .floating-table th:nth-child(3),
+    .floating-table td:nth-child(3) {
+      width: 20%;
+      text-align: right;
+    }
+    .floating-table th:nth-child(4),
+    .floating-table td:nth-child(4) {
+      width: 20%;
+      text-align: right;
+    }
+    th,td{
+      padding:12px 16px;
+      border-bottom:1px solid #334155;
+      text-align:left;
+      font-size:0.9rem;
+    }
+    .text-right {
+      text-align: right;
+    }
+    th{
+      color:#94a3b8;
+      text-transform:uppercase;
+      font-size:0.75rem;
+      letter-spacing:0.5px;
+      background:rgba(15, 23, 42, 0.8);
+      font-weight:600;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    tr:hover td{
+      background:rgba(99, 102, 241, 0.1);
+    }
     .muted{color:#94a3b8}
-    .summary{display:flex;gap:20px;flex-wrap:wrap;margin-top:14px}
-    .chip{background:#0f172a;border:1px solid #334155;padding:10px;border-radius:8px}
-    .error{color:#f87171;margin-top:12px}
-    a.button{display:inline-block;margin-top:12px;padding:8px 12px;background:#6366f1;color:white;border-radius:6px;text-decoration:none}
+    .summary{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap:16px;
+      margin-top:24px;
+      padding-top:20px;
+      border-top:1px solid #334155;
+    }
+    .chip{
+      background:rgba(15, 23, 42, 0.6);
+      border:1px solid #334155;
+      padding:12px 16px;
+      border-radius:8px;
+      font-size:0.9rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .chip strong {
+      color:#6366f1;
+    }
+    .error{
+      color:#f87171;
+      margin-top:12px;
+      padding:12px;
+      background:rgba(248, 113, 113, 0.1);
+      border:1px solid rgba(248, 113, 113, 0.3);
+      border-radius:8px;
+    }
+    a.button{
+      display:inline-block;
+      margin-top:12px;
+      padding:10px 16px;
+      background:#6366f1;
+      color:white;
+      border-radius:8px;
+      text-decoration:none;
+      transition: all 0.2s ease;
+    }
+    .section{
+      margin-bottom:32px;
+    }
+    .fixed-section{
+      border:1px solid #6366f1;
+      border-radius:12px;
+      padding:20px;
+      background:linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(99, 102, 241, 0.05));
+    }
+    .floating-section{
+      border:1px solid #475569;
+      border-radius:12px;
+      padding:20px;
+      background:linear-gradient(135deg, rgba(71, 85, 105, 0.2), rgba(71, 85, 105, 0.1));
+    }
+    .captain{
+      color:#fbbf24;
+      font-weight:600;
+    }
+    .role-count{
+      background:rgba(99, 102, 241, 0.2);
+      color:#a5b4fc;
+      padding:4px 8px;
+      border-radius:6px;
+      font-size:0.8rem;
+      font-weight:600;
+      min-width:24px;
+      text-align: center;
+    }
+    .empty-section {
+      display: none;
+    }
+    #meta {
+      color:#64748b;
+      font-size:0.9rem;
+      margin-bottom:8px;
+    }
+    .player-grid {
+      display: grid;
+      gap:16px;
+    }
+    @media (max-width: 768px) {
+      .card {
+        padding:16px;
+        margin:10px;
+      }
+      .summary {
+        grid-template-columns: 1fr;
+      }
+      th, td {
+        padding:8px 12px;
+        font-size:0.8rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -26,21 +235,80 @@
     <h1 id="title">Contestant</h1>
     <div id="meta" class="muted">Loading data...</div>
 
-    <div id="content">
+<div id="content">
       <div id="msg" class="error" style="display:none"></div>
 
-      <div id="tableWrap" style="display:none">
-        <table id="squadTable">
-          <thead>
-            <tr><th>Player</th><th>Role</th><th>Points</th><th>Price</th></tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+      <div id="squadDisplay" style="display:none">
+        <!-- Fixed Players Section -->
+        <div class="section fixed-section">
+          <h2>🔒 Fixed Players</h2>
+          
+          <div class="player-grid">
+            <div id="fixedBatsman" class="subsection">
+              <h3>Fixed Batsman <span class="role-count" id="fixedBatCount">0</span></h3>
+              <table class="fixed-table">
+                <thead><tr><th>Player</th><th>Points</th><th>Price</th></tr></thead>
+                <tbody id="fixedBatsmanBody"></tbody>
+              </table>
+            </div>
 
+            <div id="fixedBowlers" class="subsection">
+              <h3>Fixed Bowlers <span class="role-count" id="fixedBowlCount">0</span></h3>
+              <table class="fixed-table">
+                <thead><tr><th>Player</th><th>Points</th><th>Price</th></tr></thead>
+                <tbody id="fixedBowlersBody"></tbody>
+              </table>
+            </div>
+
+            <div id="fixedAR" class="subsection">
+              <h3>Fixed All-Rounders <span class="role-count" id="fixedARCount">0</span></h3>
+              <table class="fixed-table">
+                <thead><tr><th>Player</th><th>Points</th><th>Price</th></tr></thead>
+                <tbody id="fixedARBody"></tbody>
+              </table>
+            </div>
+
+            <div id="fixedWK" class="subsection">
+              <h3>Fixed Wicket-Keeper <span class="role-count" id="fixedWKCount">0</span></h3>
+              <table class="fixed-table">
+                <thead><tr><th>Player</th><th>Points</th><th>Price</th></tr></thead>
+                <tbody id="fixedWKBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Players Section -->
+        <div class="section floating-section">
+          <h2>🌊 Floating Players <span style="font-size:0.8rem; color:#94a3b8; font-weight:400;">(Best 5 will count)</span></h2>
+          <table class="floating-table">
+            <thead><tr><th>Player</th><th>Role</th><th>Points</th><th>Price</th></tr></thead>
+            <tbody id="floatingBody"></tbody>
+          </table>
+        </div>
+
+        <!-- Summary -->
         <div class="summary">
-          <div class="chip" id="countsChip">Role counts left: —</div>
-          <div class="chip" id="pointsChip">Total points: —</div>
-          <div class="chip" id="purseChip">Purse left: —</div>
+          <div class="chip">
+            <span>Total players</span>
+            <strong id="totalPlayersChip">—</strong>
+          </div>
+          <div class="chip">
+            <span>Fixed players</span>
+            <strong id="fixedPlayersChip">—</strong>
+          </div>
+          <div class="chip">
+            <span>Floating players</span>
+            <strong id="floatingPlayersChip">—</strong>
+          </div>
+          <div class="chip">
+            <span>Total points</span>
+            <strong id="pointsChip">—</strong>
+          </div>
+          <div class="chip">
+            <span>Purse left</span>
+            <strong id="purseChip">—</strong>
+          </div>
         </div>
       </div>
     </div>
@@ -72,7 +340,7 @@
     fetch(jsonPath).then(r=>{
       if(!r.ok) throw new Error('Not found at ' + jsonPath);
       return r.json();
-    }).then(data=>{
+}).then(data=>{
       console.log('Available contestants:', Object.keys(data));
       console.log('Looking for:', contestantName);
       // Try exact match first, then case-insensitive
@@ -86,37 +354,99 @@
         return; 
       }
 
-      // Expect entry.squad = [{name, role, points, price}, ...]
+      // Expect entry.squad = [{name, role, points, price, fixed, captain}, ...]
       const squad = entry.squad || [];
-      const tbody = document.querySelector('#squadTable tbody');
+      
+      // Segregate players
+      const fixedPlayers = {
+        Batsman: [],
+        Bowler: [],
+        AR: [],
+        WK: []
+      };
+      const floatingPlayers = [];
+      
       let totalPoints = 0, totalPrice = 0;
-      const counts = {Batsman:0,Bowler:0,AR:0,WK:0};
+      const fixedCounts = {Batsman:0, Bowler:0, AR:0, WK:0};
 
       squad.forEach(p=>{
-        const tr = document.createElement('tr');
-        const pts = Number(p.points) || 0; const price = Number(p.price) || 0;
-        tr.innerHTML = `<td>${p.name}</td><td>${p.role||''}</td><td>${pts.toFixed(1)}</td><td>${price.toFixed(1)}</td>`;
-        tbody.appendChild(tr);
-        totalPoints += pts; totalPrice += price;
+        const pts = Number(p.points) || 0; 
+        const price = Number(p.price) || 0;
+        const isFixed = p.fixed === 1;
+        const isCaptain = p.captain === 1;
+        
+        totalPoints += pts; 
+        totalPrice += price;
 
+        // Determine role category
+        let roleCategory = 'Batsman';
         const role = (p.role||'').toLowerCase();
-        if(role.includes('wk')) counts.WK++;
-        else if(role.includes('all') || role.includes('ar')) counts.AR++;
-        else if(role.includes('bowl')) counts.Bowler++;
-        else counts.Batsman++;
+        if(role.includes('wk')) roleCategory = 'WK';
+        else if(role.includes('all') || role.includes('ar')) roleCategory = 'AR';
+        else if(role.includes('bowl')) roleCategory = 'Bowler';
+
+        // Format player name with captain indicator
+        const playerName = isCaptain ? `<span class="captain">${p.name} (C)</span>` : p.name;
+
+        if(isFixed) {
+          fixedPlayers[roleCategory].push({name: playerName, points: pts, price: price});
+          fixedCounts[roleCategory]++;
+        } else {
+          floatingPlayers.push({name: playerName, role: p.role||'', points: pts, price: price});
+        }
       });
 
-      // Max 25 players total per squad
-      const maxPlayers = 25;
-      const playersLeft = Math.max(0, maxPlayers - squad.length);
+      // Helper function to populate table
+      function populateTable(tbodyId, players) {
+        const tbody = document.getElementById(tbodyId);
+        tbody.innerHTML = '';
+        
+        players.sort((a, b) => b.price - a.price).forEach(player => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td>${player.name}</td><td>${player.points.toFixed(1)}</td><td>${player.price.toFixed(1)}</td>`;
+          tbody.appendChild(tr);
+        });
+      }
 
-      document.getElementById('countsChip').innerText = `Players left: ${playersLeft}`;
+      // Populate fixed players tables
+      populateTable('fixedBatsmanBody', fixedPlayers.Batsman);
+      populateTable('fixedBowlersBody', fixedPlayers.Bowler);
+      populateTable('fixedARBody', fixedPlayers.AR);
+      populateTable('fixedWKBody', fixedPlayers.WK);
+
+      // Populate floating players table
+      const floatingBody = document.getElementById('floatingBody');
+      floatingBody.innerHTML = '';
+      floatingPlayers.sort((a, b) => b.price - a.price).forEach(player => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${player.name}</td><td>${player.role}</td><td>${player.points.toFixed(1)}</td><td>${player.price.toFixed(1)}</td>`;
+        floatingBody.appendChild(tr);
+      });
+
+      // Update counts
+      document.getElementById('fixedBatCount').innerText = fixedCounts.Batsman;
+      document.getElementById('fixedBowlCount').innerText = fixedCounts.Bowler;
+      document.getElementById('fixedARCount').innerText = fixedCounts.AR;
+      document.getElementById('fixedWKCount').innerText = fixedCounts.WK;
+
+      // Hide empty sections
+      if(fixedPlayers.Batsman.length === 0) document.getElementById('fixedBatsman').style.display = 'none';
+      if(fixedPlayers.Bowler.length === 0) document.getElementById('fixedBowlers').style.display = 'none';
+      if(fixedPlayers.AR.length === 0) document.getElementById('fixedAR').style.display = 'none';
+      if(fixedPlayers.WK.length === 0) document.getElementById('fixedWK').style.display = 'none';
+      if(floatingPlayers.length === 0) document.querySelector('.floating-section').style.display = 'none';
+
+      // Update summary
+      const totalFixed = Object.values(fixedCounts).reduce((a, b) => a + b, 0);
+      document.getElementById('totalPlayersChip').innerText = `Total players: ${squad.length}`;
+      document.getElementById('fixedPlayersChip').innerText = `Fixed players: ${totalFixed}`;
+      document.getElementById('floatingPlayersChip').innerText = `Floating players: ${floatingPlayers.length}`;
       document.getElementById('pointsChip').innerText = `Total points: ${totalPoints.toFixed(1)}`;
       const purseLeft = Math.max(0, 100 - totalPrice);
       document.getElementById('purseChip').innerText = `Purse left (from 100): ${purseLeft.toFixed(1)}`;
 
-      document.getElementById('tableWrap').style.display = '';
-      document.getElementById('meta').innerText = `${squad.length} players loaded`;
+      document.getElementById('squadDisplay').style.display = '';
+      document.getElementById('meta').innerText = `${squad.length} players loaded (${totalFixed} fixed, ${floatingPlayers.length} floating)`;
     }).catch(err=>{
       showMessage('contestant_data.json not found or could not be loaded. Please place the Excel file into the project root and run the parsing step so I can generate the JSON.');
       document.getElementById('meta').innerText = 'Data not available';
