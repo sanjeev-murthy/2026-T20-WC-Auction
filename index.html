@@ -1028,7 +1028,12 @@ async function populateStandings() {
             const cashBonus = data.cash_bonus || "0 cr";
             
             squad.forEach(player => {
-                totalPoints += parseFloat(player.points) || 0;
+                let playerPoints = parseFloat(player.points) || 0;
+                // Apply captain 2x multiplier
+                if (player.captain === 1) {
+                    playerPoints *= 2;
+                }
+                totalPoints += playerPoints;
                 totalPrice += parseFloat(player.price) || 0;
             });
             

@@ -309,14 +309,8 @@
             <span>Tournament points</span>
             <strong id="tournamentPointsChip" style="color: #22c55e;">—</strong>
           </div>
-          <div class="chip">
-            <span>Base points</span>
-            <strong id="basePointsChip">—</strong>
-          </div>
-          <div class="chip">
-            <span>Purse left</span>
-            <strong id="purseChip">—</strong>
-          </div>
+
+
         </div>
     <div style="margin-top:18px;color:#94a3b8;font-size:0.9rem"></div>
   </div>
@@ -396,12 +390,15 @@
 
         // Format player name with captain indicator
         const playerName = isCaptain ? `<span class="captain">${p.name} (C)</span>` : p.name;
+        
+        // Store original name for captain lookup
+        const originalName = p.name;
 
         if(isFixed) {
-          fixedPlayers[roleCategory].push({name: playerName, points: pts, price: price});
+          fixedPlayers[roleCategory].push({name: playerName, originalName: originalName, points: pts, price: price});
           fixedCounts[roleCategory]++;
         } else {
-          floatingPlayers.push({name: playerName, role: p.role||'', points: pts, price: price});
+          floatingPlayers.push({name: playerName, originalName: originalName, role: p.role||'', points: pts, price: price});
         }
       });
 
@@ -412,7 +409,13 @@
         
         players.sort((a, b) => b.price - a.price).forEach(player => {
           const tr = document.createElement('tr');
-          tr.innerHTML = `<td>${player.name}</td><td>${player.points.toFixed(1)}</td><td>${player.price.toFixed(1)}</td>`;
+          // Check if this player is captain and apply 2x multiplier for display
+          const originalPlayer = squad.find(p => p.name === player.originalName);
+          let displayPoints = player.points;
+          if (originalPlayer && originalPlayer.captain === 1) {
+            displayPoints *= 2; // Show doubled points for captain
+          }
+          tr.innerHTML = `<td>${player.name}</td><td>${displayPoints.toFixed(1)}</td><td>${player.price.toFixed(1)}</td>`;
           tbody.appendChild(tr);
         });
       }
@@ -435,6 +438,13 @@
         const isTop5 = index < 5;
         const rank = index + 1;
         
+        // Check if this player is captain and apply 2x multiplier for display
+        const originalPlayer = squad.find(p => p.name === player.originalName);
+        let displayPoints = player.points;
+        if (originalPlayer && originalPlayer.captain === 1) {
+          displayPoints *= 2; // Show doubled points for captain
+        }
+        
         // Add visual indicator for top 5
         let rowClass = '';
         let rankIndicator = '';
@@ -445,7 +455,7 @@
           rankIndicator = `<span style="color: #64748b;">#${rank}</span>`;
         }
         
-        tr.innerHTML = `<td ${rowClass}>${rankIndicator} ${player.name}</td><td ${rowClass}>${player.role}</td><td ${rowClass}>${player.points.toFixed(1)}</td><td ${rowClass}>${player.price.toFixed(1)}</td>`;
+        tr.innerHTML = `<td ${rowClass}>${rankIndicator} ${player.name}</td><td ${rowClass}>${player.role}</td><td ${rowClass}>${displayPoints.toFixed(1)}</td><td ${rowClass}>${player.price.toFixed(1)}</td>`;
         floatingBody.appendChild(tr);
       });
 
@@ -470,7 +480,7 @@
         category.forEach(player => {
           let playerPoints = player.points;
           // Check if this player is captain by looking at the original squad data
-          const originalPlayer = squad.find(p => p.name === player.name.replace(' (C)', ''));
+          const originalPlayer = squad.find(p => p.name === player.originalName);
           if (originalPlayer && originalPlayer.captain === 1) {
             playerPoints *= 2; // Captain gets 2x points
           }
@@ -484,7 +494,7 @@
       top5Floaters.forEach(player => {
         let playerPoints = player.points;
         // Check if this player is captain by looking at the original squad data
-        const originalPlayer = squad.find(p => p.name === player.name.replace(' (C)', ''));
+        const originalPlayer = squad.find(p => p.name === player.originalName);
         if (originalPlayer && originalPlayer.captain === 1) {
           playerPoints *= 2; // Captain gets 2x points
         }
@@ -501,9 +511,8 @@
       document.getElementById('floatingPlayersChip').innerHTML = `<strong>${floatingPlayers.length}</strong>`;
       document.getElementById('cashBonusChip').innerHTML = `<strong>${cashBonus} <span style="font-size:0.8em; opacity:0.8;">(+${cashPoints})</span></strong>`;
       document.getElementById('tournamentPointsChip').innerHTML = `<strong>${tournamentPoints.toFixed(1)}</strong>`;
-      document.getElementById('basePointsChip').innerHTML = `<strong>${totalPoints.toFixed(1)}</strong>`;
-      const purseLeft = Math.max(0, 100 - totalPrice);
-      document.getElementById('purseChip').innerHTML = `<strong>${purseLeft.toFixed(1)}</strong>`;
+
+
 
       document.getElementById('squadDisplay').style.display = '';
       document.getElementById('meta').innerText = `${squad.length} players loaded (${totalFixed} fixed, ${floatingPlayers.length} floating) | Tournament Score: ${tournamentPoints.toFixed(1)}`;
