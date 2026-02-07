@@ -543,10 +543,27 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
         </div>
     </div>
 
-    <div id="table" class="page">
+<div id="table" class="page">
         <button class="back-btn" onclick="showPage('home')">Dashboard</button>
         <h2>Standings Table</h2>
-        <p style="color: var(--text-muted); line-height: 1.6;">Content coming soon...</p>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Contestant</th>
+                        <th>Total Points</th>
+                        <th>Players</th>
+                        <th>Total Price</th>
+                        <th>Purse Left</th>
+                        <th>View Squad</th>
+                    </tr>
+                </thead>
+                <tbody id="standingsTableBody">
+                    <tr><td colspan="7" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <div id="generic" class="page">
@@ -735,6 +752,7 @@ function showPage(pageId) {
     if (validPages.includes(pageId)) {
         if(pageId === 'players') populateTable();
         if(pageId === 'schedule') populateSchedule();
+        if(pageId === 'table') populateStandings();
         document.getElementById(pageId).classList.add('active');
     } else {
         const generic = document.getElementById('generic');
@@ -991,6 +1009,67 @@ document.addEventListener('click', function(event) {
         }
     }
 });
+
+// Load and populate standings table
+async function populateStandings() {
+    const tbody = document.getElementById('standingsTableBody');
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>';
+    
+    try {
+        const response = await fetch('contestant_data.json');
+        if (!response.ok) throw new Error('Failed to load contestant data');
+        const contestants = await response.json();
+        
+        // Calculate standings for each contestant
+        const standings = [];
+        
+        for (const [name, data] of Object.entries(contestants)) {
+            const squad = data.squad || [];
+            let totalPoints = 0;
+            let totalPrice = 0;
+            
+            squad.forEach(player => {
+                totalPoints += parseFloat(player.points) || 0;
+                totalPrice += parseFloat(player.price) || 0;
+            });
+            
+            const purseLeft = 100 - totalPrice;
+            
+            standings.push({
+                name: name,
+                totalPoints: totalPoints,
+                players: squad.length,
+                totalPrice: totalPrice,
+                purseLeft: purseLeft
+            });
+        }
+        
+        // Sort by total points in descending order
+        standings.sort((a, b) => b.totalPoints - a.totalPoints);
+        
+        // Generate table rows
+        const rows = standings.map((contestant, index) => {
+            const rank = index + 1;
+            const squadUrl = `contestant_pages/contestant.html?name=${encodeURIComponent(contestant.name)}`;
+            
+            return `<tr>
+                <td style="font-weight: 700; color: var(--primary);">${rank}</td>
+                <td style="font-weight: 600;">${contestant.name}</td>
+                <td style="font-weight: 700; color: var(--success);">${contestant.totalPoints.toFixed(1)}</td>
+                <td>${contestant.players}</td>
+                <td>${contestant.totalPrice.toFixed(1)}</td>
+                <td style="color: ${contestant.purseLeft >= 0 ? 'var(--text-main)' : 'var(--accent)'};">${contestant.purseLeft.toFixed(1)}</td>
+                <td><a href="${squadUrl}" target="_blank" style="color: var(--primary); text-decoration: none; padding: 4px 8px; border: 1px solid var(--primary); border-radius: 4px; font-size: 0.8rem; transition: all 0.2s;" onmouseover="this.style.background='var(--primary)'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='var(--primary)'">View Squad</a></td>
+            </tr>`;
+        });
+        
+        tbody.innerHTML = rows.join('');
+        
+    } catch (error) {
+        console.error('Error loading standings:', error);
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: #f87171;">Failed to load standings data</td></tr>';
+    }
+}
 
 // Load and render squads from JSON
 async function loadAndRenderSquads() {
