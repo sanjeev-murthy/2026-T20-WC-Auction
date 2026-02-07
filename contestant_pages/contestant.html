@@ -301,6 +301,10 @@
             <span>Floating players</span>
             <strong id="floatingPlayersChip">—</strong>
           </div>
+          <div class="chip">
+            <span>Cash Bonus</span>
+            <strong id="cashBonusChip" style="color:#fbbf24;">—</strong>
+          </div>
           <div class="chip" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(34, 197, 94, 0.1)); border-color: #22c55e;">
             <span>Tournament points</span>
             <strong id="tournamentPointsChip" style="color: #22c55e;">—</strong>
@@ -314,9 +318,6 @@
             <strong id="purseChip">—</strong>
           </div>
         </div>
-      </div>
-    </div>
-
     <div style="margin-top:18px;color:#94a3b8;font-size:0.9rem"></div>
   </div>
 
@@ -357,6 +358,10 @@
         showMessage(`No squad data found for "${contestantName}". Available: ${Object.keys(data).join(', ')}`); 
         return; 
       }
+
+      // Extract cash bonus and points
+      const cashBonus = entry.cash_bonus || "0 cr";
+      const cashPoints = Number(entry.cash_points) || 0;
 
       // Expect entry.squad = [{name, role, points, price, fixed, captain}, ...]
       const squad = entry.squad || [];
@@ -486,11 +491,15 @@
         tournamentPoints += playerPoints;
       });
 
+      // Add cash points
+      tournamentPoints += cashPoints;
+
       // Update summary
       const totalFixed = Object.values(fixedCounts).reduce((a, b) => a + b, 0);
       document.getElementById('totalPlayersChip').innerHTML = `<strong>${squad.length}</strong>`;
       document.getElementById('fixedPlayersChip').innerHTML = `<strong>${totalFixed}</strong>`;
       document.getElementById('floatingPlayersChip').innerHTML = `<strong>${floatingPlayers.length}</strong>`;
+      document.getElementById('cashBonusChip').innerHTML = `<strong>${cashBonus} <span style="font-size:0.8em; opacity:0.8;">(+${cashPoints})</span></strong>`;
       document.getElementById('tournamentPointsChip').innerHTML = `<strong>${tournamentPoints.toFixed(1)}</strong>`;
       document.getElementById('basePointsChip').innerHTML = `<strong>${totalPoints.toFixed(1)}</strong>`;
       const purseLeft = Math.max(0, 100 - totalPrice);
