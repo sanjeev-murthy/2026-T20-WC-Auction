@@ -195,15 +195,6 @@
         "captain": 1
       },
       {
-        "name": "Noah Croes",
-        "country": "Netherlands",
-        "role": "WK",
-        "points": "0",
-        "price": 0.5,
-        "fixed": 0,
-        "captain": 0
-      },
-      {
         "name": "Rahmanullah Gurbaz",
         "country": "Afghanistan",
         "role": "WK",
@@ -681,7 +672,7 @@
         "points": "0",
         "price": 16,
         "fixed": 1,
-        "captain": 0
+        "captain": 1
       },
       {
         "name": "Nathan Ellis",
@@ -2219,7 +2210,7 @@
         "points": "0",
         "price": 35,
         "fixed": 1,
-        "captain": 0
+        "captain": 1
       },
       {
         "name": "Gulbadin Naib",
