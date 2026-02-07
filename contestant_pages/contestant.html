@@ -301,9 +301,13 @@
             <span>Floating players</span>
             <strong id="floatingPlayersChip">—</strong>
           </div>
+          <div class="chip" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(34, 197, 94, 0.1)); border-color: #22c55e;">
+            <span>Tournament points</span>
+            <strong id="tournamentPointsChip" style="color: #22c55e;">—</strong>
+          </div>
           <div class="chip">
-            <span>Total points</span>
-            <strong id="pointsChip">—</strong>
+            <span>Base points</span>
+            <strong id="basePointsChip">—</strong>
           </div>
           <div class="chip">
             <span>Purse left</span>
@@ -414,12 +418,29 @@
       populateTable('fixedARBody', fixedPlayers.AR);
       populateTable('fixedWKBody', fixedPlayers.WK);
 
-      // Populate floating players table
+      // Populate floating players table (sorted by points descending)
       const floatingBody = document.getElementById('floatingBody');
       floatingBody.innerHTML = '';
-      floatingPlayers.sort((a, b) => b.price - a.price).forEach(player => {
+      
+      // Sort floating players by points descending for scoring
+      floatingPlayers.sort((a, b) => b.points - a.points);
+      
+      floatingPlayers.forEach((player, index) => {
         const tr = document.createElement('tr');
-        tr.innerHTML = `<td>${player.name}</td><td>${player.role}</td><td>${player.points.toFixed(1)}</td><td>${player.price.toFixed(1)}</td>`;
+        const isTop5 = index < 5;
+        const rank = index + 1;
+        
+        // Add visual indicator for top 5
+        let rowClass = '';
+        let rankIndicator = '';
+        if (isTop5) {
+          rowClass = 'style="background: rgba(34, 197, 94, 0.1);"';
+          rankIndicator = `<span style="color: #22c55e; font-weight: 600;">#${rank}</span>`;
+        } else {
+          rankIndicator = `<span style="color: #64748b;">#${rank}</span>`;
+        }
+        
+        tr.innerHTML = `<td ${rowClass}>${rankIndicator} ${player.name}</td><td ${rowClass}>${player.role}</td><td ${rowClass}>${player.points.toFixed(1)}</td><td ${rowClass}>${player.price.toFixed(1)}</td>`;
         floatingBody.appendChild(tr);
       });
 
@@ -436,17 +457,47 @@
       if(fixedPlayers.WK.length === 0) document.getElementById('fixedWK').style.display = 'none';
       if(floatingPlayers.length === 0) document.querySelector('.floating-section').style.display = 'none';
 
+      // Calculate tournament points
+      let tournamentPoints = 0;
+      
+      // Add fixed players points (with captain multiplier)
+      Object.values(fixedPlayers).forEach(category => {
+        category.forEach(player => {
+          let playerPoints = player.points;
+          // Check if this player is captain by looking at the original squad data
+          const originalPlayer = squad.find(p => p.name === player.name.replace(' (C)', ''));
+          if (originalPlayer && originalPlayer.captain === 1) {
+            playerPoints *= 2; // Captain gets 2x points
+          }
+          tournamentPoints += playerPoints;
+        });
+      });
+      
+      // Add top 5 floating players points (with captain multiplier)
+      floatingPlayers.sort((a, b) => b.points - a.points);
+      const top5Floaters = floatingPlayers.slice(0, 5);
+      top5Floaters.forEach(player => {
+        let playerPoints = player.points;
+        // Check if this player is captain by looking at the original squad data
+        const originalPlayer = squad.find(p => p.name === player.name.replace(' (C)', ''));
+        if (originalPlayer && originalPlayer.captain === 1) {
+          playerPoints *= 2; // Captain gets 2x points
+        }
+        tournamentPoints += playerPoints;
+      });
+
       // Update summary
       const totalFixed = Object.values(fixedCounts).reduce((a, b) => a + b, 0);
-      document.getElementById('totalPlayersChip').innerText = `Total players: ${squad.length}`;
-      document.getElementById('fixedPlayersChip').innerText = `Fixed players: ${totalFixed}`;
-      document.getElementById('floatingPlayersChip').innerText = `Floating players: ${floatingPlayers.length}`;
-      document.getElementById('pointsChip').innerText = `Total points: ${totalPoints.toFixed(1)}`;
+      document.getElementById('totalPlayersChip').innerHTML = `<strong>${squad.length}</strong>`;
+      document.getElementById('fixedPlayersChip').innerHTML = `<strong>${totalFixed}</strong>`;
+      document.getElementById('floatingPlayersChip').innerHTML = `<strong>${floatingPlayers.length}</strong>`;
+      document.getElementById('tournamentPointsChip').innerHTML = `<strong>${tournamentPoints.toFixed(1)}</strong>`;
+      document.getElementById('basePointsChip').innerHTML = `<strong>${totalPoints.toFixed(1)}</strong>`;
       const purseLeft = Math.max(0, 100 - totalPrice);
-      document.getElementById('purseChip').innerText = `Purse left (from 100): ${purseLeft.toFixed(1)}`;
+      document.getElementById('purseChip').innerHTML = `<strong>${purseLeft.toFixed(1)}</strong>`;
 
       document.getElementById('squadDisplay').style.display = '';
-      document.getElementById('meta').innerText = `${squad.length} players loaded (${totalFixed} fixed, ${floatingPlayers.length} floating)`;
+      document.getElementById('meta').innerText = `${squad.length} players loaded (${totalFixed} fixed, ${floatingPlayers.length} floating) | Tournament Score: ${tournamentPoints.toFixed(1)}`;
     }).catch(err=>{
       showMessage('contestant_data.json not found or could not be loaded. Please place the Excel file into the project root and run the parsing step so I can generate the JSON.');
       document.getElementById('meta').innerText = 'Data not available';
