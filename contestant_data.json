@@ -1,5 +1,7 @@
 {
   "Gogu": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "George Linde",
@@ -148,6 +150,8 @@
     ]
   },
   "Anand": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Roston Chase",
@@ -314,6 +318,8 @@
     ]
   },
   "Ankit": {
+    "cash_points": 10,
+    "cash_bonus": "0.2 cr",
     "squad": [
       {
         "name": "Glenn Phillips",
@@ -444,6 +450,8 @@
     ]
   },
   "Herit": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Sherfane Rutherford",
@@ -583,6 +591,8 @@
     ]
   },
   "Jagga": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "James Neesham",
@@ -722,6 +732,8 @@
     ]
   },
   "Maddy": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Washington Sundar",
@@ -861,6 +873,8 @@
     ]
   },
   "Soham": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Matthew Kuhnemann",
@@ -964,6 +978,8 @@
     ]
   },
   "Varad": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Ben White",
@@ -1130,6 +1146,8 @@
     ]
   },
   "Vinit": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Curtis Campher",
@@ -1287,6 +1305,8 @@
     ]
   },
   "Devesh": {
+    "cash_points": 85,
+    "cash_bonus": "1.7 cr",
     "squad": [
       {
         "name": "Ibrahim Zadran",
@@ -1453,6 +1473,8 @@
     ]
   },
   "Murthy": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Quinton de Kock",
@@ -1610,6 +1632,8 @@
     ]
   },
   "Pranav": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Fazalhaq Farooqi",
@@ -1749,6 +1773,8 @@
     ]
   },
   "Shenoy": {
+    "cash_points": 680,
+    "cash_bonus": "13.6 cr",
     "squad": [
       {
         "name": "Jayden Seales",
@@ -1915,6 +1941,8 @@
     ]
   },
   "Tarang": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Corbin Bosch",
@@ -2036,6 +2064,8 @@
     ]
   },
   "Venkat": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Tim Tector",
@@ -2184,6 +2214,8 @@
     ]
   },
   "Balajee": {
+    "cash_points": 0,
+    "cash_bonus": "0 cr",
     "squad": [
       {
         "name": "Max O'Dowd",
