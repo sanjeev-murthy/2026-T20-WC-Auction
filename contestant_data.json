@@ -195,15 +195,6 @@
         "captain": 1
       },
       {
-        "name": "Noah Croes",
-        "country": "Netherlands",
-        "role": "WK",
-        "points": "0",
-        "price": 0.5,
-        "fixed": 0,
-        "captain": 0
-      },
-      {
         "name": "Rahmanullah Gurbaz",
         "country": "Afghanistan",
         "role": "WK",
@@ -1297,15 +1288,6 @@
   },
   "Devesh": {
     "squad": [
-      {
-        "name": "Jack Brassell",
-        "country": "Namibia",
-        "role": "Bowler",
-        "points": "0",
-        "price": 0.6,
-        "fixed": 0,
-        "captain": 0
-      },
       {
         "name": "Ibrahim Zadran",
         "country": "Afghanistan",
