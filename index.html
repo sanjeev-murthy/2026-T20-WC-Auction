@@ -553,15 +553,11 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
                         <th>Rank</th>
                         <th>Contestant</th>
                         <th>Total Points</th>
-                        <th>Players</th>
-                        <th>Total Price</th>
-                        <th>Cash Bonus</th>
-                        <th>Purse Left</th>
                         <th>View Squad</th>
                     </tr>
                 </thead>
                 <tbody id="standingsTableBody">
-                    <tr><td colspan="8" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>
+                    <tr><td colspan="4" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>
                 </tbody>
             </table>
         </div>
@@ -1014,7 +1010,7 @@ document.addEventListener('click', function(event) {
 // Load and populate standings table
 async function populateStandings() {
     const tbody = document.getElementById('standingsTableBody');
-    tbody.innerHTML = '<tr><td colspan="8" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>';
     
     try {
         const response = await fetch('contestant_data.json');
@@ -1076,7 +1072,7 @@ async function populateStandings() {
         
     } catch (error) {
         console.error('Error loading standings:', error);
-        tbody.innerHTML = '<tr><td colspan="8" style="text-align: center; color: #f87171;">Failed to load standings data</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #f87171;">Failed to load standings data</td></tr>';
     }
 }
 
