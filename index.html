@@ -1027,14 +1027,38 @@ async function populateStandings() {
             const cashPoints = parseFloat(data.cash_points) || 0;
             const cashBonus = data.cash_bonus || "0 cr";
             
+            // Separate fixed and floating players
+            const fixedPlayers = [];
+            const floatingPlayers = [];
+            
             squad.forEach(player => {
+                if (player.fixed === 1) {
+                    fixedPlayers.push(player);
+                } else {
+                    floatingPlayers.push(player);
+                }
+                totalPrice += parseFloat(player.price) || 0;
+            });
+            
+            // Add all fixed players points (with captain 2x)
+            fixedPlayers.forEach(player => {
                 let playerPoints = parseFloat(player.points) || 0;
-                // Apply captain 2x multiplier
                 if (player.captain === 1) {
                     playerPoints *= 2;
                 }
                 totalPoints += playerPoints;
-                totalPrice += parseFloat(player.price) || 0;
+            });
+            
+            // Sort floating players by points and add only top 5 (with captain 2x)
+            floatingPlayers.sort((a, b) => parseFloat(b.points || 0) - parseFloat(a.points || 0));
+            const top5Floaters = floatingPlayers.slice(0, 5);
+            
+            top5Floaters.forEach(player => {
+                let playerPoints = parseFloat(player.points) || 0;
+                if (player.captain === 1) {
+                    playerPoints *= 2;
+                }
+                totalPoints += playerPoints;
             });
             
             // Add cash points to total
