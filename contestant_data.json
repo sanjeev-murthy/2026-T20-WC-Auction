@@ -25,7 +25,7 @@
         "name": "Paul van Meekeren",
         "country": "Netherlands",
         "role": "Bowler",
-        "points": "330",
+        "points": "165",
         "price": 2.5,
         "fixed": 0,
         "captain": 0
@@ -34,7 +34,7 @@
         "name": "Tilak Varma",
         "country": "India",
         "role": "Batsman",
-        "points": "180",
+        "points": "90",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -43,7 +43,7 @@
         "name": "David Miller",
         "country": "South Africa",
         "role": "Batsman",
-        "points": "162",
+        "points": "81",
         "price": 6,
         "fixed": 0,
         "captain": 0
@@ -52,7 +52,7 @@
         "name": "Shimron Hetmyer",
         "country": "West Indies",
         "role": "Batsman",
-        "points": "366",
+        "points": "183",
         "price": 12.5,
         "fixed": 0,
         "captain": 0
@@ -61,7 +61,7 @@
         "name": "Colin Ackermann",
         "country": "Netherlands",
         "role": "AR",
-        "points": "88",
+        "points": "44",
         "price": 3.5,
         "fixed": 0,
         "captain": 0
@@ -70,7 +70,7 @@
         "name": "Varun Chakravarthy",
         "country": "India",
         "role": "Bowler",
-        "points": "160",
+        "points": "80",
         "price": 21,
         "fixed": 1,
         "captain": 1
@@ -79,7 +79,7 @@
         "name": "Rinku Singh",
         "country": "India",
         "role": "Batsman",
-        "points": "-8",
+        "points": "-4",
         "price": 6,
         "fixed": 0,
         "captain": 0
@@ -88,7 +88,7 @@
         "name": "Louren Steenkamp",
         "country": "Namibia",
         "role": "AR",
-        "points": "14",
+        "points": "7",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -97,7 +97,7 @@
         "name": "Daryl Mitchell",
         "country": "New Zealand",
         "role": "AR",
-        "points": "126",
+        "points": "63",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -115,7 +115,7 @@
         "name": "Nadeem Khan",
         "country": "Oman",
         "role": "Bowler",
-        "points": "30",
+        "points": "15",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -133,7 +133,7 @@
         "name": "Michael Jones",
         "country": "Scotland",
         "role": "Batsman",
-        "points": "206",
+        "points": "103",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -142,7 +142,7 @@
         "name": "Usman Khan",
         "country": "Pak",
         "role": "WK",
-        "points": "60",
+        "points": "30",
         "price": 8.5,
         "fixed": 1,
         "captain": 0
@@ -166,7 +166,7 @@
         "name": "Gareth Delany",
         "country": "Ireland",
         "role": "AR",
-        "points": "102",
+        "points": "51",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -175,7 +175,7 @@
         "name": "Aryan Dutt",
         "country": "Netherlands",
         "role": "Bowler",
-        "points": "266",
+        "points": "133",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -184,7 +184,7 @@
         "name": "Bernard Scholtz",
         "country": "Namibia",
         "role": "Bowler",
-        "points": "10",
+        "points": "5",
         "price": 3.5,
         "fixed": 0,
         "captain": 0
@@ -193,7 +193,7 @@
         "name": "Suryakumar Yadav",
         "country": "India",
         "role": "Batsman",
-        "points": "404",
+        "points": "202",
         "price": 19.5,
         "fixed": 1,
         "captain": 1
@@ -202,7 +202,7 @@
         "name": "Rahmanullah Gurbaz",
         "country": "Afghanistan",
         "role": "WK",
-        "points": "92",
+        "points": "46",
         "price": 12,
         "fixed": 1,
         "captain": 0
@@ -211,7 +211,7 @@
         "name": "Akeal Hosein",
         "country": "West Indies",
         "role": "Bowler",
-        "points": "-18",
+        "points": "-9",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -220,7 +220,7 @@
         "name": "Lorcan Tucker",
         "country": "Ireland",
         "role": "WK",
-        "points": "36",
+        "points": "18",
         "price": 2.5,
         "fixed": 0,
         "captain": 0
@@ -229,7 +229,7 @@
         "name": "Harmeet Singh",
         "country": "USA",
         "role": "AR",
-        "points": "228",
+        "points": "114",
         "price": 0.7,
         "fixed": 0,
         "captain": 0
@@ -238,7 +238,7 @@
         "name": "Wayne Madsen",
         "country": "Italy",
         "role": "Batsman",
-        "points": "10",
+        "points": "5",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -247,7 +247,7 @@
         "name": "Salman Ali Agha",
         "country": "Pak",
         "role": "AR",
-        "points": "110",
+        "points": "55",
         "price": 9,
         "fixed": 1,
         "captain": 0
@@ -256,7 +256,7 @@
         "name": "Dasun Shanaka",
         "country": "SL",
         "role": "AR",
-        "points": "86",
+        "points": "43",
         "price": 2.5,
         "fixed": 0,
         "captain": 0
@@ -265,7 +265,7 @@
         "name": "Sikandar Raza",
         "country": "Zimbabwe",
         "role": "AR",
-        "points": "178",
+        "points": "89",
         "price": 7.5,
         "fixed": 0,
         "captain": 0
@@ -274,7 +274,7 @@
         "name": "Adil Rashid",
         "country": "England",
         "role": "Bowler",
-        "points": "-14",
+        "points": "-7",
         "price": 13,
         "fixed": 1,
         "captain": 0
@@ -292,7 +292,7 @@
         "name": "Dunith Wellalage",
         "country": "SL",
         "role": "AR",
-        "points": "74",
+        "points": "37",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -301,7 +301,7 @@
         "name": "Mohammad Nawaz",
         "country": "Pak",
         "role": "AR",
-        "points": "184",
+        "points": "92",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -325,7 +325,7 @@
         "name": "Glenn Phillips",
         "country": "New Zealand",
         "role": "AR",
-        "points": "238",
+        "points": "119",
         "price": 23,
         "fixed": 0,
         "captain": 0
@@ -334,7 +334,7 @@
         "name": "Timm van der Gugten",
         "country": "Netherlands",
         "role": "AR",
-        "points": "10",
+        "points": "5",
         "price": 0.8,
         "fixed": 0,
         "captain": 0
@@ -343,7 +343,7 @@
         "name": "Marco Jansen",
         "country": "South Africa",
         "role": "AR",
-        "points": "232",
+        "points": "116",
         "price": 25,
         "fixed": 1,
         "captain": 0
@@ -352,7 +352,7 @@
         "name": "Azmatullah Omarzai",
         "country": "Afghanistan",
         "role": "AR",
-        "points": "102",
+        "points": "51",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -415,7 +415,7 @@
         "name": "Jiten Ramanandi",
         "country": "Oman",
         "role": "AR",
-        "points": "12",
+        "points": "6",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -433,7 +433,7 @@
         "name": "Thomas Draca",
         "country": "Italy",
         "role": "Bowler",
-        "points": "56",
+        "points": "28",
         "price": 0.5,
         "fixed": 1,
         "captain": 0
@@ -442,7 +442,7 @@
         "name": "Hammad Mirza",
         "country": "Oman",
         "role": "WK",
-        "points": "-10",
+        "points": "-5",
         "price": 0.5,
         "fixed": 1,
         "captain": 0
@@ -457,7 +457,7 @@
         "name": "Sherfane Rutherford",
         "country": "West Indies",
         "role": "AR",
-        "points": "204",
+        "points": "102",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -466,7 +466,7 @@
         "name": "Mohammad Nabi",
         "country": "Afghanistan",
         "role": "AR",
-        "points": "118",
+        "points": "59",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -475,7 +475,7 @@
         "name": "Keshav Maharaj",
         "country": "South Africa",
         "role": "Bowler",
-        "points": "28",
+        "points": "14",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -484,7 +484,7 @@
         "name": "Roelof van der Merwe",
         "country": "Netherlands",
         "role": "Bowler",
-        "points": "218",
+        "points": "109",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -493,7 +493,7 @@
         "name": "Dewald Brevis",
         "country": "South Africa",
         "role": "Batsman",
-        "points": "34",
+        "points": "17",
         "price": 17,
         "fixed": 1,
         "captain": 1
@@ -511,7 +511,7 @@
         "name": "Zane Green",
         "country": "Namibia",
         "role": "WK",
-        "points": "10",
+        "points": "5",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -529,7 +529,7 @@
         "name": "Tim Seifert",
         "country": "New Zealand",
         "role": "WK",
-        "points": "396",
+        "points": "198",
         "price": 13.5,
         "fixed": 1,
         "captain": 0
@@ -547,7 +547,7 @@
         "name": "Mohammad Mohsin",
         "country": "USA",
         "role": "AR",
-        "points": "214",
+        "points": "107",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -556,7 +556,7 @@
         "name": "Lokesh Bam",
         "country": "Nepal",
         "role": "WK",
-        "points": "184",
+        "points": "92",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -583,7 +583,7 @@
         "name": "Mark Watt",
         "country": "Scotland",
         "role": "Bowler",
-        "points": "302",
+        "points": "151",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -598,7 +598,7 @@
         "name": "James Neesham",
         "country": "New Zealand",
         "role": "AR",
-        "points": "2",
+        "points": "1",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -607,7 +607,7 @@
         "name": "Lungi Ngidi",
         "country": "South Africa",
         "role": "Bowler",
-        "points": "548",
+        "points": "274",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -616,7 +616,7 @@
         "name": "Mark Chapman",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "134",
+        "points": "67",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -643,7 +643,7 @@
         "name": "Tom Bruce",
         "country": "Scotland",
         "role": "AR",
-        "points": "122",
+        "points": "61",
         "price": 0.6,
         "fixed": 0,
         "captain": 0
@@ -652,7 +652,7 @@
         "name": "Karan KC",
         "country": "Nepal",
         "role": "AR",
-        "points": "4",
+        "points": "2",
         "price": 0.6,
         "fixed": 0,
         "captain": 0
@@ -670,7 +670,7 @@
         "name": "Tom Banton",
         "country": "England",
         "role": "WK",
-        "points": "34",
+        "points": "17",
         "price": 5.5,
         "fixed": 1,
         "captain": 0
@@ -679,7 +679,7 @@
         "name": "Sam Curran",
         "country": "England",
         "role": "AR",
-        "points": "126",
+        "points": "63",
         "price": 16,
         "fixed": 1,
         "captain": 1
@@ -697,7 +697,7 @@
         "name": "Kushal Bhurtel",
         "country": "Nepal",
         "role": "Batsman",
-        "points": "104",
+        "points": "52",
         "price": 2.5,
         "fixed": 0,
         "captain": 0
@@ -706,7 +706,7 @@
         "name": "Justin Mosca",
         "country": "Italy",
         "role": "Batsman",
-        "points": "10",
+        "points": "5",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -715,7 +715,7 @@
         "name": "Nandan Yadav",
         "country": "Nepal",
         "role": "AR",
-        "points": "208",
+        "points": "104",
         "price": 0.6,
         "fixed": 0,
         "captain": 0
@@ -748,7 +748,7 @@
         "name": "Bas de Leede",
         "country": "Netherlands",
         "role": "AR",
-        "points": "92",
+        "points": "46",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
@@ -757,7 +757,7 @@
         "name": "Rashid Khan",
         "country": "Afghanistan",
         "role": "AR",
-        "points": "110",
+        "points": "55",
         "price": 16.5,
         "fixed": 1,
         "captain": 0
@@ -766,7 +766,7 @@
         "name": "Arshdeep Singh",
         "country": "India",
         "role": "Bowler",
-        "points": "292",
+        "points": "146",
         "price": 11,
         "fixed": 1,
         "captain": 1
@@ -775,7 +775,7 @@
         "name": "Navneet Dhaliwal",
         "country": "Canada",
         "role": "AR",
-        "points": "196",
+        "points": "98",
         "price": 0.7,
         "fixed": 0,
         "captain": 0
@@ -820,7 +820,7 @@
         "name": "Dushmantha Chameera",
         "country": "SL",
         "role": "Bowler",
-        "points": "126",
+        "points": "63",
         "price": 4.5,
         "fixed": 1,
         "captain": 0
@@ -847,7 +847,7 @@
         "name": "Safyaan Sharif",
         "country": "Scotland",
         "role": "Bowler",
-        "points": "56",
+        "points": "28",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -943,7 +943,7 @@
         "name": "Oliver Davidson",
         "country": "Scotland",
         "role": "Bowler",
-        "points": "144",
+        "points": "72",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -952,7 +952,7 @@
         "name": "Shadley Van Schalkwyk",
         "country": "USA",
         "role": "AR",
-        "points": "454",
+        "points": "227",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -994,7 +994,7 @@
         "name": "JJ Smit",
         "country": "Namibia",
         "role": "AR",
-        "points": "10",
+        "points": "5",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1003,7 +1003,7 @@
         "name": "Jason Holder",
         "country": "West Indies",
         "role": "AR",
-        "points": "346",
+        "points": "173",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -1012,7 +1012,7 @@
         "name": "Rachin Ravindra",
         "country": "New Zealand",
         "role": "AR",
-        "points": "84",
+        "points": "42",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -1021,7 +1021,7 @@
         "name": "Michael Levitt",
         "country": "Netherlands",
         "role": "AR",
-        "points": "118",
+        "points": "59",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1030,7 +1030,7 @@
         "name": "Matt Henry",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "142",
+        "points": "71",
         "price": 15,
         "fixed": 1,
         "captain": 1
@@ -1039,7 +1039,7 @@
         "name": "Mark Adair",
         "country": "Ireland",
         "role": "Bowler",
-        "points": "130",
+        "points": "65",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
@@ -1048,7 +1048,7 @@
         "name": "Logan van Beek",
         "country": "Netherlands",
         "role": "Bowler",
-        "points": "82",
+        "points": "41",
         "price": 2.5,
         "fixed": 0,
         "captain": 0
@@ -1057,7 +1057,7 @@
         "name": "Ryan Rickelton",
         "country": "South Africa",
         "role": "WK",
-        "points": "136",
+        "points": "68",
         "price": 15.5,
         "fixed": 1,
         "captain": 0
@@ -1066,7 +1066,7 @@
         "name": "Milind Kumar",
         "country": "USA",
         "role": "AR",
-        "points": "128",
+        "points": "64",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1075,7 +1075,7 @@
         "name": "Richard Ngarava",
         "country": "Zimbabwe",
         "role": "Bowler",
-        "points": "438",
+        "points": "219",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1102,7 +1102,7 @@
         "name": "Ryan Burl",
         "country": "Zimbabwe",
         "role": "AR",
-        "points": "20",
+        "points": "10",
         "price": 3.5,
         "fixed": 0,
         "captain": 0
@@ -1120,7 +1120,7 @@
         "name": "Kamil Mishara",
         "country": "SL",
         "role": "WK",
-        "points": "72",
+        "points": "36",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1129,7 +1129,7 @@
         "name": "Matthew Humphreys",
         "country": "Ireland",
         "role": "AR",
-        "points": "-22",
+        "points": "-11",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1138,7 +1138,7 @@
         "name": "Karan Sonavale",
         "country": "Oman",
         "role": "AR",
-        "points": "-10",
+        "points": "-5",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1162,7 +1162,7 @@
         "name": "Jan Frylinck",
         "country": "Namibia",
         "role": "AR",
-        "points": "14",
+        "points": "7",
         "price": 4,
         "fixed": 0,
         "captain": 0
@@ -1171,7 +1171,7 @@
         "name": "Mitchell Santner",
         "country": "New Zealand",
         "role": "AR",
-        "points": "110",
+        "points": "55",
         "price": 16.5,
         "fixed": 0,
         "captain": 0
@@ -1180,7 +1180,7 @@
         "name": "Jacob Duffy",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "68",
+        "points": "34",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -1189,7 +1189,7 @@
         "name": "Ruben Trumpelmann",
         "country": "Namibia",
         "role": "Bowler",
-        "points": "10",
+        "points": "5",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1198,7 +1198,7 @@
         "name": "Tristan Stubbs",
         "country": "South Africa",
         "role": "WK",
-        "points": "210",
+        "points": "105",
         "price": 9,
         "fixed": 1,
         "captain": 0
@@ -1207,7 +1207,7 @@
         "name": "George Dockrell",
         "country": "Ireland",
         "role": "AR",
-        "points": "354",
+        "points": "177",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1216,7 +1216,7 @@
         "name": "Dilpreet Bajwa",
         "country": "Canada",
         "role": "AR",
-        "points": "34",
+        "points": "17",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1225,7 +1225,7 @@
         "name": "Michael Leask",
         "country": "Scotland",
         "role": "AR",
-        "points": "756",
+        "points": "378",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1234,7 +1234,7 @@
         "name": "Rohit Paudel",
         "country": "Nepal",
         "role": "AR",
-        "points": "100",
+        "points": "50",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1243,7 +1243,7 @@
         "name": "Wellington Masakadza",
         "country": "Zimbabwe",
         "role": "Bowler",
-        "points": "50",
+        "points": "25",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -1252,7 +1252,7 @@
         "name": "Shaheen Shah Afridi",
         "country": "Pak",
         "role": "Bowler",
-        "points": "126",
+        "points": "63",
         "price": 6.5,
         "fixed": 0,
         "captain": 0
@@ -1261,7 +1261,7 @@
         "name": "Saim Ayub",
         "country": "Pak",
         "role": "AR",
-        "points": "324",
+        "points": "162",
         "price": 18.5,
         "fixed": 1,
         "captain": 1
@@ -1279,7 +1279,7 @@
         "name": "Babar Azam",
         "country": "Pak",
         "role": "Batsman",
-        "points": "12",
+        "points": "6",
         "price": 7,
         "fixed": 1,
         "captain": 0
@@ -1288,7 +1288,7 @@
         "name": "Sahibzada Farhan",
         "country": "Pak",
         "role": "WK",
-        "points": "240",
+        "points": "120",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1312,7 +1312,7 @@
         "name": "Ibrahim Zadran",
         "country": "Afghanistan",
         "role": "Batsman",
-        "points": "-28",
+        "points": "-14",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -1321,7 +1321,7 @@
         "name": "Darwish Rasooli",
         "country": "Afghanistan",
         "role": "Batsman",
-        "points": "76",
+        "points": "38",
         "price": 5.5,
         "fixed": 0,
         "captain": 0
@@ -1348,7 +1348,7 @@
         "name": "Shai Hope",
         "country": "West Indies",
         "role": "WK",
-        "points": "2",
+        "points": "1",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -1357,7 +1357,7 @@
         "name": "Harry Tector",
         "country": "Ireland",
         "role": "Batsman",
-        "points": "106",
+        "points": "53",
         "price": 5.5,
         "fixed": 0,
         "captain": 0
@@ -1366,7 +1366,7 @@
         "name": "Axar Patel",
         "country": "India",
         "role": "AR",
-        "points": "292",
+        "points": "146",
         "price": 23,
         "fixed": 1,
         "captain": 1
@@ -1375,7 +1375,7 @@
         "name": "Ben Calitz",
         "country": "Ireland",
         "role": "Batsman",
-        "points": "8",
+        "points": "4",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1384,7 +1384,7 @@
         "name": "Harry Manenti",
         "country": "Italy",
         "role": "AR",
-        "points": "196",
+        "points": "98",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1393,7 +1393,7 @@
         "name": "Shubham Ranjane",
         "country": "USA",
         "role": "AR",
-        "points": "148",
+        "points": "74",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1402,7 +1402,7 @@
         "name": "Grant Stewart",
         "country": "Italy",
         "role": "Bowler",
-        "points": "48",
+        "points": "24",
         "price": 0.5,
         "fixed": 1,
         "captain": 0
@@ -1411,7 +1411,7 @@
         "name": "Richie Berrington",
         "country": "Scotland",
         "role": "AR",
-        "points": "282",
+        "points": "141",
         "price": 1,
         "fixed": 1,
         "captain": 0
@@ -1420,7 +1420,7 @@
         "name": "Dion Myers",
         "country": "Zimbabwe",
         "role": "Batsman",
-        "points": "60",
+        "points": "30",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -1429,7 +1429,7 @@
         "name": "Faheem Ashraf",
         "country": "Pak",
         "role": "AR",
-        "points": "274",
+        "points": "137",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1438,7 +1438,7 @@
         "name": "Pavan Rathnayake",
         "country": "SL",
         "role": "Batsman",
-        "points": "40",
+        "points": "20",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1456,7 +1456,7 @@
         "name": "Zach Lion-Cachet",
         "country": "Netherlands",
         "role": "Batsman",
-        "points": "40",
+        "points": "20",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1465,7 +1465,7 @@
         "name": "Sanjay Krishnamurthi",
         "country": "USA",
         "role": "AR",
-        "points": "134",
+        "points": "67",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1480,7 +1480,7 @@
         "name": "Quinton de Kock",
         "country": "South Africa",
         "role": "WK",
-        "points": "134",
+        "points": "67",
         "price": 19,
         "fixed": 1,
         "captain": 0
@@ -1489,7 +1489,7 @@
         "name": "Barry McCarthy",
         "country": "Ireland",
         "role": "Bowler",
-        "points": "176",
+        "points": "88",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -1498,7 +1498,7 @@
         "name": "Hardik Pandya",
         "country": "India",
         "role": "AR",
-        "points": "24",
+        "points": "12",
         "price": 26,
         "fixed": 1,
         "captain": 1
@@ -1525,7 +1525,7 @@
         "name": "Mujeeb Ur Rahman",
         "country": "Afghanistan",
         "role": "Bowler",
-        "points": "252",
+        "points": "126",
         "price": 7,
         "fixed": 1,
         "captain": 0
@@ -1534,7 +1534,7 @@
         "name": "Anthony Mosca",
         "country": "Italy",
         "role": "Batsman",
-        "points": "22",
+        "points": "11",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1543,7 +1543,7 @@
         "name": "Ross Adair",
         "country": "Ireland",
         "role": "Batsman",
-        "points": "132",
+        "points": "66",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1552,7 +1552,7 @@
         "name": "Harsh Thaker",
         "country": "Canada",
         "role": "AR",
-        "points": "108",
+        "points": "54",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1561,7 +1561,7 @@
         "name": "Saad Bin Zafar",
         "country": "Canada",
         "role": "AR",
-        "points": "-4",
+        "points": "-2",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1570,7 +1570,7 @@
         "name": "George Munsey",
         "country": "Scotland",
         "role": "Batsman",
-        "points": "466",
+        "points": "233",
         "price": 2,
         "fixed": 1,
         "captain": 0
@@ -1579,7 +1579,7 @@
         "name": "Shadab Khan",
         "country": "Pak",
         "role": "AR",
-        "points": "8",
+        "points": "4",
         "price": 8.5,
         "fixed": 1,
         "captain": 0
@@ -1606,7 +1606,7 @@
         "name": "Brendan Taylor",
         "country": "Zimbabwe",
         "role": "WK",
-        "points": "168",
+        "points": "84",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1639,7 +1639,7 @@
         "name": "Fazalhaq Farooqi",
         "country": "Afghanistan",
         "role": "Bowler",
-        "points": "-20",
+        "points": "-10",
         "price": 4,
         "fixed": 1,
         "captain": 0
@@ -1657,7 +1657,7 @@
         "name": "Ishan Kishan",
         "country": "India",
         "role": "WK",
-        "points": "110",
+        "points": "55",
         "price": 13,
         "fixed": 1,
         "captain": 1
@@ -1675,7 +1675,7 @@
         "name": "Saurabh Netravalkar",
         "country": "USA",
         "role": "Bowler",
-        "points": "2",
+        "points": "1",
         "price": 3.5,
         "fixed": 0,
         "captain": 0
@@ -1684,7 +1684,7 @@
         "name": "Vinayak Shukla",
         "country": "Oman",
         "role": "WK",
-        "points": "114",
+        "points": "57",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1693,7 +1693,7 @@
         "name": "Monank Patel",
         "country": "USA",
         "role": "WK",
-        "points": "10",
+        "points": "5",
         "price": 5,
         "fixed": 0,
         "captain": 0
@@ -1702,7 +1702,7 @@
         "name": "Jatinder Singh",
         "country": "Oman",
         "role": "Batsman",
-        "points": "12",
+        "points": "6",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1729,7 +1729,7 @@
         "name": "Matheesha Pathirana",
         "country": "SL",
         "role": "Bowler",
-        "points": "218",
+        "points": "109",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -1738,7 +1738,7 @@
         "name": "Pathum Nissanka",
         "country": "SL",
         "role": "Batsman",
-        "points": "54",
+        "points": "27",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -1756,7 +1756,7 @@
         "name": "Sandeep Lamichhane",
         "country": "Nepal",
         "role": "Bowler",
-        "points": "162",
+        "points": "81",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -1765,7 +1765,7 @@
         "name": "Gudakesh Motie",
         "country": "West Indies",
         "role": "AR",
-        "points": "120",
+        "points": "60",
         "price": 3.5,
         "fixed": 1,
         "captain": 0
@@ -1798,7 +1798,7 @@
         "name": "Gerhard Erasmus",
         "country": "Namibia",
         "role": "AR",
-        "points": "10",
+        "points": "5",
         "price": 5,
         "fixed": 0,
         "captain": 0
@@ -1807,7 +1807,7 @@
         "name": "Matthew Forde",
         "country": "West Indies",
         "role": "Bowler",
-        "points": "32",
+        "points": "16",
         "price": 5,
         "fixed": 0,
         "captain": 0
@@ -1825,7 +1825,7 @@
         "name": "Shamar Joseph",
         "country": "West Indies",
         "role": "Bowler",
-        "points": "144",
+        "points": "72",
         "price": 5.5,
         "fixed": 0,
         "captain": 0
@@ -1834,7 +1834,7 @@
         "name": "JJ Smuts",
         "country": "Italy",
         "role": "AR",
-        "points": "178",
+        "points": "89",
         "price": 2.5,
         "fixed": 0,
         "captain": 0
@@ -1843,7 +1843,7 @@
         "name": "Wasim Ali",
         "country": "Oman",
         "role": "AR",
-        "points": "70",
+        "points": "35",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -1852,7 +1852,7 @@
         "name": "Rovman Powell",
         "country": "West Indies",
         "role": "Batsman",
-        "points": "168",
+        "points": "84",
         "price": 4,
         "fixed": 0,
         "captain": 0
@@ -1861,7 +1861,7 @@
         "name": "Dipendra Singh Airee",
         "country": "Nepal",
         "role": "AR",
-        "points": "384",
+        "points": "192",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1870,7 +1870,7 @@
         "name": "Brandon McMullen",
         "country": "Scotland",
         "role": "AR",
-        "points": "308",
+        "points": "154",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1879,7 +1879,7 @@
         "name": "Jacob Bethell",
         "country": "England",
         "role": "AR",
-        "points": "204",
+        "points": "102",
         "price": 15,
         "fixed": 1,
         "captain": 0
@@ -1888,7 +1888,7 @@
         "name": "Luke Wood",
         "country": "England",
         "role": "Bowler",
-        "points": "94",
+        "points": "47",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1897,7 +1897,7 @@
         "name": "Jofra Archer",
         "country": "England",
         "role": "Bowler",
-        "points": "68",
+        "points": "34",
         "price": 9.5,
         "fixed": 1,
         "captain": 0
@@ -1915,7 +1915,7 @@
         "name": "Harry Brook",
         "country": "England",
         "role": "Batsman",
-        "points": "206",
+        "points": "103",
         "price": 6,
         "fixed": 1,
         "captain": 0
@@ -1924,7 +1924,7 @@
         "name": "Jos Buttler",
         "country": "England",
         "role": "WK",
-        "points": "142",
+        "points": "71",
         "price": 13.5,
         "fixed": 1,
         "captain": 1
@@ -1933,7 +1933,7 @@
         "name": "Wanindu Hasaranga",
         "country": "SL",
         "role": "AR",
-        "points": "366",
+        "points": "183",
         "price": 9.5,
         "fixed": 1,
         "captain": 0
@@ -1948,7 +1948,7 @@
         "name": "Corbin Bosch",
         "country": "South Africa",
         "role": "AR",
-        "points": "152",
+        "points": "76",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -1966,7 +1966,7 @@
         "name": "Lockie Ferguson",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "218",
+        "points": "109",
         "price": 2,
         "fixed": 1,
         "captain": 0
@@ -1975,7 +1975,7 @@
         "name": "Kagiso Rabada",
         "country": "South Africa",
         "role": "Bowler",
-        "points": "120",
+        "points": "60",
         "price": 17,
         "fixed": 1,
         "captain": 0
@@ -1984,7 +1984,7 @@
         "name": "Shivam Dube",
         "country": "India",
         "role": "AR",
-        "points": "20",
+        "points": "10",
         "price": 15,
         "fixed": 1,
         "captain": 0
@@ -1993,7 +1993,7 @@
         "name": "Finn Allen",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "12",
+        "points": "6",
         "price": 7,
         "fixed": 1,
         "captain": 1
@@ -2002,7 +2002,7 @@
         "name": "Romario Shepherd",
         "country": "West Indies",
         "role": "AR",
-        "points": "630",
+        "points": "315",
         "price": 7.5,
         "fixed": 0,
         "captain": 0
@@ -2020,7 +2020,7 @@
         "name": "Andries Gous",
         "country": "USA",
         "role": "WK",
-        "points": "46",
+        "points": "23",
         "price": 3,
         "fixed": 1,
         "captain": 0
@@ -2029,7 +2029,7 @@
         "name": "Nicholas Kirton",
         "country": "Canada",
         "role": "AR",
-        "points": "30",
+        "points": "15",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -2080,7 +2080,7 @@
         "name": "Paul Stirling",
         "country": "Ireland",
         "role": "AR",
-        "points": "-16",
+        "points": "-8",
         "price": 9,
         "fixed": 0,
         "captain": 0
@@ -2098,7 +2098,7 @@
         "name": "Fred Klaassen",
         "country": "Netherlands",
         "role": "Bowler",
-        "points": "10",
+        "points": "5",
         "price": 0.9,
         "fixed": 0,
         "captain": 0
@@ -2125,7 +2125,7 @@
         "name": "Scott Edwards",
         "country": "Netherlands",
         "role": "WK",
-        "points": "184",
+        "points": "92",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
@@ -2134,7 +2134,7 @@
         "name": "Brandon King",
         "country": "West Indies",
         "role": "Batsman",
-        "points": "102",
+        "points": "51",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -2143,7 +2143,7 @@
         "name": "Sediqullah Atal",
         "country": "Afghanistan",
         "role": "Batsman",
-        "points": "92",
+        "points": "46",
         "price": 6.5,
         "fixed": 0,
         "captain": 0
@@ -2152,7 +2152,7 @@
         "name": "Brian Bennett",
         "country": "Zimbabwe",
         "role": "AR",
-        "points": "172",
+        "points": "86",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
@@ -2161,7 +2161,7 @@
         "name": "Phil Salt",
         "country": "England",
         "role": "WK",
-        "points": "32",
+        "points": "16",
         "price": 17,
         "fixed": 1,
         "captain": 1
@@ -2170,7 +2170,7 @@
         "name": "Kamindu Mendis",
         "country": "SL",
         "role": "AR",
-        "points": "334",
+        "points": "167",
         "price": 10,
         "fixed": 1,
         "captain": 0
@@ -2188,7 +2188,7 @@
         "name": "Kaleem Sana",
         "country": "Canada",
         "role": "Bowler",
-        "points": "-22",
+        "points": "-11",
         "price": 0.8,
         "fixed": 0,
         "captain": 0
@@ -2206,7 +2206,7 @@
         "name": "Aasif Sheikh",
         "country": "Nepal",
         "role": "WK",
-        "points": "66",
+        "points": "33",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -2221,7 +2221,7 @@
         "name": "Max O'Dowd",
         "country": "Netherlands",
         "role": "Batsman",
-        "points": "22",
+        "points": "11",
         "price": 2.5,
         "fixed": 0,
         "captain": 0
@@ -2239,7 +2239,7 @@
         "name": "Gulbadin Naib",
         "country": "Afghanistan",
         "role": "AR",
-        "points": "228",
+        "points": "114",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
@@ -2248,7 +2248,7 @@
         "name": "Kyle Klein",
         "country": "Netherlands",
         "role": "Bowler",
-        "points": "124",
+        "points": "62",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -2257,7 +2257,7 @@
         "name": "Ali Khan",
         "country": "USA",
         "role": "Bowler",
-        "points": "124",
+        "points": "62",
         "price": 2.5,
         "fixed": 1,
         "captain": 0
@@ -2266,7 +2266,7 @@
         "name": "Aiden Markram",
         "country": "South Africa",
         "role": "Batsman",
-        "points": "232",
+        "points": "116",
         "price": 17,
         "fixed": 1,
         "captain": 0
@@ -2275,7 +2275,7 @@
         "name": "Matthew Cross",
         "country": "Scotland",
         "role": "WK",
-        "points": "-6",
+        "points": "-3",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -2284,7 +2284,7 @@
         "name": "Liam Dawson",
         "country": "England",
         "role": "AR",
-        "points": "276",
+        "points": "138",
         "price": 7,
         "fixed": 0,
         "captain": 0
@@ -2293,7 +2293,7 @@
         "name": "Maheesh Theekshana",
         "country": "SL",
         "role": "Bowler",
-        "points": "390",
+        "points": "195",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -2302,7 +2302,7 @@
         "name": "Will Jacks",
         "country": "England",
         "role": "AR",
-        "points": "388",
+        "points": "194",
         "price": 13,
         "fixed": 1,
         "captain": 0
@@ -2320,7 +2320,7 @@
         "name": "Kusal Mendis",
         "country": "SL",
         "role": "WK",
-        "points": "212",
+        "points": "106",
         "price": 6,
         "fixed": 1,
         "captain": 0
