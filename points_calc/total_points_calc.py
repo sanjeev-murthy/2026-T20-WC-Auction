@@ -2,7 +2,7 @@ import os
 import glob
 import pandas as pd
 
-FOLDER = r"C:\Users\madha\Documents\2026-T20-WC-Auction\points_calc"  # change if needed
+FOLDER = r".\\"  # change if needed
 PLAYER_COL = "0"   # change if your column name is different
 POINTS_COL = "1"   # change if your column name is different
 
