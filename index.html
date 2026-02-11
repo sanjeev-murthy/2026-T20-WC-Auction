@@ -1112,12 +1112,11 @@ function normalizeSearchValue(value) {
 }
 
 function containsMatch(haystack, needle) {
-    if (!needle) return true;
-    const h = (haystack || '').toLowerCase();
-    const n = normalizeSearchValue(needle).trim();
-    if (!n) return true;
-    const words = h.match(/[a-z0-9]+/g) || [];
-    return words.some(word => word.startsWith(n));
+    const tokens = (needle || '').toLowerCase().match(/[a-z0-9]+/g) || [];
+    if (!tokens.length) return true;
+    const words = (haystack || '').toLowerCase().match(/[a-z0-9]+/g) || [];
+    if (!words.length) return false;
+    return tokens.every(token => words.some(word => word.startsWith(token)));
 }
 
 function applyStandingsFilter() {
