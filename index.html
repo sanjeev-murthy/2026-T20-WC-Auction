@@ -578,7 +578,7 @@ tr.standings-bottom:hover td { background-color: rgba(239, 68, 68, 0.18); }
 
 </div>
 
-<footer style="width: 100%; text-align: center; color: var(--text-muted); font-size: 0.85rem; padding: 20px 0 40px;">
+<footer style="width: 100%; text-align: center; color: #f8fafc; font-size: 0.9rem; padding: 20px 0 40px; font-weight: 700; background: rgba(99, 102, 241, 0.12); border-top: 1px solid var(--border);">
     Curated by Anand, Bala, Maddy, and Murthy — four selectors, zero consensus. Built with the optimism of a tail-ender calling for a quick single.
 </footer>
 
@@ -1110,9 +1110,10 @@ function normalizeSearchValue(value) {
 
 function containsMatch(haystack, needle) {
     if (!needle) return true;
-    const h = normalizeSearchValue(haystack);
-    const n = normalizeSearchValue(needle);
-    return h.includes(n);
+    const h = (haystack || '').toLowerCase();
+    const n = (needle || '').toLowerCase().trim();
+    if (!n) return true;
+    return h.split(/\\s+/).some(word => word.startsWith(n));
 }
 
 function applyStandingsFilter() {
