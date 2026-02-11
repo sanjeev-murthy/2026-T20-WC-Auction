@@ -295,7 +295,6 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
 
     <div id="home" class="page active" style="background: transparent; border: none; box-shadow: none; padding: 0;">
         <div class="nav-grid">
-            <div class="nav-card" onclick="window.open('https://player-auction-ym5d.onrender.com/', '_blank')"><h3>🔨 Live Auction</h3></div>
             <div class="nav-card" onclick="showPage('players')"><h3>🏏 Players DB</h3></div>
             <div class="nav-card" onclick="showPage('contestants')"><h3>🕴️ Contestants</h3></div>
             <div class="nav-card" onclick="showPage('points')"><h3>🏆 Points System</h3></div>
@@ -303,6 +302,7 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
             <div class="nav-card" onclick="showPage('squads')"><h3>👥 Official Squads</h3></div>
             <div class="nav-card" onclick="showPage('schedule')"><h3>📅 Tournament Schedule</h3></div>
             <div class="nav-card" onclick="showPage('table')"><h3>📊 Standings Table</h3></div>
+            <div class="nav-card" onclick="window.open('https://player-auction-ym5d.onrender.com/', '_blank')"><h3>🔨 Live Auction</h3></div>
         </div>
     </div>
 
@@ -546,6 +546,7 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
 <div id="table" class="page">
         <button class="back-btn" onclick="showPage('home')">Dashboard</button>
         <h2>Standings Table</h2>
+        <input type="text" id="standingsSearch" placeholder="🔍 Search player or contestant..." oninput="applyStandingsFilter()" style="width: 100%; padding: 12px 15px; margin-bottom: 20px; background: #0f172a; border: 1px solid var(--border); border-radius: 8px; color: white; font-size: 0.95rem;">
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -553,11 +554,12 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
                         <th>Rank</th>
                         <th>Contestant</th>
                         <th>Total Points</th>
+                        <th>Difference</th>
                         <th>View Squad</th>
                     </tr>
                 </thead>
                 <tbody id="standingsTableBody">
-                    <tr><td colspan="4" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>
+                    <tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>
                 </tbody>
             </table>
         </div>
@@ -1008,9 +1010,11 @@ document.addEventListener('click', function(event) {
 });
 
 // Load and populate standings table
+let standingsCache = [];
+
 async function populateStandings() {
     const tbody = document.getElementById('standingsTableBody');
-    tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>';
     
     try {
         const response = await fetch('contestant_data.json');
@@ -1073,32 +1077,72 @@ async function populateStandings() {
                 totalPrice: totalPrice,
                 purseLeft: purseLeft,
                 cashPoints: cashPoints,
-                cashBonus: cashBonus
+                cashBonus: cashBonus,
+                squad: squad
             });
         }
         
         // Sort by total points in descending order
         standings.sort((a, b) => b.totalPoints - a.totalPoints);
-        
-        // Generate table rows
-        const rows = standings.map((contestant, index) => {
-            const rank = index + 1;
-            const squadUrl = `contestant_pages/contestant.html?name=${encodeURIComponent(contestant.name)}`;
-            
-            return `<tr>
-                <td style="font-weight: 700; color: var(--primary);">${rank}</td>
-                <td style="font-weight: 600;">${contestant.name}</td>
-                <td style="font-weight: 700; color: var(--success);">${contestant.totalPoints.toFixed(1)}</td>
-                <td><a href="${squadUrl}" target="_blank" style="color: var(--primary); text-decoration: none; padding: 4px 8px; border: 1px solid var(--primary); border-radius: 4px; font-size: 0.8rem; transition: all 0.2s;" onmouseover="this.style.background='var(--primary)'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='var(--primary)'">View Squad</a></td>
-            </tr>`;
-        });
-        
-        tbody.innerHTML = rows.join('');
+        standingsCache = standings;
+        renderStandings(standingsCache);
         
     } catch (error) {
         console.error('Error loading standings:', error);
-        tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #f87171;">Failed to load standings data</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: #f87171;">Failed to load standings data</td></tr>';
     }
+}
+
+function normalizeSearchValue(value) {
+    return (value || '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g, '');
+}
+
+function fuzzyIncludes(haystack, needle) {
+    if (!needle) return true;
+    const h = normalizeSearchValue(haystack);
+    const n = normalizeSearchValue(needle);
+    let i = 0;
+    for (let j = 0; j < h.length && i < n.length; j++) {
+        if (h[j] === n[i]) i++;
+    }
+    return i === n.length;
+}
+
+function applyStandingsFilter() {
+    const input = document.getElementById('standingsSearch');
+    const query = (input && input.value) ? input.value.trim() : '';
+    if (!query) {
+        renderStandings(standingsCache);
+        return;
+    }
+    const filtered = standingsCache.filter(contestant => {
+        if (fuzzyIncludes(contestant.name, query)) return true;
+        return (contestant.squad || []).some(player => fuzzyIncludes(player.name || '', query));
+    });
+    renderStandings(filtered);
+}
+
+function renderStandings(standings) {
+    const tbody = document.getElementById('standingsTableBody');
+    const rows = standings.map((contestant, index) => {
+        const rank = index + 1;
+        const squadUrl = `contestant_pages/contestant.html?name=${encodeURIComponent(contestant.name)}`;
+        const next = standings[index + 1];
+        const diff = next ? (contestant.totalPoints - next.totalPoints) : null;
+        const diffText = diff === null ? '-' : diff.toFixed(1);
+        
+        return `<tr>
+            <td style="font-weight: 700; color: var(--primary);">${rank}</td>
+            <td style="font-weight: 600;">${contestant.name}</td>
+            <td style="font-weight: 700; color: var(--success);">${contestant.totalPoints.toFixed(1)}</td>
+            <td style="font-weight: 700; color: var(--accent);">${diffText}</td>
+            <td><a href="${squadUrl}" target="_blank" style="color: var(--primary); text-decoration: none; padding: 4px 8px; border: 1px solid var(--primary); border-radius: 4px; font-size: 0.8rem; transition: all 0.2s;" onmouseover="this.style.background='var(--primary)'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='var(--primary)'">View Squad</a></td>
+        </tr>`;
+    });
+    
+    tbody.innerHTML = rows.join('') || '<tr><td colspan="5" style="text-align: center; color: var(--text-muted);">No matching contestants</td></tr>';
 }
 
 // Load and render squads from JSON
