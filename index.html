@@ -559,7 +559,7 @@ tr.standings-bottom:hover td { background-color: rgba(239, 68, 68, 0.18); }
                         <th>Rank</th>
                         <th>Contestant</th>
                         <th>Total Points</th>
-                        <th>Difference</th>
+                        <th>Chas Gap</th>
                         <th>View Squad</th>
                     </tr>
                 </thead>
@@ -1108,15 +1108,11 @@ function normalizeSearchValue(value) {
         .replace(/[^a-z0-9]/g, '');
 }
 
-function fuzzyIncludes(haystack, needle) {
+function containsMatch(haystack, needle) {
     if (!needle) return true;
     const h = normalizeSearchValue(haystack);
     const n = normalizeSearchValue(needle);
-    let i = 0;
-    for (let j = 0; j < h.length && i < n.length; j++) {
-        if (h[j] === n[i]) i++;
-    }
-    return i === n.length;
+    return h.includes(n);
 }
 
 function applyStandingsFilter() {
@@ -1127,8 +1123,8 @@ function applyStandingsFilter() {
         return;
     }
     const filtered = standingsCache.filter(contestant => {
-        if (fuzzyIncludes(contestant.name, query)) return true;
-        return (contestant.squad || []).some(player => fuzzyIncludes(player.name || '', query));
+        if (containsMatch(contestant.name, query)) return true;
+        return (contestant.squad || []).some(player => containsMatch(player.name || '', query));
     });
     renderStandings(filtered);
 }
