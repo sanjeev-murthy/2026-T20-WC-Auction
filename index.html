@@ -1116,7 +1116,8 @@ function containsMatch(haystack, needle) {
     const h = (haystack || '').toLowerCase();
     const n = normalizeSearchValue(needle).trim();
     if (!n) return true;
-    return h.split(/\\s+/).some(word => normalizeSearchValue(word).startsWith(n));
+    const words = h.match(/[a-z0-9]+/g) || [];
+    return words.some(word => word.startsWith(n));
 }
 
 function applyStandingsFilter() {
