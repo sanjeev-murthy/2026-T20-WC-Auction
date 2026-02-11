@@ -291,6 +291,12 @@ tr.standings-bottom:hover td { background-color: rgba(239, 68, 68, 0.18); }
     Your browser does not support the video tag.
 </video>
 
+<!-- Intro Video (Standings First Load) -->
+<video id="introVideo" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1000; object-fit: cover; display: none;" autoplay muted playsinline>
+    <source src="yddam.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 <header>
     <img src="T20_WC_2026_Logo.jpg" width="80px" height="auto" margin-bottom="10px" display="block" vertical-align="middle">
     <h1>T20 WC 2026 Auction Dashboard</h1> 
@@ -774,6 +780,29 @@ function showPage(pageId) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function playIntroAndShowStandings() {
+    const alreadyPlayed = sessionStorage.getItem('introPlayed');
+    if (alreadyPlayed) return;
+    const intro = document.getElementById('introVideo');
+    if (!intro) return;
+    sessionStorage.setItem('introPlayed', '1');
+    intro.style.display = 'block';
+    const onFinish = () => {
+        intro.pause();
+        intro.style.display = 'none';
+        intro.currentTime = 0;
+        intro.removeEventListener('ended', onFinish);
+        showPage('table');
+    };
+    intro.addEventListener('ended', onFinish);
+    const playPromise = intro.play();
+    if (playPromise && typeof playPromise.catch === 'function') {
+        playPromise.catch(() => {
+            onFinish();
+        });
+    }
+}
+
 function normalizeRole(role) {
     // Remove (C), (vc), and other captain/vice-captain indicators
     return role.replace(/\s*\([A-Za-z]*\)\s*/g, '').trim();
@@ -1243,6 +1272,7 @@ async function loadAndRenderSquads() {
 // Load both squads and contestants when page loads
 document.addEventListener('DOMContentLoaded', () => {
     loadAndRenderSquads();
+    playIntroAndShowStandings();
 });
 
 </script>
