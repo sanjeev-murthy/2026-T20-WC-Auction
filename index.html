@@ -186,6 +186,11 @@ td {
 
 tr:hover td { background-color: rgba(255,255,255,0.02); }
 
+tr.standings-top td { background-color: rgba(16, 185, 129, 0.12); }
+tr.standings-bottom td { background-color: rgba(239, 68, 68, 0.12); }
+tr.standings-top:hover td { background-color: rgba(16, 185, 129, 0.18); }
+tr.standings-bottom:hover td { background-color: rgba(239, 68, 68, 0.18); }
+
 /* --- Custom Dropdown Styles --- */
 .filter-container {
     position: relative;
@@ -300,7 +305,6 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
             <div class="nav-card" onclick="showPage('contestants')"><h3>🕴️ Contestants</h3></div>
             <div class="nav-card" onclick="showPage('players')"><h3>🏏 Players DB</h3></div>
             <div class="nav-card" onclick="showPage('points')"><h3>🏆 Points System</h3></div>
-            <div class="nav-card" onclick="showPage('about')"><h3>ℹ️ About</h3></div>
             <div class="nav-card" onclick="showPage('rules')"><h3>📜 Rules</h3></div>
             <div class="nav-card" onclick="showPage('squads')"><h3>👥 Official Squads</h3></div>
             <div class="nav-card" onclick="window.open('https://player-auction-ym5d.onrender.com/', '_blank')"><h3>🔨 Live Auction</h3></div>
@@ -566,15 +570,6 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
         </div>
     </div>
 
-    <div id="about" class="page">
-        <button class="back-btn" onclick="showPage('home')">Dashboard</button>
-        <h2>About</h2>
-        <p style="color: var(--text-muted); line-height: 1.6;">
-            Curated by Anand, Bala, Maddy, and Murthy — four selectors, zero consensus.
-            Built with the same optimism as a tail-ender calling for a quick single.
-        </p>
-    </div>
-
     <div id="generic" class="page">
         <button class="back-btn" onclick="showPage('home')">Dashboard</button>
         <h2 id="pageTitle">Page Title</h2>
@@ -582,6 +577,10 @@ tr:hover td { background-color: rgba(255,255,255,0.02); }
     </div>
 
 </div>
+
+<footer style="width: 100%; text-align: center; color: var(--text-muted); font-size: 0.85rem; padding: 20px 0 40px;">
+    Curated by Anand, Bala, Maddy, and Murthy — four selectors, zero consensus. Built with the optimism of a tail-ender calling for a quick single.
+</footer>
 
 <script>
 // FULL DATABASE MAPPED FROM OFFICIAL SQUADS (Unchanged Data)
@@ -1136,14 +1135,16 @@ function applyStandingsFilter() {
 
 function renderStandings(standings) {
     const tbody = document.getElementById('standingsTableBody');
+    const total = standings.length;
     const rows = standings.map((contestant, index) => {
         const rank = index + 1;
         const squadUrl = `contestant_pages/contestant.html?name=${encodeURIComponent(contestant.name)}`;
         const prev = standings[index - 1];
         const diff = prev ? (prev.totalPoints - contestant.totalPoints) : 0;
         const diffText = diff.toFixed(1);
+        const rowClass = index < 3 ? 'standings-top' : (index >= total - 3 ? 'standings-bottom' : '');
         
-        return `<tr>
+        return `<tr class="${rowClass}">
             <td style="font-weight: 700; color: var(--primary);">${rank}</td>
             <td style="font-weight: 600;">${contestant.name}</td>
             <td style="font-weight: 700; color: var(--success);">${contestant.totalPoints.toFixed(1)}</td>
