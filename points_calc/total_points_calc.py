@@ -14,10 +14,9 @@ JSON_PATH = os.path.join(BASE_DIR, "..", "contestant_data.json")
 
 LOGIN_URL = "https://www.cricbattle.com/Account/LoginRegister"
 TARGET_URL = (
-    "https://fantasycricket.cricbattle.com/MyFantasy/Player-Scores-Breakdown"
-    "?LeagueModel=SalaryCap&LeagueId=675295"
+    "https://fantasycricket.cricbattle.com/MyFantasy/League-Players-Ranking"
+    "?LeagueModel=SalaryCap&LeagueId=675295&TournamentId=13357"
 )
-MATCH_DROPDOWN_ID = "ddlMatch"
 
 
 def _norm_name(name: str) -> str:
@@ -38,15 +37,12 @@ def _format_points(value: float) -> str:
     return f"{value} Pts"
 
 
-def scrape_matches(mode: str, selected_matches: list[str]) -> None:
+def scrape_ranking() -> None:
     try:
         from io import StringIO
         from selenium import webdriver
-        from selenium.webdriver.common.by import By
-        from selenium.webdriver.support.ui import Select
         from selenium.webdriver.chrome.service import Service
         from webdriver_manager.chrome import ChromeDriverManager
-        from selenium.common.exceptions import NoSuchElementException
     except ImportError as exc:
         raise SystemExit(
             "Missing selenium/webdriver_manager. Install dependencies before scraping."
@@ -67,86 +63,62 @@ def scrape_matches(mode: str, selected_matches: list[str]) -> None:
         time.sleep(5)
 
         try:
-            select_element = driver.find_element(By.ID, MATCH_DROPDOWN_ID)
-            dropdown = Select(select_element)
-            all_options = dropdown.options
-            print(f"Found dropdown with {len(all_options)} options.")
-        except NoSuchElementException:
-            print(f"ERROR: Could not find dropdown with ID '{MATCH_DROPDOWN_ID}'.")
-            return
+            page_html = driver.page_source
+            tables = pd.read_html(StringIO(page_html))
+            if not tables:
+                print("ERROR: No table found on ranking page.")
+                return
 
-        master_data = []
-        for option in all_options:
-            match_name = option.text.strip()
-            if match_name == "" or "Select" in match_name:
-                continue
-            if mode == "selected" and match_name not in selected_matches:
-                continue
-
-            print(f"Processing: {match_name}...")
-            dropdown.select_by_visible_text(match_name)
-            time.sleep(4)
-
-            try:
-                page_html = driver.page_source
-                tables = pd.read_html(StringIO(page_html))
-                if not tables:
-                    print("  -> No table found for this match.")
-                    continue
-
-                df = max(tables, key=len)
-                df["Match_Name"] = match_name
-                master_data.append(df)
-                print(f"  -> Extracted {len(df)} rows.")
-
-                safe_name = "".join(
-                    ch if ch.isalnum() or ch in (" ", "-", "_") else "_" for ch in match_name
-                ).strip()
-                per_match_filename = os.path.join(BASE_DIR, f"match_scores_{safe_name}.csv")
-                df.to_csv(per_match_filename, index=False)
-                print(f"  -> Saved match file: {per_match_filename}")
-            except Exception as exc:
-                print(f"  -> Error reading table: {exc}")
-
-        if master_data:
-            print("\nConsolidating data...")
-            final_df = pd.concat(master_data, ignore_index=True)
-            filename = os.path.join(BASE_DIR, "all_matches_scores.csv")
-            final_df.to_csv(filename, index=False)
-            print(f"SUCCESS! Saved {len(final_df)} total rows to '{filename}'")
-        else:
-            print("No data was extracted. Check your match names or dropdown ID.")
+            # Find the ranking table (usually the largest table)
+            df = max(tables, key=len)
+            print(f"Found ranking table with {len(df)} rows.")
+            
+            # Look for columns with player names and total points
+            # Common column patterns: Player Name, Total Points, Total
+            player_col = None
+            total_col = None
+            
+            for i, col in enumerate(df.columns):
+                col_str = str(col).lower()
+                if 'player' in col_str or 'name' in col_str:
+                    player_col = i
+                elif 'total' in col_str and 'point' in col_str:
+                    total_col = i
+                elif col_str == 'total':
+                    total_col = i
+            
+            if player_col is None or total_col is None:
+                print(f"ERROR: Could not find player/total columns. Available columns: {list(df.columns)}")
+                return
+            
+            # Create a clean dataframe with just player names and total points
+            clean_df = df.iloc[:, [player_col, total_col]].copy()
+            clean_df.columns = ['Player', 'Total_Points']
+            
+            # Remove country names in parentheses from player names
+            clean_df['Player'] = clean_df['Player'].astype(str).str.replace(r"\s*\([^)]*\)\s*", " ", regex=True)
+            clean_df['Player'] = clean_df['Player'].str.replace(r"\s+", " ", regex=True).str.strip()
+            
+            # Convert points to numeric and then back to formatted string
+            clean_df['Total_Points'] = clean_df['Total_Points'].apply(_parse_points)
+            clean_df['Total_Points'] = clean_df['Total_Points'].apply(_format_points)
+            
+            # Save the total points CSV directly
+            clean_df.to_csv(CSV_PATH, index=False)
+            print(f"SUCCESS! Saved {len(clean_df)} players' total points to '{CSV_PATH}'")
+            
+        except Exception as exc:
+            print(f"ERROR reading ranking table: {exc}")
     finally:
         driver.quit()
 
 
 def build_players_total_points() -> None:
-    match_files = glob.glob(os.path.join(BASE_DIR, "match_scores_*.csv"))
-    if not match_files:
-        raise SystemExit(f"No match CSVs found in {BASE_DIR}")
-
-    dfs = []
-    for path in match_files:
-        df = pd.read_csv(path)
-        if "0" not in df.columns or "1" not in df.columns:
-            print(f"Skipping {os.path.basename(path)} (missing columns)")
-            continue
-        df = df[["0", "1"]].copy()
-        # Remove country names in parentheses from player names
-        df["0"] = df["0"].astype(str).str.replace(r"\s*\([^)]*\)\s*", " ", regex=True)
-        df["0"] = df["0"].str.replace(r"\s+", " ", regex=True).str.strip()
-        df["1"] = df["1"].apply(_parse_points)
-        dfs.append(df)
-
-    if not dfs:
-        raise SystemExit("No valid match CSVs found with required columns.")
-
-    combined = pd.concat(dfs, ignore_index=True)
-    summary = combined.groupby("0", as_index=False)["1"].sum()
-    summary["1"] = summary["1"].apply(_format_points)
-
-    summary.to_csv(CSV_PATH, index=False)
-    print(f"Saved: {CSV_PATH}")
+    # This function is no longer needed since we get total points directly from ranking page
+    if os.path.exists(CSV_PATH):
+        print(f"Total points CSV already exists: {CSV_PATH}")
+    else:
+        raise SystemExit(f"Total points CSV not found. Run scraping first to create {CSV_PATH}")
 
 
 def load_points_map(csv_path: str) -> dict:
@@ -187,19 +159,13 @@ def update_json_points(json_path: str, points_map: dict) -> tuple[int, list[str]
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Scrape, aggregate points, and update JSON.")
+    parser = argparse.ArgumentParser(description="Scrape total points and update JSON.")
     parser.add_argument("--no-scrape", action="store_true", help="Skip web scraping step.")
-    parser.add_argument("--no-calc", action="store_true", help="Skip points aggregation step.")
     parser.add_argument("--no-json", action="store_true", help="Skip JSON update step.")
-    parser.add_argument("--mode", choices=["all", "selected"], default="all")
-    parser.add_argument("--selected", nargs="*", default=[], help="Match names for selected mode.")
     args = parser.parse_args()
 
     if not args.no_scrape:
-        scrape_matches(args.mode, args.selected)
-
-    if not args.no_calc:
-        build_players_total_points()
+        scrape_ranking()
 
     if not args.no_json:
         if not os.path.exists(CSV_PATH):
