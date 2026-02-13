@@ -1038,7 +1038,7 @@ async function populateStandings() {
         if (settingsRes.ok) {
             const settings = await settingsRes.json();
             if (settings.last_updated) {
-                lastUpdatedEl.textContent = 'Last Updated: ' + settings.last_updated;
+                lastUpdatedEl.textContent = 'Last Updated: ' + settings.last_updated + ' PST';
             }
         }
         
