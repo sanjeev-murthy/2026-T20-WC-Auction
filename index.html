@@ -560,12 +560,13 @@ tr.standings-bottom:hover td { background-color: rgba(239, 68, 68, 0.18); }
                         <th>Rank</th>
                         <th>Contestant</th>
                         <th>Total Points</th>
+                        <th>Points Change</th>
                         <th>Chase Gap</th>
                         <th>View Squad</th>
                     </tr>
                 </thead>
                 <tbody id="standingsTableBody">
-                    <tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>
+                    <tr><td colspan="6" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>
                 </tbody>
             </table>
         </div>
@@ -1029,7 +1030,8 @@ let standingsCache = [];
 async function populateStandings() {
     const tbody = document.getElementById('standingsTableBody');
     const lastUpdatedEl = document.getElementById('lastUpdated');
-    tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>';
+    let previousPoints = {};
     
     try {
         const settingsRes = await fetch('settings.json');
@@ -1038,6 +1040,11 @@ async function populateStandings() {
             if (settings.last_updated) {
                 lastUpdatedEl.textContent = 'Last Updated: ' + settings.last_updated;
             }
+        }
+        
+        const prevRes = await fetch('previous_points.json');
+        if (prevRes.ok) {
+            previousPoints = await prevRes.json();
         }
         
         const response = await fetch('contestant_data.json');
@@ -1092,10 +1099,13 @@ async function populateStandings() {
             totalPoints += cashPoints;
             
             const purseLeft = 100 - totalPrice;
+            const prevTotal = previousPoints[name] || 0;
+            const pointsChange = totalPoints - prevTotal;
             
             standings.push({
                 name: name,
                 totalPoints: totalPoints,
+                pointsChange: pointsChange,
                 players: squad.length,
                 totalPrice: totalPrice,
                 purseLeft: purseLeft,
@@ -1112,7 +1122,7 @@ async function populateStandings() {
         
     } catch (error) {
         console.error('Error loading standings:', error);
-        tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: #f87171;">Failed to load standings data</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: #f87171;">Failed to load standings data</td></tr>';
     }
 }
 
@@ -1155,16 +1165,21 @@ function renderStandings(standings) {
         const diffText = diff.toFixed(1);
         const rowClass = index < 3 ? 'standings-top' : (index >= total - 3 ? 'standings-bottom' : '');
         
+        const pointsChange = contestant.pointsChange || 0;
+        const pointsChangeText = pointsChange >= 0 ? `+${pointsChange.toFixed(1)}` : pointsChange.toFixed(1);
+        const pointsChangeColor = pointsChange > 0 ? 'var(--success)' : (pointsChange < 0 ? '#f87171' : 'var(--text-muted)');
+        
         return `<tr class="${rowClass}">
             <td style="font-weight: 700; color: var(--primary);">${rank}</td>
             <td style="font-weight: 600;">${contestant.name}</td>
             <td style="font-weight: 700; color: var(--success);">${contestant.totalPoints.toFixed(1)}</td>
+            <td style="font-weight: 700; color: ${pointsChangeColor};">${pointsChangeText}</td>
             <td style="font-weight: 700; color: var(--accent);">${diffText}</td>
             <td><a href="${squadUrl}" target="_blank" style="color: var(--primary); text-decoration: none; padding: 4px 8px; border: 1px solid var(--primary); border-radius: 4px; font-size: 0.8rem; transition: all 0.2s;" onmouseover="this.style.background='var(--primary)'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='var(--primary)'">View Squad</a></td>
         </tr>`;
     });
     
-    tbody.innerHTML = rows.join('') || '<tr><td colspan="5" style="text-align: center; color: var(--text-muted);">No matching contestants</td></tr>';
+    tbody.innerHTML = rows.join('') || '<tr><td colspan="6" style="text-align: center; color: var(--text-muted);">No matching contestants</td></tr>';
 }
 
 // Load and render squads from JSON
