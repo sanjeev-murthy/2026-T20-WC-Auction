@@ -12,6 +12,7 @@ BASE_DIR = os.path.dirname(__file__)
 CSV_PATH = os.path.join(BASE_DIR, "players_total_points.csv")
 JSON_PATH = os.path.join(BASE_DIR, "..", "contestant_data.json")
 SETTINGS_PATH = os.path.join(BASE_DIR, "..", "settings.json")
+PREV_POINTS_PATH = os.path.join(BASE_DIR, "..", "previous_points.json")
 
 LOGIN_URL = "https://www.cricbattle.com/Account/LoginRegister"
 RANKING_URL = (
@@ -114,6 +115,56 @@ def load_points_map(csv_path: str) -> dict:
     return points_map
 
 
+def calculate_contestant_total_points(contestant_data: dict) -> float:
+    squad = contestant_data.get("squad") or []
+    fixed_players = []
+    floating_players = []
+    
+    for player in squad:
+        if player.get("fixed") == 1:
+            fixed_players.append(player)
+        else:
+            floating_players.append(player)
+    
+    total_points = 0.0
+    
+    for player in fixed_players:
+        player_points = _parse_points(player.get("points", "0"))
+        if player.get("captain") == 1:
+            player_points *= 2
+        total_points += player_points
+    
+    floating_players.sort(key=lambda p: _parse_points(p.get("points", "0")), reverse=True)
+    for player in floating_players[:5]:
+        player_points = _parse_points(player.get("points", "0"))
+        if player.get("captain") == 1:
+            player_points *= 2
+        total_points += player_points
+    
+    cash_points = _parse_points(contestant_data.get("cash_points", "0"))
+    total_points += cash_points
+    
+    return total_points
+
+
+def save_previous_points():
+    if not os.path.exists(JSON_PATH):
+        return {}
+    
+    with open(JSON_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    previous_points = {}
+    for contestant_name, contestant_data in data.items():
+        total_points = calculate_contestant_total_points(contestant_data)
+        previous_points[contestant_name] = total_points
+    
+    with open(PREV_POINTS_PATH, "w", encoding="utf-8") as f:
+        json.dump(previous_points, f, indent=2)
+    
+    print(f"Saved previous points for {len(previous_points)} contestants")
+
+
 def update_json_points(json_path: str, points_map: dict) -> tuple[int, list[str]]:
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -165,6 +216,9 @@ def main() -> None:
             raise SystemExit(f"CSV not found: {CSV_PATH}")
         if not os.path.exists(JSON_PATH):
             raise SystemExit(f"JSON not found: {JSON_PATH}")
+        
+        save_previous_points()
+        
         points_map = load_points_map(CSV_PATH)
         updated, missing = update_json_points(JSON_PATH, points_map)
         print(f"Updated {updated} player points in {JSON_PATH}")
