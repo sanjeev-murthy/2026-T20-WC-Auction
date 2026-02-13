@@ -1172,9 +1172,9 @@ function renderStandings(standings) {
         return `<tr class="${rowClass}">
             <td style="font-weight: 700; color: var(--primary);">${rank}</td>
             <td style="font-weight: 600;">${contestant.name}</td>
-            <td style="font-weight: 700; color: var(--success);">${contestant.totalPoints.toFixed(1)}</td>
+            <td style="font-weight: 700; color: var(--accent);">${contestant.totalPoints.toFixed(1)}</td>
             <td style="font-weight: 700; color: ${pointsChangeColor};">${pointsChangeText}</td>
-            <td style="font-weight: 700; color: var(--accent);">${diffText}</td>
+            <td style="font-weight: 700;">${diffText}</td>
             <td><a href="${squadUrl}" target="_blank" style="color: var(--primary); text-decoration: none; padding: 4px 8px; border: 1px solid var(--primary); border-radius: 4px; font-size: 0.8rem; transition: all 0.2s;" onmouseover="this.style.background='var(--primary)'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='var(--primary)'">View Squad</a></td>
         </tr>`;
     });
