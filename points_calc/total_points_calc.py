@@ -4,12 +4,14 @@ import json
 import os
 import re
 import time
+from datetime import datetime
 
 import pandas as pd
 
 BASE_DIR = os.path.dirname(__file__)
 CSV_PATH = os.path.join(BASE_DIR, "players_total_points.csv")
 JSON_PATH = os.path.join(BASE_DIR, "..", "contestant_data.json")
+SETTINGS_PATH = os.path.join(BASE_DIR, "..", "settings.json")
 
 LOGIN_URL = "https://www.cricbattle.com/Account/LoginRegister"
 RANKING_URL = (
@@ -136,6 +138,19 @@ def update_json_points(json_path: str, points_map: dict) -> tuple[int, list[str]
     return updated, missing
 
 
+def save_last_updated_timestamp():
+    now = datetime.now()
+    timestamp = now.strftime("%d %B %Y %H:%M")
+    settings = {}
+    if os.path.exists(SETTINGS_PATH):
+        with open(SETTINGS_PATH, "r", encoding="utf-8") as f:
+            settings = json.load(f)
+    settings["last_updated"] = timestamp
+    with open(SETTINGS_PATH, "w", encoding="utf-8") as f:
+        json.dump(settings, f, indent=2)
+    print(f"Saved timestamp: {timestamp}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Scrape player rankings and update JSON.")
     parser.add_argument("--no-scrape", action="store_true", help="Skip web scraping step.")
@@ -157,6 +172,8 @@ def main() -> None:
             print(f"Missing {len(missing)} players from CSV (showing first 25):")
             for name in missing[:25]:
                 print(f"- {name}")
+    
+    save_last_updated_timestamp()
 
 
 if __name__ == "__main__":

@@ -551,6 +551,7 @@ tr.standings-bottom:hover td { background-color: rgba(239, 68, 68, 0.18); }
     <div id="table" class="page">
         <button class="back-btn" onclick="showPage('home')">Dashboard</button>
         <h2>Standings Table</h2>
+        <p id="lastUpdated" style="color: var(--text-muted); margin-bottom: 15px; font-size: 0.9rem;"></p>
         <input type="text" id="standingsSearch" placeholder="🔍 Search player or contestant..." oninput="applyStandingsFilter()" style="width: 100%; padding: 12px 15px; margin-bottom: 20px; background: #0f172a; border: 1px solid var(--border); border-radius: 8px; color: white; font-size: 0.95rem;">
         <div class="table-wrapper">
             <table>
@@ -1027,9 +1028,18 @@ let standingsCache = [];
 
 async function populateStandings() {
     const tbody = document.getElementById('standingsTableBody');
+    const lastUpdatedEl = document.getElementById('lastUpdated');
     tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading standings...</td></tr>';
     
     try {
+        const settingsRes = await fetch('settings.json');
+        if (settingsRes.ok) {
+            const settings = await settingsRes.json();
+            if (settings.last_updated) {
+                lastUpdatedEl.textContent = 'Last Updated: ' + settings.last_updated;
+            }
+        }
+        
         const response = await fetch('contestant_data.json');
         if (!response.ok) throw new Error('Failed to load contestant data');
         const contestants = await response.json();
