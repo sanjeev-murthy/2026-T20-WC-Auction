@@ -2337,6 +2337,8 @@
     ]
   },
   "Vaibhav": {
+    "cash_points": 1000,
+    "cash_bonus": "20 cr",
     "squad": []
   }
 }
