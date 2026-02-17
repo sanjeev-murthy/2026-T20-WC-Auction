@@ -97,7 +97,7 @@
         "name": "Daryl Mitchell",
         "country": "New Zealand",
         "role": "AR",
-        "points": "164",
+        "points": "174",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -133,7 +133,7 @@
         "name": "Michael Jones",
         "country": "Scotland",
         "role": "Batsman",
-        "points": "173",
+        "points": "303",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -325,7 +325,7 @@
         "name": "Glenn Phillips",
         "country": "New Zealand",
         "role": "AR",
-        "points": "186",
+        "points": "428",
         "price": 23,
         "fixed": 0,
         "captain": 0
@@ -529,7 +529,7 @@
         "name": "Tim Seifert",
         "country": "New Zealand",
         "role": "WK",
-        "points": "441",
+        "points": "428",
         "price": 13.5,
         "fixed": 1,
         "captain": 0
@@ -556,7 +556,7 @@
         "name": "Lokesh Bam",
         "country": "Nepal",
         "role": "WK",
-        "points": "85",
+        "points": "95",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -598,7 +598,7 @@
         "name": "James Neesham",
         "country": "New Zealand",
         "role": "AR",
-        "points": "107",
+        "points": "161",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -616,7 +616,7 @@
         "name": "Mark Chapman",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "175",
+        "points": "185",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -625,7 +625,7 @@
         "name": "Kyle Jamieson",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "0",
+        "points": "36",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
@@ -643,7 +643,7 @@
         "name": "Tom Bruce",
         "country": "Scotland",
         "role": "AR",
-        "points": "103",
+        "points": "118",
         "price": 0.6,
         "fixed": 0,
         "captain": 0
@@ -697,7 +697,7 @@
         "name": "Kushal Bhurtel",
         "country": "Nepal",
         "role": "Batsman",
-        "points": "32",
+        "points": "144",
         "price": 2.5,
         "fixed": 0,
         "captain": 0
@@ -715,7 +715,7 @@
         "name": "Nandan Yadav",
         "country": "Nepal",
         "role": "AR",
-        "points": "155",
+        "points": "269",
         "price": 0.6,
         "fixed": 0,
         "captain": 0
@@ -775,7 +775,7 @@
         "name": "Navneet Dhaliwal",
         "country": "Canada",
         "role": "AR",
-        "points": "161",
+        "points": "178",
         "price": 0.7,
         "fixed": 0,
         "captain": 0
@@ -865,7 +865,7 @@
         "name": "Brad Currie",
         "country": "Scotland",
         "role": "Bowler",
-        "points": "254",
+        "points": "262",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -943,7 +943,7 @@
         "name": "Oliver Davidson",
         "country": "Scotland",
         "role": "Bowler",
-        "points": "155",
+        "points": "164",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1012,7 +1012,7 @@
         "name": "Rachin Ravindra",
         "country": "New Zealand",
         "role": "AR",
-        "points": "132",
+        "points": "236",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -1030,7 +1030,7 @@
         "name": "Matt Henry",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "194",
+        "points": "251",
         "price": 15,
         "fixed": 1,
         "captain": 1
@@ -1180,7 +1180,7 @@
         "name": "Jacob Duffy",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "66",
+        "points": "136",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -1225,7 +1225,7 @@
         "name": "Michael Leask",
         "country": "Scotland",
         "role": "AR",
-        "points": "418",
+        "points": "580",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1234,7 +1234,7 @@
         "name": "Rohit Paudel",
         "country": "Nepal",
         "role": "AR",
-        "points": "103",
+        "points": "174",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1411,7 +1411,7 @@
         "name": "Richie Berrington",
         "country": "Scotland",
         "role": "AR",
-        "points": "229",
+        "points": "246",
         "price": 1,
         "fixed": 1,
         "captain": 0
@@ -1552,7 +1552,7 @@
         "name": "Harsh Thaker",
         "country": "Canada",
         "role": "AR",
-        "points": "132",
+        "points": "140",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1561,7 +1561,7 @@
         "name": "Saad Bin Zafar",
         "country": "Canada",
         "role": "AR",
-        "points": "201",
+        "points": "266",
         "price": 1,
         "fixed": 0,
         "captain": 0
@@ -1570,7 +1570,7 @@
         "name": "George Munsey",
         "country": "Scotland",
         "role": "Batsman",
-        "points": "238",
+        "points": "254",
         "price": 2,
         "fixed": 1,
         "captain": 0
@@ -1756,7 +1756,7 @@
         "name": "Sandeep Lamichhane",
         "country": "Nepal",
         "role": "Bowler",
-        "points": "68",
+        "points": "74",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -1861,7 +1861,7 @@
         "name": "Dipendra Singh Airee",
         "country": "Nepal",
         "role": "AR",
-        "points": "316",
+        "points": "490",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1870,7 +1870,7 @@
         "name": "Brandon McMullen",
         "country": "Scotland",
         "role": "AR",
-        "points": "208",
+        "points": "253",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1993,7 +1993,7 @@
         "name": "Finn Allen",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "229",
+        "points": "294",
         "price": 7,
         "fixed": 1,
         "captain": 1
@@ -2029,7 +2029,7 @@
         "name": "Nicholas Kirton",
         "country": "Canada",
         "role": "AR",
-        "points": "59",
+        "points": "61",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -2047,7 +2047,7 @@
         "name": "Gulsan Jha",
         "country": "Nepal",
         "role": "Bowler",
-        "points": "-8",
+        "points": "41",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -2206,7 +2206,7 @@
         "name": "Aasif Sheikh",
         "country": "Nepal",
         "role": "WK",
-        "points": "38",
+        "points": "105",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -2275,7 +2275,7 @@
         "name": "Matthew Cross",
         "country": "Scotland",
         "role": "WK",
-        "points": "21",
+        "points": "26",
         "price": 1,
         "fixed": 0,
         "captain": 0
