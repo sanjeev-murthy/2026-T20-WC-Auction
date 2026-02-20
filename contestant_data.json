@@ -415,7 +415,7 @@
         "name": "Jiten Ramanandi",
         "country": "Oman",
         "role": "AR",
-        "points": "92",
+        "points": "98",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -424,7 +424,7 @@
         "name": "Mohammad Nadeem",
         "country": "Oman",
         "role": "AR",
-        "points": "33",
+        "points": "35",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -442,7 +442,7 @@
         "name": "Hammad Mirza",
         "country": "Oman",
         "role": "WK",
-        "points": "54",
+        "points": "78",
         "price": 0.5,
         "fixed": 1,
         "captain": 0
@@ -688,7 +688,7 @@
         "name": "Nathan Ellis",
         "country": "Aus",
         "role": "Bowler",
-        "points": "350",
+        "points": "409",
         "price": 4.5,
         "fixed": 1,
         "captain": 0
@@ -793,7 +793,7 @@
         "name": "Travis Head",
         "country": "Aus",
         "role": "Batsman",
-        "points": "141",
+        "points": "214",
         "price": 23,
         "fixed": 1,
         "captain": 0
@@ -802,7 +802,7 @@
         "name": "Josh Inglis",
         "country": "Aus",
         "role": "WK",
-        "points": "195",
+        "points": "219",
         "price": 14,
         "fixed": 1,
         "captain": 0
@@ -838,7 +838,7 @@
         "name": "Cameron Green",
         "country": "Aus",
         "role": "AR",
-        "points": "136",
+        "points": "182",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -925,7 +925,7 @@
         "name": "Matt Renshaw",
         "country": "Aus",
         "role": "Batsman",
-        "points": "156",
+        "points": "166",
         "price": 20,
         "fixed": 1,
         "captain": 0
@@ -934,7 +934,7 @@
         "name": "Jay Odedra",
         "country": "Oman",
         "role": "AR",
-        "points": "24",
+        "points": "16",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1093,7 +1093,7 @@
         "name": "Tim David",
         "country": "Aus",
         "role": "Batsman",
-        "points": "7",
+        "points": "17",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -1138,7 +1138,7 @@
         "name": "Karan Sonavale",
         "country": "Oman",
         "role": "AR",
-        "points": "-5",
+        "points": "4",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1270,7 +1270,7 @@
         "name": "Xavier Bartlett",
         "country": "Aus",
         "role": "Bowler",
-        "points": "-5",
+        "points": "146",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -1297,7 +1297,7 @@
         "name": "Glenn Maxwell",
         "country": "Aus",
         "role": "AR",
-        "points": "78",
+        "points": "227",
         "price": 3,
         "fixed": 1,
         "captain": 0
@@ -1597,7 +1597,7 @@
         "name": "Adam Zampa",
         "country": "Aus",
         "role": "Bowler",
-        "points": "248",
+        "points": "542",
         "price": 14,
         "fixed": 1,
         "captain": 0
@@ -1684,7 +1684,7 @@
         "name": "Vinayak Shukla",
         "country": "Oman",
         "role": "WK",
-        "points": "63",
+        "points": "78",
         "price": 0.5,
         "fixed": 0,
         "captain": 0
@@ -1702,7 +1702,7 @@
         "name": "Jatinder Singh",
         "country": "Oman",
         "role": "Batsman",
-        "points": "20",
+        "points": "35",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1720,7 +1720,7 @@
         "name": "Marcus Stoinis",
         "country": "Aus",
         "role": "AR",
-        "points": "242",
+        "points": "290",
         "price": 15,
         "fixed": 1,
         "captain": 0
@@ -1843,7 +1843,7 @@
         "name": "Wasim Ali",
         "country": "Oman",
         "role": "AR",
-        "points": "57",
+        "points": "80",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -2179,7 +2179,7 @@
         "name": "Mitchell Marsh",
         "country": "Aus",
         "role": "AR",
-        "points": "106",
+        "points": "235",
         "price": 9,
         "fixed": 1,
         "captain": 0
