@@ -97,7 +97,7 @@
         "name": "Daryl Mitchell",
         "country": "New Zealand",
         "role": "AR",
-        "points": "174",
+        "points": "179",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -142,7 +142,7 @@
         "name": "Usman Khan",
         "country": "Pak",
         "role": "WK",
-        "points": "182",
+        "points": "187",
         "price": 8.5,
         "fixed": 1,
         "captain": 0
@@ -247,7 +247,7 @@
         "name": "Salman Ali Agha",
         "country": "Pak",
         "role": "AR",
-        "points": "232",
+        "points": "237",
         "price": 9,
         "fixed": 1,
         "captain": 0
@@ -301,7 +301,7 @@
         "name": "Mohammad Nawaz",
         "country": "Pak",
         "role": "AR",
-        "points": "231",
+        "points": "236",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -325,7 +325,7 @@
         "name": "Glenn Phillips",
         "country": "New Zealand",
         "role": "AR",
-        "points": "428",
+        "points": "433",
         "price": 23,
         "fixed": 0,
         "captain": 0
@@ -529,7 +529,7 @@
         "name": "Tim Seifert",
         "country": "New Zealand",
         "role": "WK",
-        "points": "428",
+        "points": "433",
         "price": 13.5,
         "fixed": 1,
         "captain": 0
@@ -574,7 +574,7 @@
         "name": "Fakhar Zaman",
         "country": "Pak",
         "role": "Batsman",
-        "points": "0",
+        "points": "5",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
@@ -598,7 +598,7 @@
         "name": "James Neesham",
         "country": "New Zealand",
         "role": "AR",
-        "points": "161",
+        "points": "166",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -616,7 +616,7 @@
         "name": "Mark Chapman",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "185",
+        "points": "190",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -811,7 +811,7 @@
         "name": "Usman Tariq",
         "country": "Pak",
         "role": "Bowler",
-        "points": "518",
+        "points": "523",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1012,7 +1012,7 @@
         "name": "Rachin Ravindra",
         "country": "New Zealand",
         "role": "AR",
-        "points": "236",
+        "points": "241",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -1030,7 +1030,7 @@
         "name": "Matt Henry",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "251",
+        "points": "256",
         "price": 15,
         "fixed": 1,
         "captain": 1
@@ -1171,7 +1171,7 @@
         "name": "Mitchell Santner",
         "country": "New Zealand",
         "role": "AR",
-        "points": "110",
+        "points": "115",
         "price": 16.5,
         "fixed": 0,
         "captain": 0
@@ -1261,7 +1261,7 @@
         "name": "Saim Ayub",
         "country": "Pak",
         "role": "AR",
-        "points": "477",
+        "points": "482",
         "price": 18.5,
         "fixed": 1,
         "captain": 1
@@ -1279,7 +1279,7 @@
         "name": "Babar Azam",
         "country": "Pak",
         "role": "Batsman",
-        "points": "118",
+        "points": "123",
         "price": 7,
         "fixed": 1,
         "captain": 0
@@ -1288,7 +1288,7 @@
         "name": "Sahibzada Farhan",
         "country": "Pak",
         "role": "WK",
-        "points": "533",
+        "points": "538",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1429,7 +1429,7 @@
         "name": "Faheem Ashraf",
         "country": "Pak",
         "role": "AR",
-        "points": "139",
+        "points": "144",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1579,7 +1579,7 @@
         "name": "Shadab Khan",
         "country": "Pak",
         "role": "AR",
-        "points": "468",
+        "points": "473",
         "price": 8.5,
         "fixed": 1,
         "captain": 0
@@ -1852,7 +1852,7 @@
         "name": "Rovman Powell",
         "country": "West Indies",
         "role": "Batsman",
-        "points": "171",
+        "points": "151",
         "price": 4,
         "fixed": 0,
         "captain": 0
@@ -1966,7 +1966,7 @@
         "name": "Lockie Ferguson",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "191",
+        "points": "196",
         "price": 2,
         "fixed": 1,
         "captain": 0
@@ -1993,7 +1993,7 @@
         "name": "Finn Allen",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "294",
+        "points": "299",
         "price": 7,
         "fixed": 1,
         "captain": 1
@@ -2116,7 +2116,7 @@
         "name": "Ish Sodhi",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "0",
+        "points": "5",
         "price": 9,
         "fixed": 1,
         "captain": 0
