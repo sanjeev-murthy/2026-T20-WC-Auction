@@ -1034,7 +1034,7 @@ async function populateStandings() {
     let previousPoints = {};
     
     try {
-        const settingsRes = await fetch('settings.json');
+        const settingsRes = await fetch('settings.json?t=' + Date.now());
         if (settingsRes.ok) {
             const settings = await settingsRes.json();
             if (settings.last_updated) {
@@ -1042,12 +1042,12 @@ async function populateStandings() {
             }
         }
         
-        const prevRes = await fetch('previous_points.json');
+        const prevRes = await fetch('previous_points.json?t=' + Date.now());
         if (prevRes.ok) {
             previousPoints = await prevRes.json();
         }
         
-        const response = await fetch('contestant_data.json');
+        const response = await fetch('contestant_data.json?t=' + Date.now());
         if (!response.ok) throw new Error('Failed to load contestant data');
         const contestants = await response.json();
         
