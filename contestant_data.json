@@ -52,7 +52,7 @@
         "name": "Shimron Hetmyer",
         "country": "West Indies",
         "role": "Batsman",
-        "points": "347",
+        "points": "598",
         "price": 12.5,
         "fixed": 0,
         "captain": 0
@@ -211,7 +211,7 @@
         "name": "Akeal Hosein",
         "country": "West Indies",
         "role": "Bowler",
-        "points": "160",
+        "points": "377",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -265,7 +265,7 @@
         "name": "Sikandar Raza",
         "country": "Zimbabwe",
         "role": "AR",
-        "points": "289",
+        "points": "312",
         "price": 7.5,
         "fixed": 0,
         "captain": 0
@@ -283,7 +283,7 @@
         "name": "Blessing Muzarbani",
         "country": "Zimbabwe",
         "role": "Bowler",
-        "points": "680",
+        "points": "770",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -457,7 +457,7 @@
         "name": "Sherfane Rutherford",
         "country": "West Indies",
         "role": "AR",
-        "points": "362",
+        "points": "450",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -889,7 +889,7 @@
         "name": "Tadiwanashe Marumani",
         "country": "Zimbabwe",
         "role": "WK",
-        "points": "224",
+        "points": "247",
         "price": 12,
         "fixed": 1,
         "captain": 0
@@ -1003,7 +1003,7 @@
         "name": "Jason Holder",
         "country": "West Indies",
         "role": "AR",
-        "points": "581",
+        "points": "661",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -1075,7 +1075,7 @@
         "name": "Richard Ngarava",
         "country": "Zimbabwe",
         "role": "Bowler",
-        "points": "219",
+        "points": "321",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1102,7 +1102,7 @@
         "name": "Ryan Burl",
         "country": "Zimbabwe",
         "role": "AR",
-        "points": "217",
+        "points": "222",
         "price": 3.5,
         "fixed": 0,
         "captain": 0
@@ -1348,7 +1348,7 @@
         "name": "Shai Hope",
         "country": "West Indies",
         "role": "WK",
-        "points": "327",
+        "points": "343",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -1420,7 +1420,7 @@
         "name": "Dion Myers",
         "country": "Zimbabwe",
         "role": "Batsman",
-        "points": "50",
+        "points": "116",
         "price": 1.5,
         "fixed": 0,
         "captain": 0
@@ -1765,7 +1765,7 @@
         "name": "Gudakesh Motie",
         "country": "West Indies",
         "role": "AR",
-        "points": "377",
+        "points": "639",
         "price": 3.5,
         "fixed": 1,
         "captain": 0
@@ -1807,7 +1807,7 @@
         "name": "Matthew Forde",
         "country": "West Indies",
         "role": "Bowler",
-        "points": "388",
+        "points": "505",
         "price": 5,
         "fixed": 0,
         "captain": 0
@@ -1825,7 +1825,7 @@
         "name": "Shamar Joseph",
         "country": "West Indies",
         "role": "Bowler",
-        "points": "458",
+        "points": "483",
         "price": 5.5,
         "fixed": 0,
         "captain": 0
@@ -1852,7 +1852,7 @@
         "name": "Rovman Powell",
         "country": "West Indies",
         "role": "Batsman",
-        "points": "151",
+        "points": "262",
         "price": 4,
         "fixed": 0,
         "captain": 0
@@ -2002,7 +2002,7 @@
         "name": "Romario Shepherd",
         "country": "West Indies",
         "role": "AR",
-        "points": "367",
+        "points": "434",
         "price": 7.5,
         "fixed": 0,
         "captain": 0
@@ -2134,7 +2134,7 @@
         "name": "Brandon King",
         "country": "West Indies",
         "role": "Batsman",
-        "points": "112",
+        "points": "103",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -2152,7 +2152,7 @@
         "name": "Brian Bennett",
         "country": "Zimbabwe",
         "role": "AR",
-        "points": "278",
+        "points": "314",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
