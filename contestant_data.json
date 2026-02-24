@@ -142,7 +142,7 @@
         "name": "Usman Khan",
         "country": "Pak",
         "role": "WK",
-        "points": "182",
+        "points": "257",
         "price": 8.5,
         "fixed": 1,
         "captain": 0
@@ -247,7 +247,7 @@
         "name": "Salman Ali Agha",
         "country": "Pak",
         "role": "AR",
-        "points": "232",
+        "points": "238",
         "price": 9,
         "fixed": 1,
         "captain": 0
@@ -274,7 +274,7 @@
         "name": "Adil Rashid",
         "country": "England",
         "role": "Bowler",
-        "points": "493",
+        "points": "547",
         "price": 13,
         "fixed": 1,
         "captain": 0
@@ -301,7 +301,7 @@
         "name": "Mohammad Nawaz",
         "country": "Pak",
         "role": "AR",
-        "points": "231",
+        "points": "342",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -574,7 +574,7 @@
         "name": "Fakhar Zaman",
         "country": "Pak",
         "role": "Batsman",
-        "points": "0",
+        "points": "56",
         "price": 4.5,
         "fixed": 0,
         "captain": 0
@@ -661,7 +661,7 @@
         "name": "Jamie Overton",
         "country": "England",
         "role": "AR",
-        "points": "534",
+        "points": "675",
         "price": 6.5,
         "fixed": 0,
         "captain": 0
@@ -670,7 +670,7 @@
         "name": "Tom Banton",
         "country": "England",
         "role": "WK",
-        "points": "393",
+        "points": "400",
         "price": 5.5,
         "fixed": 1,
         "captain": 0
@@ -679,7 +679,7 @@
         "name": "Sam Curran",
         "country": "England",
         "role": "AR",
-        "points": "494",
+        "points": "519",
         "price": 16,
         "fixed": 1,
         "captain": 1
@@ -811,7 +811,7 @@
         "name": "Usman Tariq",
         "country": "Pak",
         "role": "Bowler",
-        "points": "518",
+        "points": "628",
         "price": 2,
         "fixed": 0,
         "captain": 0
@@ -1252,7 +1252,7 @@
         "name": "Shaheen Shah Afridi",
         "country": "Pak",
         "role": "Bowler",
-        "points": "212",
+        "points": "435",
         "price": 6.5,
         "fixed": 0,
         "captain": 0
@@ -1261,7 +1261,7 @@
         "name": "Saim Ayub",
         "country": "Pak",
         "role": "AR",
-        "points": "477",
+        "points": "471",
         "price": 18.5,
         "fixed": 1,
         "captain": 1
@@ -1279,7 +1279,7 @@
         "name": "Babar Azam",
         "country": "Pak",
         "role": "Batsman",
-        "points": "118",
+        "points": "150",
         "price": 7,
         "fixed": 1,
         "captain": 0
@@ -1288,7 +1288,7 @@
         "name": "Sahibzada Farhan",
         "country": "Pak",
         "role": "WK",
-        "points": "533",
+        "points": "642",
         "price": 3,
         "fixed": 0,
         "captain": 0
@@ -1579,7 +1579,7 @@
         "name": "Shadab Khan",
         "country": "Pak",
         "role": "AR",
-        "points": "468",
+        "points": "512",
         "price": 8.5,
         "fixed": 1,
         "captain": 0
@@ -1879,7 +1879,7 @@
         "name": "Jacob Bethell",
         "country": "England",
         "role": "AR",
-        "points": "257",
+        "points": "266",
         "price": 15,
         "fixed": 1,
         "captain": 0
@@ -1897,7 +1897,7 @@
         "name": "Jofra Archer",
         "country": "England",
         "role": "Bowler",
-        "points": "448",
+        "points": "569",
         "price": 9.5,
         "fixed": 1,
         "captain": 0
@@ -1915,7 +1915,7 @@
         "name": "Harry Brook",
         "country": "England",
         "role": "Batsman",
-        "points": "217",
+        "points": "455",
         "price": 6,
         "fixed": 1,
         "captain": 0
@@ -1924,7 +1924,7 @@
         "name": "Jos Buttler",
         "country": "England",
         "role": "WK",
-        "points": "154",
+        "points": "171",
         "price": 13.5,
         "fixed": 1,
         "captain": 1
@@ -2284,7 +2284,7 @@
         "name": "Liam Dawson",
         "country": "England",
         "role": "AR",
-        "points": "381",
+        "points": "577",
         "price": 7,
         "fixed": 0,
         "captain": 0
@@ -2302,7 +2302,7 @@
         "name": "Will Jacks",
         "country": "England",
         "role": "AR",
-        "points": "712",
+        "points": "747",
         "price": 13,
         "fixed": 1,
         "captain": 0
