@@ -97,7 +97,7 @@
         "name": "Daryl Mitchell",
         "country": "New Zealand",
         "role": "AR",
-        "points": "212",
+        "points": "225",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -274,7 +274,7 @@
         "name": "Adil Rashid",
         "country": "England",
         "role": "Bowler",
-        "points": "547",
+        "points": "667",
         "price": 13,
         "fixed": 1,
         "captain": 0
@@ -325,7 +325,7 @@
         "name": "Glenn Phillips",
         "country": "New Zealand",
         "role": "AR",
-        "points": "506",
+        "points": "623",
         "price": 23,
         "fixed": 0,
         "captain": 0
@@ -529,7 +529,7 @@
         "name": "Tim Seifert",
         "country": "New Zealand",
         "role": "WK",
-        "points": "487",
+        "points": "574",
         "price": 13.5,
         "fixed": 1,
         "captain": 0
@@ -616,7 +616,7 @@
         "name": "Mark Chapman",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "185",
+        "points": "217",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -670,7 +670,7 @@
         "name": "Tom Banton",
         "country": "England",
         "role": "WK",
-        "points": "400",
+        "points": "458",
         "price": 5.5,
         "fixed": 1,
         "captain": 0
@@ -679,7 +679,7 @@
         "name": "Sam Curran",
         "country": "England",
         "role": "AR",
-        "points": "519",
+        "points": "549",
         "price": 16,
         "fixed": 1,
         "captain": 1
@@ -1012,7 +1012,7 @@
         "name": "Rachin Ravindra",
         "country": "New Zealand",
         "role": "AR",
-        "points": "578",
+        "points": "746",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -1030,7 +1030,7 @@
         "name": "Matt Henry",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "431",
+        "points": "484",
         "price": 15,
         "fixed": 1,
         "captain": 1
@@ -1171,7 +1171,7 @@
         "name": "Mitchell Santner",
         "country": "New Zealand",
         "role": "AR",
-        "points": "283",
+        "points": "310",
         "price": 16.5,
         "fixed": 0,
         "captain": 0
@@ -1879,7 +1879,7 @@
         "name": "Jacob Bethell",
         "country": "England",
         "role": "AR",
-        "points": "266",
+        "points": "332",
         "price": 15,
         "fixed": 1,
         "captain": 0
@@ -1897,7 +1897,7 @@
         "name": "Jofra Archer",
         "country": "England",
         "role": "Bowler",
-        "points": "569",
+        "points": "609",
         "price": 9.5,
         "fixed": 1,
         "captain": 0
@@ -1915,7 +1915,7 @@
         "name": "Harry Brook",
         "country": "England",
         "role": "Batsman",
-        "points": "455",
+        "points": "496",
         "price": 6,
         "fixed": 1,
         "captain": 0
@@ -1924,7 +1924,7 @@
         "name": "Jos Buttler",
         "country": "England",
         "role": "WK",
-        "points": "171",
+        "points": "211",
         "price": 13.5,
         "fixed": 1,
         "captain": 1
@@ -1966,7 +1966,7 @@
         "name": "Lockie Ferguson",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "205",
+        "points": "257",
         "price": 2,
         "fixed": 1,
         "captain": 0
@@ -1993,7 +1993,7 @@
         "name": "Finn Allen",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "357",
+        "points": "417",
         "price": 7,
         "fixed": 1,
         "captain": 1
@@ -2116,7 +2116,7 @@
         "name": "Ish Sodhi",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "22",
+        "points": "12",
         "price": 9,
         "fixed": 1,
         "captain": 0
@@ -2161,7 +2161,7 @@
         "name": "Phil Salt",
         "country": "England",
         "role": "WK",
-        "points": "312",
+        "points": "319",
         "price": 17,
         "fixed": 1,
         "captain": 1
@@ -2284,7 +2284,7 @@
         "name": "Liam Dawson",
         "country": "England",
         "role": "AR",
-        "points": "577",
+        "points": "629",
         "price": 7,
         "fixed": 0,
         "captain": 0
@@ -2302,7 +2302,7 @@
         "name": "Will Jacks",
         "country": "England",
         "role": "AR",
-        "points": "747",
+        "points": "1012",
         "price": 13,
         "fixed": 1,
         "captain": 0
