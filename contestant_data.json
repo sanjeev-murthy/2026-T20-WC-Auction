@@ -43,7 +43,7 @@
         "name": "David Miller",
         "country": "South Africa",
         "role": "Batsman",
-        "points": "410",
+        "points": "421",
         "price": 6,
         "fixed": 0,
         "captain": 0
@@ -97,7 +97,7 @@
         "name": "Daryl Mitchell",
         "country": "New Zealand",
         "role": "AR",
-        "points": "225",
+        "points": "265",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -325,7 +325,7 @@
         "name": "Glenn Phillips",
         "country": "New Zealand",
         "role": "AR",
-        "points": "623",
+        "points": "633",
         "price": 23,
         "fixed": 0,
         "captain": 0
@@ -343,7 +343,7 @@
         "name": "Marco Jansen",
         "country": "South Africa",
         "role": "AR",
-        "points": "694",
+        "points": "764",
         "price": 25,
         "fixed": 1,
         "captain": 0
@@ -475,7 +475,7 @@
         "name": "Keshav Maharaj",
         "country": "South Africa",
         "role": "Bowler",
-        "points": "306",
+        "points": "297",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -493,7 +493,7 @@
         "name": "Dewald Brevis",
         "country": "South Africa",
         "role": "Batsman",
-        "points": "396",
+        "points": "452",
         "price": 17,
         "fixed": 1,
         "captain": 1
@@ -529,7 +529,7 @@
         "name": "Tim Seifert",
         "country": "New Zealand",
         "role": "WK",
-        "points": "574",
+        "points": "683",
         "price": 13.5,
         "fixed": 1,
         "captain": 0
@@ -598,7 +598,7 @@
         "name": "James Neesham",
         "country": "New Zealand",
         "role": "AR",
-        "points": "161",
+        "points": "203",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -607,7 +607,7 @@
         "name": "Lungi Ngidi",
         "country": "South Africa",
         "role": "Bowler",
-        "points": "869",
+        "points": "858",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -616,7 +616,7 @@
         "name": "Mark Chapman",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "217",
+        "points": "227",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -1012,7 +1012,7 @@
         "name": "Rachin Ravindra",
         "country": "New Zealand",
         "role": "AR",
-        "points": "746",
+        "points": "866",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -1030,7 +1030,7 @@
         "name": "Matt Henry",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "484",
+        "points": "599",
         "price": 15,
         "fixed": 1,
         "captain": 1
@@ -1057,7 +1057,7 @@
         "name": "Ryan Rickelton",
         "country": "South Africa",
         "role": "WK",
-        "points": "565",
+        "points": "560",
         "price": 15.5,
         "fixed": 1,
         "captain": 0
@@ -1171,7 +1171,7 @@
         "name": "Mitchell Santner",
         "country": "New Zealand",
         "role": "AR",
-        "points": "310",
+        "points": "345",
         "price": 16.5,
         "fixed": 0,
         "captain": 0
@@ -1198,7 +1198,7 @@
         "name": "Tristan Stubbs",
         "country": "South Africa",
         "role": "WK",
-        "points": "304",
+        "points": "352",
         "price": 9,
         "fixed": 1,
         "captain": 0
@@ -1480,7 +1480,7 @@
         "name": "Quinton de Kock",
         "country": "South Africa",
         "role": "WK",
-        "points": "445",
+        "points": "463",
         "price": 19,
         "fixed": 1,
         "captain": 0
@@ -1948,7 +1948,7 @@
         "name": "Corbin Bosch",
         "country": "South Africa",
         "role": "AR",
-        "points": "769",
+        "points": "753",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -1966,7 +1966,7 @@
         "name": "Lockie Ferguson",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "257",
+        "points": "326",
         "price": 2,
         "fixed": 1,
         "captain": 0
@@ -1975,7 +1975,7 @@
         "name": "Kagiso Rabada",
         "country": "South Africa",
         "role": "Bowler",
-        "points": "302",
+        "points": "348",
         "price": 17,
         "fixed": 1,
         "captain": 0
@@ -1993,7 +1993,7 @@
         "name": "Finn Allen",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "417",
+        "points": "683",
         "price": 7,
         "fixed": 1,
         "captain": 1
@@ -2266,7 +2266,7 @@
         "name": "Aiden Markram",
         "country": "South Africa",
         "role": "Batsman",
-        "points": "672",
+        "points": "668",
         "price": 17,
         "fixed": 1,
         "captain": 0
