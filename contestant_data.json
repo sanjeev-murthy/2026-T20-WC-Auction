@@ -34,7 +34,7 @@
         "name": "Tilak Varma",
         "country": "India",
         "role": "Batsman",
-        "points": "487",
+        "points": "564",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -70,7 +70,7 @@
         "name": "Varun Chakravarthy",
         "country": "India",
         "role": "Bowler",
-        "points": "758",
+        "points": "794",
         "price": 21,
         "fixed": 1,
         "captain": 1
@@ -193,7 +193,7 @@
         "name": "Suryakumar Yadav",
         "country": "India",
         "role": "Batsman",
-        "points": "415",
+        "points": "438",
         "price": 19.5,
         "fixed": 1,
         "captain": 1
@@ -274,7 +274,7 @@
         "name": "Adil Rashid",
         "country": "England",
         "role": "Bowler",
-        "points": "667",
+        "points": "761",
         "price": 13,
         "fixed": 1,
         "captain": 0
@@ -361,7 +361,7 @@
         "name": "Jasprit Bumrah",
         "country": "India",
         "role": "Bowler",
-        "points": "625",
+        "points": "676",
         "price": 30,
         "fixed": 1,
         "captain": 1
@@ -661,7 +661,7 @@
         "name": "Jamie Overton",
         "country": "England",
         "role": "AR",
-        "points": "675",
+        "points": "663",
         "price": 6.5,
         "fixed": 0,
         "captain": 0
@@ -670,7 +670,7 @@
         "name": "Tom Banton",
         "country": "England",
         "role": "WK",
-        "points": "458",
+        "points": "485",
         "price": 5.5,
         "fixed": 1,
         "captain": 0
@@ -679,7 +679,7 @@
         "name": "Sam Curran",
         "country": "England",
         "role": "AR",
-        "points": "549",
+        "points": "550",
         "price": 16,
         "fixed": 1,
         "captain": 1
@@ -766,7 +766,7 @@
         "name": "Arshdeep Singh",
         "country": "India",
         "role": "Bowler",
-        "points": "494",
+        "points": "522",
         "price": 11,
         "fixed": 1,
         "captain": 1
@@ -1366,7 +1366,7 @@
         "name": "Axar Patel",
         "country": "India",
         "role": "AR",
-        "points": "502",
+        "points": "573",
         "price": 23,
         "fixed": 1,
         "captain": 1
@@ -1498,7 +1498,7 @@
         "name": "Hardik Pandya",
         "country": "India",
         "role": "AR",
-        "points": "798",
+        "points": "989",
         "price": 26,
         "fixed": 1,
         "captain": 1
@@ -1657,7 +1657,7 @@
         "name": "Ishan Kishan",
         "country": "India",
         "role": "WK",
-        "points": "538",
+        "points": "635",
         "price": 13,
         "fixed": 1,
         "captain": 1
@@ -1879,7 +1879,7 @@
         "name": "Jacob Bethell",
         "country": "England",
         "role": "AR",
-        "points": "332",
+        "points": "544",
         "price": 15,
         "fixed": 1,
         "captain": 0
@@ -1897,7 +1897,7 @@
         "name": "Jofra Archer",
         "country": "England",
         "role": "Bowler",
-        "points": "609",
+        "points": "669",
         "price": 9.5,
         "fixed": 1,
         "captain": 0
@@ -1915,7 +1915,7 @@
         "name": "Harry Brook",
         "country": "England",
         "role": "Batsman",
-        "points": "496",
+        "points": "519",
         "price": 6,
         "fixed": 1,
         "captain": 0
@@ -1924,7 +1924,7 @@
         "name": "Jos Buttler",
         "country": "England",
         "role": "WK",
-        "points": "211",
+        "points": "297",
         "price": 13.5,
         "fixed": 1,
         "captain": 1
@@ -1984,7 +1984,7 @@
         "name": "Shivam Dube",
         "country": "India",
         "role": "AR",
-        "points": "605",
+        "points": "705",
         "price": 15,
         "fixed": 1,
         "captain": 0
@@ -2011,7 +2011,7 @@
         "name": "Sanju Samson",
         "country": "India",
         "role": "WK",
-        "points": "380",
+        "points": "616",
         "price": 18,
         "fixed": 0,
         "captain": 0
@@ -2161,7 +2161,7 @@
         "name": "Phil Salt",
         "country": "England",
         "role": "WK",
-        "points": "319",
+        "points": "355",
         "price": 17,
         "fixed": 1,
         "captain": 1
@@ -2230,7 +2230,7 @@
         "name": "Abhishek Sharma",
         "country": "India",
         "role": "AR",
-        "points": "149",
+        "points": "170",
         "price": 35,
         "fixed": 1,
         "captain": 1
@@ -2284,7 +2284,7 @@
         "name": "Liam Dawson",
         "country": "England",
         "role": "AR",
-        "points": "629",
+        "points": "632",
         "price": 7,
         "fixed": 0,
         "captain": 0
@@ -2302,7 +2302,7 @@
         "name": "Will Jacks",
         "country": "England",
         "role": "AR",
-        "points": "1012",
+        "points": "1181",
         "price": 13,
         "fixed": 1,
         "captain": 0
