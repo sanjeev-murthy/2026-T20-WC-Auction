@@ -34,7 +34,7 @@
         "name": "Tilak Varma",
         "country": "India",
         "role": "Batsman",
-        "points": "564",
+        "points": "612",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -70,7 +70,7 @@
         "name": "Varun Chakravarthy",
         "country": "India",
         "role": "Bowler",
-        "points": "794",
+        "points": "829",
         "price": 21,
         "fixed": 1,
         "captain": 1
@@ -97,7 +97,7 @@
         "name": "Daryl Mitchell",
         "country": "New Zealand",
         "role": "AR",
-        "points": "265",
+        "points": "291",
         "price": 12.5,
         "fixed": 1,
         "captain": 0
@@ -325,7 +325,7 @@
         "name": "Glenn Phillips",
         "country": "New Zealand",
         "role": "AR",
-        "points": "633",
+        "points": "641",
         "price": 23,
         "fixed": 0,
         "captain": 0
@@ -361,7 +361,7 @@
         "name": "Jasprit Bumrah",
         "country": "India",
         "role": "Bowler",
-        "points": "676",
+        "points": "991",
         "price": 30,
         "fixed": 1,
         "captain": 1
@@ -529,7 +529,7 @@
         "name": "Tim Seifert",
         "country": "New Zealand",
         "role": "WK",
-        "points": "683",
+        "points": "797",
         "price": 13.5,
         "fixed": 1,
         "captain": 0
@@ -598,7 +598,7 @@
         "name": "James Neesham",
         "country": "New Zealand",
         "role": "AR",
-        "points": "203",
+        "points": "355",
         "price": 8,
         "fixed": 1,
         "captain": 0
@@ -616,7 +616,7 @@
         "name": "Mark Chapman",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "227",
+        "points": "240",
         "price": 7.5,
         "fixed": 1,
         "captain": 0
@@ -766,7 +766,7 @@
         "name": "Arshdeep Singh",
         "country": "India",
         "role": "Bowler",
-        "points": "522",
+        "points": "529",
         "price": 11,
         "fixed": 1,
         "captain": 1
@@ -1012,7 +1012,7 @@
         "name": "Rachin Ravindra",
         "country": "New Zealand",
         "role": "AR",
-        "points": "866",
+        "points": "900",
         "price": 16,
         "fixed": 1,
         "captain": 0
@@ -1030,7 +1030,7 @@
         "name": "Matt Henry",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "599",
+        "points": "622",
         "price": 15,
         "fixed": 1,
         "captain": 1
@@ -1171,7 +1171,7 @@
         "name": "Mitchell Santner",
         "country": "New Zealand",
         "role": "AR",
-        "points": "345",
+        "points": "427",
         "price": 16.5,
         "fixed": 0,
         "captain": 0
@@ -1180,7 +1180,7 @@
         "name": "Jacob Duffy",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "136",
+        "points": "124",
         "price": 10.5,
         "fixed": 1,
         "captain": 0
@@ -1366,7 +1366,7 @@
         "name": "Axar Patel",
         "country": "India",
         "role": "AR",
-        "points": "573",
+        "points": "736",
         "price": 23,
         "fixed": 1,
         "captain": 1
@@ -1498,7 +1498,7 @@
         "name": "Hardik Pandya",
         "country": "India",
         "role": "AR",
-        "points": "989",
+        "points": "1059",
         "price": 26,
         "fixed": 1,
         "captain": 1
@@ -1657,7 +1657,7 @@
         "name": "Ishan Kishan",
         "country": "India",
         "role": "WK",
-        "points": "635",
+        "points": "796",
         "price": 13,
         "fixed": 1,
         "captain": 1
@@ -1966,7 +1966,7 @@
         "name": "Lockie Ferguson",
         "country": "New Zealand",
         "role": "Bowler",
-        "points": "326",
+        "points": "312",
         "price": 2,
         "fixed": 1,
         "captain": 0
@@ -1984,7 +1984,7 @@
         "name": "Shivam Dube",
         "country": "India",
         "role": "AR",
-        "points": "705",
+        "points": "788",
         "price": 15,
         "fixed": 1,
         "captain": 0
@@ -1993,7 +1993,7 @@
         "name": "Finn Allen",
         "country": "New Zealand",
         "role": "Batsman",
-        "points": "683",
+        "points": "698",
         "price": 7,
         "fixed": 1,
         "captain": 1
@@ -2011,7 +2011,7 @@
         "name": "Sanju Samson",
         "country": "India",
         "role": "WK",
-        "points": "616",
+        "points": "781",
         "price": 18,
         "fixed": 0,
         "captain": 0
@@ -2230,7 +2230,7 @@
         "name": "Abhishek Sharma",
         "country": "India",
         "role": "AR",
-        "points": "170",
+        "points": "330",
         "price": 35,
         "fixed": 1,
         "captain": 1
